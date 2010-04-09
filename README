@@ -1,0 +1,36 @@
+Microsoft DirectUI Library
+========================================
+Disclaimer: All information and source code provided with this document 
+are to be used for research purposes only.  The legality regarding the use
+of this library in a commerical application is unknown.  Use at your own risk.
+
+About
+---------------
+DirectUI is a C++ user interface library created by Microsoft to be a WPF 
+like API for native applications . It is not released to the public but is 
+being used widely throughout Microsoft products including Windows, 
+Microsoft Office, and Windows Live Messenger. 
+
+Due to the differences and non standardization of current C++ features; 
+i.e. Name decoration, and virtual table exports you must use a 
+compatible version of the Microsoft Visual C++ compiler.
+
+Usage
+---------------
+The library files have been provided for you, in lib/.  They were created with 
+dumpbin and lib utilities provided by Microsoft Visual Studio.
+
+Simply include 'directui.h" and get going.
+
+Unfortunately there is currently no documentation, so you need to work in
+the dark.
+
+I have a linker error!
+---------------
+You may experience a few linker errors when using the library.  There are 
+currently over 3000 exported functions in dui70.dll and it is almost impossible
+for me to ensure that all of them are correctly defined in the include files.
+
+But, you may submit a bug report, or the preferred method is to find the offending
+definition and fix it using the demangled name in 'lib/32bit/classes/<class>', then 
+please let me know what was defined improperly.
