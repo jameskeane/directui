@@ -8,7 +8,7 @@ About
 ---------------
 DirectUI is a C++ user interface library created by Microsoft to be a WPF 
 like API for native applications . It is not released to the public but is 
-being used widely throughout Microsoft products including Windows, 
+widely used throughout Microsoft products including Windows, 
 Microsoft Office, and Windows Live Messenger. 
 
 Due to the differences and non standardization of current C++ features; 
