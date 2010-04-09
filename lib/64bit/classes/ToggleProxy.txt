@@ -1,0 +1,9 @@
+public: __cdecl DirectUI::ToggleProxy::ToggleProxy(class DirectUI::ToggleProxy const & __ptr64) __ptr64
+public: __cdecl DirectUI::ToggleProxy::ToggleProxy(void) __ptr64
+public: class DirectUI::ToggleProxy & __ptr64 __cdecl DirectUI::ToggleProxy::operator=(class DirectUI::ToggleProxy const & __ptr64) __ptr64
+const DirectUI::ToggleProxy::`vftable'
+public: static class DirectUI::ToggleProxy * __ptr64 __cdecl DirectUI::ToggleProxy::Create(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::ToggleProxy::DoMethod(int,char * __ptr64) __ptr64
+private: long __cdecl DirectUI::ToggleProxy::GetToggleState(enum ToggleState * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::ToggleProxy::Init(class DirectUI::Element * __ptr64) __ptr64
+public: static bool __cdecl DirectUI::ToggleProxy::IsPatternSupported(class DirectUI::Element * __ptr64)

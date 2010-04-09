@@ -1,0 +1,43 @@
+public: __cdecl DirectUI::Edit::Edit(class DirectUI::Edit const & __ptr64) __ptr64
+public: __cdecl DirectUI::Edit::Edit(void) __ptr64
+public: virtual __cdecl DirectUI::Edit::~Edit(void) __ptr64
+public: class DirectUI::Edit & __ptr64 __cdecl DirectUI::Edit::operator=(class DirectUI::Edit const & __ptr64) __ptr64
+const DirectUI::Edit::`vftable'
+public: static long __cdecl DirectUI::Edit::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::Edit::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+protected: virtual struct HWND__ * __ptr64 __cdecl DirectUI::Edit::CreateHWND(struct HWND__ * __ptr64) __ptr64
+protected: virtual struct HWND__ * __ptr64 __cdecl DirectUI::Edit::CreateHWND(struct HWND__ * __ptr64,bool) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Edit::DirtyProp(void)
+public: static class UID __cdecl DirectUI::Edit::Enter(void)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Edit::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Edit::GetClassInfoW(void) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::Edit::GetContentSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+public: virtual unsigned short const * __ptr64 __cdecl DirectUI::Edit::GetContentStringAsDisplayed(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: bool __cdecl DirectUI::Edit::GetDirty(void) __ptr64
+public: int __cdecl DirectUI::Edit::GetMaxLength(void) __ptr64
+public: bool __cdecl DirectUI::Edit::GetMultiline(void) __ptr64
+public: int __cdecl DirectUI::Edit::GetPasswordCharacter(void) __ptr64
+private: unsigned int __cdecl DirectUI::Edit::GetTextHeight(void) __ptr64
+public: bool __cdecl DirectUI::Edit::GetThemedBorder(void) __ptr64
+public: bool __cdecl DirectUI::Edit::GetWantTabs(void) __ptr64
+public: long __cdecl DirectUI::Edit::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::Edit::IsContentProtected(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Edit::MaxLengthProp(void)
+public: virtual unsigned int __cdecl DirectUI::Edit::MessageCallback(struct tagGMSG * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Edit::MultilineProp(void)
+public: virtual void __cdecl DirectUI::Edit::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::Edit::OnNotify(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Edit::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Edit::PasswordCharacterProp(void)
+private: void __cdecl DirectUI::Edit::PropertyChangedCore(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,struct HWND__ * __ptr64) __ptr64
+public: static long __cdecl DirectUI::Edit::Register(void)
+public: static void __cdecl DirectUI::Edit::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::Edit::SetDirty(bool) __ptr64
+public: long __cdecl DirectUI::Edit::SetMaxLength(int) __ptr64
+public: long __cdecl DirectUI::Edit::SetMultiline(bool) __ptr64
+public: long __cdecl DirectUI::Edit::SetPasswordCharacter(int) __ptr64
+public: long __cdecl DirectUI::Edit::SetThemedBorder(bool) __ptr64
+public: long __cdecl DirectUI::Edit::SetWantTabs(bool) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Edit::ThemedBorderProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Edit::WantTabsProp(void)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Edit::s_pClassInfo

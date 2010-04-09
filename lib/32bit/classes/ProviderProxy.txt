@@ -1,0 +1,5 @@
+protected: __thiscall DirectUI::ProviderProxy::ProviderProxy(void)
+public: __thiscall DirectUI::ProviderProxy::ProviderProxy(class DirectUI::ProviderProxy const &)
+public: class DirectUI::ProviderProxy & __thiscall DirectUI::ProviderProxy::operator=(class DirectUI::ProviderProxy const &)
+const DirectUI::ProviderProxy::`vftable'
+protected: virtual void __thiscall DirectUI::ProviderProxy::Init(class DirectUI::Element *)

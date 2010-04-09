@@ -1,0 +1,21 @@
+public: __cdecl DirectUI::Browser::Browser(class DirectUI::Browser const & __ptr64) __ptr64
+public: __cdecl DirectUI::Browser::Browser(void) __ptr64
+public: virtual __cdecl DirectUI::Browser::~Browser(void) __ptr64
+public: class DirectUI::Browser & __ptr64 __cdecl DirectUI::Browser::operator=(class DirectUI::Browser const & __ptr64) __ptr64
+const DirectUI::Browser::`vftable'
+public: static long __cdecl DirectUI::Browser::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static class UID __cdecl DirectUI::Browser::Entered(void)
+private: int __cdecl DirectUI::Browser::FireNavigate(unsigned short) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Browser::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Browser::GetClassInfoW(void) __ptr64
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::Browser::GetCurrentPage(void) __ptr64
+public: unsigned short __cdecl DirectUI::Browser::GetCurrentPageID(void) __ptr64
+public: class DirectUI::Pages * __ptr64 __cdecl DirectUI::Browser::GetPages(void) __ptr64
+public: long __cdecl DirectUI::Browser::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: static class UID __cdecl DirectUI::Browser::Leaving(void)
+public: virtual void __cdecl DirectUI::Browser::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Browser::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static long __cdecl DirectUI::Browser::Register(void)
+public: static void __cdecl DirectUI::Browser::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: static class UID __cdecl DirectUI::Browser::StartNavigate(void)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Browser::s_pClassInfo

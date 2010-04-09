@@ -1,0 +1,14 @@
+public: __cdecl DirectUI::VerticalFlowLayout::VerticalFlowLayout(class DirectUI::VerticalFlowLayout const & __ptr64) __ptr64
+public: __cdecl DirectUI::VerticalFlowLayout::VerticalFlowLayout(void) __ptr64
+public: virtual __cdecl DirectUI::VerticalFlowLayout::~VerticalFlowLayout(void) __ptr64
+public: class DirectUI::VerticalFlowLayout & __ptr64 __cdecl DirectUI::VerticalFlowLayout::operator=(class DirectUI::VerticalFlowLayout const & __ptr64) __ptr64
+const DirectUI::VerticalFlowLayout::`vftable'
+protected: struct tagSIZE __cdecl DirectUI::VerticalFlowLayout::BuildCacheInfo(class DirectUI::Element * __ptr64,int,int,class DirectUI::Surface * __ptr64,bool) __ptr64
+public: static long __cdecl DirectUI::VerticalFlowLayout::Create(int,int * __ptr64,class DirectUI::Value * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::VerticalFlowLayout::Create(bool,unsigned int,unsigned int,unsigned int,class DirectUI::Layout * __ptr64 * __ptr64)
+public: virtual void __cdecl DirectUI::VerticalFlowLayout::DoLayout(class DirectUI::Element * __ptr64,int,int) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::VerticalFlowLayout::GetAdjacent(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64,unsigned long) __ptr64
+public: int __cdecl DirectUI::VerticalFlowLayout::GetLine(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64) __ptr64
+public: void __cdecl DirectUI::VerticalFlowLayout::Initialize(bool,unsigned int,unsigned int,unsigned int) __ptr64
+protected: static struct tagSIZE __cdecl DirectUI::VerticalFlowLayout::SizeZero(void)
+public: virtual struct tagSIZE __cdecl DirectUI::VerticalFlowLayout::UpdateDesiredSize(class DirectUI::Element * __ptr64,int,int,class DirectUI::Surface * __ptr64) __ptr64

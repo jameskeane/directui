@@ -1,0 +1,21 @@
+public: __cdecl DirectUI::ElementProxy::ElementProxy(class DirectUI::ElementProxy const & __ptr64) __ptr64
+public: __cdecl DirectUI::ElementProxy::ElementProxy(void) __ptr64
+public: class DirectUI::ElementProxy & __ptr64 __cdecl DirectUI::ElementProxy::operator=(class DirectUI::ElementProxy const & __ptr64) __ptr64
+const DirectUI::ElementProxy::`vftable'
+public: static class DirectUI::ElementProxy * __ptr64 __cdecl DirectUI::ElementProxy::Create(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::ElementProxy::DoMethod(int,char * __ptr64) __ptr64
+protected: long __cdecl DirectUI::ElementProxy::GetAutomationId(struct tagVARIANT * __ptr64) __ptr64
+protected: long __cdecl DirectUI::ElementProxy::GetBoundingRect(struct UiaRect * __ptr64) __ptr64
+protected: long __cdecl DirectUI::ElementProxy::GetContent(struct tagVARIANT * __ptr64,struct IAccessible * __ptr64) __ptr64
+protected: void __cdecl DirectUI::ElementProxy::GetControlType(struct tagVARIANT * __ptr64,struct IAccessible * __ptr64) __ptr64
+protected: long __cdecl DirectUI::ElementProxy::GetFragmentRoot(struct IRawElementProviderFragmentRoot * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::ElementProxy::GetHwnd(struct HWND__ * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::ElementProxy::GetLabel(struct tagVARIANT * __ptr64) __ptr64
+protected: long __cdecl DirectUI::ElementProxy::GetProperty(struct tagVARIANT * __ptr64,int) __ptr64
+protected: long __cdecl DirectUI::ElementProxy::GetProviderOptions(enum ProviderOptions * __ptr64) __ptr64
+protected: long __cdecl DirectUI::ElementProxy::GetRuntimeId(struct tagSAFEARRAY * __ptr64 * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::ElementProxy::Init(class DirectUI::Element * __ptr64) __ptr64
+protected: long __cdecl DirectUI::ElementProxy::IsPatternSupported(enum DirectUI::Schema::Pattern,bool * __ptr64) __ptr64
+protected: long __cdecl DirectUI::ElementProxy::Navigate(enum NavigateDirection,struct IRawElementProviderFragment * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::ElementProxy::SetString(struct tagVARIANT * __ptr64,unsigned short const * __ptr64 (__cdecl DirectUI::Element::*)(class DirectUI::Value * __ptr64 * __ptr64) __ptr64) __ptr64
+protected: int __cdecl DirectUI::ElementProxy::_UsesUIAProxies(void) __ptr64

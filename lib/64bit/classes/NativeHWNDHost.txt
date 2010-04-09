@@ -1,0 +1,22 @@
+public: __cdecl DirectUI::NativeHWNDHost::NativeHWNDHost(class DirectUI::NativeHWNDHost const & __ptr64) __ptr64
+public: __cdecl DirectUI::NativeHWNDHost::NativeHWNDHost(void) __ptr64
+public: virtual __cdecl DirectUI::NativeHWNDHost::~NativeHWNDHost(void) __ptr64
+public: class DirectUI::NativeHWNDHost & __ptr64 __cdecl DirectUI::NativeHWNDHost::operator=(class DirectUI::NativeHWNDHost const & __ptr64) __ptr64
+const DirectUI::NativeHWNDHost::`vftable'
+public: static unsigned int __cdecl DirectUI::NativeHWNDHost::AsyncDestroyMsg(void)
+public: static long __cdecl DirectUI::NativeHWNDHost::Create(unsigned short const * __ptr64,unsigned short const * __ptr64,struct HWND__ * __ptr64,struct HICON__ * __ptr64,int,int,int,int,int,int,struct HINSTANCE__ * __ptr64,unsigned int,class DirectUI::NativeHWNDHost * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::NativeHWNDHost::Create(unsigned short const * __ptr64,struct HWND__ * __ptr64,struct HICON__ * __ptr64,int,int,int,int,int,int,unsigned int,class DirectUI::NativeHWNDHost * __ptr64 * __ptr64)
+public: void __cdecl DirectUI::NativeHWNDHost::Destroy(void) __ptr64
+public: void __cdecl DirectUI::NativeHWNDHost::DestroyWindow(void) __ptr64
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::NativeHWNDHost::GetElement(void) __ptr64
+public: struct HWND__ * __ptr64 __cdecl DirectUI::NativeHWNDHost::GetHWND(void) __ptr64
+public: void __cdecl DirectUI::NativeHWNDHost::HideWindow(void) __ptr64
+public: void __cdecl DirectUI::NativeHWNDHost::Host(class DirectUI::Element * __ptr64) __ptr64
+public: long __cdecl DirectUI::NativeHWNDHost::Initialize(unsigned short const * __ptr64,unsigned short const * __ptr64,struct HWND__ * __ptr64,struct HICON__ * __ptr64,int,int,int,int,int,int,struct HINSTANCE__ * __ptr64,unsigned int) __ptr64
+public: long __cdecl DirectUI::NativeHWNDHost::Initialize(unsigned short const * __ptr64,struct HWND__ * __ptr64,struct HICON__ * __ptr64,int,int,int,int,int,int,unsigned int) __ptr64
+public: virtual long __cdecl DirectUI::NativeHWNDHost::OnMessage(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: int __cdecl DirectUI::NativeHWNDHost::RestoreFocus(void) __ptr64
+public: void __cdecl DirectUI::NativeHWNDHost::SaveFocus(void) __ptr64
+public: void __cdecl DirectUI::NativeHWNDHost::SetDefaultFocusID(unsigned short const * __ptr64) __ptr64
+public: void __cdecl DirectUI::NativeHWNDHost::ShowWindow(int) __ptr64
+public: static __int64 __cdecl DirectUI::NativeHWNDHost::WndProc(struct HWND__ * __ptr64,unsigned int,unsigned __int64,__int64)

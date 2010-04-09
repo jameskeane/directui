@@ -1,0 +1,15 @@
+public: __cdecl DirectUI::GridLayout::GridLayout(class DirectUI::GridLayout const & __ptr64) __ptr64
+public: __cdecl DirectUI::GridLayout::GridLayout(void) __ptr64
+public: virtual __cdecl DirectUI::GridLayout::~GridLayout(void) __ptr64
+public: class DirectUI::GridLayout & __ptr64 __cdecl DirectUI::GridLayout::operator=(class DirectUI::GridLayout const & __ptr64) __ptr64
+const DirectUI::GridLayout::`vftable'
+public: static long __cdecl DirectUI::GridLayout::Create(int,int,class DirectUI::Layout * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::GridLayout::Create(int,int * __ptr64,class DirectUI::Value * __ptr64 * __ptr64)
+public: virtual void __cdecl DirectUI::GridLayout::DoLayout(class DirectUI::Element * __ptr64,int,int) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::GridLayout::GetAdjacent(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64,unsigned long) __ptr64
+protected: unsigned int __cdecl DirectUI::GridLayout::GetCurrentCols(int) __ptr64
+protected: unsigned int __cdecl DirectUI::GridLayout::GetCurrentCols(class DirectUI::Element * __ptr64) __ptr64
+protected: unsigned int __cdecl DirectUI::GridLayout::GetCurrentRows(int) __ptr64
+protected: unsigned int __cdecl DirectUI::GridLayout::GetCurrentRows(class DirectUI::Element * __ptr64) __ptr64
+public: void __cdecl DirectUI::GridLayout::Initialize(int,int) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::GridLayout::UpdateDesiredSize(class DirectUI::Element * __ptr64,int,int,class DirectUI::Surface * __ptr64) __ptr64

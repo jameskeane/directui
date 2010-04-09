@@ -1,0 +1,12 @@
+public: __cdecl DirectUI::SelectionProvider::SelectionProvider(void) __ptr64
+public: virtual __cdecl DirectUI::SelectionProvider::~SelectionProvider(void) __ptr64
+const DirectUI::SelectionProvider::`vftable'
+const DirectUI::SelectionProvider::`vftable'{for `DirectUI::IProvider'}
+const DirectUI::SelectionProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __cdecl DirectUI::SelectionProvider::AddRef(void) __ptr64
+public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::SelectionProvider::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::SelectionProvider::GetSelection(struct tagSAFEARRAY * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::SelectionProvider::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+public: virtual unsigned long __cdecl DirectUI::SelectionProvider::Release(void) __ptr64
+public: virtual long __cdecl DirectUI::SelectionProvider::get_CanSelectMultiple(int * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::SelectionProvider::get_IsSelectionRequired(int * __ptr64) __ptr64

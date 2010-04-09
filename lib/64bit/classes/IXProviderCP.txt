@@ -1,0 +1,4 @@
+public: __cdecl DirectUI::IXProviderCP::IXProviderCP(class DirectUI::IXProviderCP const & __ptr64) __ptr64
+public: __cdecl DirectUI::IXProviderCP::IXProviderCP(void) __ptr64
+public: class DirectUI::IXProviderCP & __ptr64 __cdecl DirectUI::IXProviderCP::operator=(class DirectUI::IXProviderCP const & __ptr64) __ptr64
+const DirectUI::IXProviderCP::`vftable'

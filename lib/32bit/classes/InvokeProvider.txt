@@ -1,0 +1,10 @@
+public: __thiscall DirectUI::InvokeProvider::InvokeProvider(void)
+public: virtual __thiscall DirectUI::InvokeProvider::~InvokeProvider(void)
+const DirectUI::InvokeProvider::`vftable'
+const DirectUI::InvokeProvider::`vftable'{for `DirectUI::IProvider'}
+const DirectUI::InvokeProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __stdcall DirectUI::InvokeProvider::AddRef(void)
+public: virtual class DirectUI::ProviderProxy * (__stdcall*__thiscall DirectUI::InvokeProvider::GetProxyCreator(void))(class DirectUI::Element *)
+public: virtual long __stdcall DirectUI::InvokeProvider::Invoke(void)
+public: virtual long __stdcall DirectUI::InvokeProvider::QueryInterface(struct _GUID const &,void * *)
+public: virtual unsigned long __stdcall DirectUI::InvokeProvider::Release(void)

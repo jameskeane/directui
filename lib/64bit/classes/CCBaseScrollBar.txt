@@ -1,0 +1,38 @@
+public: __cdecl DirectUI::CCBaseScrollBar::CCBaseScrollBar(class DirectUI::CCBaseScrollBar const & __ptr64) __ptr64
+public: __cdecl DirectUI::CCBaseScrollBar::CCBaseScrollBar(unsigned long) __ptr64
+public: virtual __cdecl DirectUI::CCBaseScrollBar::~CCBaseScrollBar(void) __ptr64
+public: class DirectUI::CCBaseScrollBar & __ptr64 __cdecl DirectUI::CCBaseScrollBar::operator=(class DirectUI::CCBaseScrollBar const & __ptr64) __ptr64
+const DirectUI::CCBaseScrollBar::`vftable'{for `DirectUI::BaseScrollBar'}
+const DirectUI::CCBaseScrollBar::`vftable'{for `DirectUI::CCBase'}
+public: void __cdecl DirectUI::CCBaseScrollBar::`default constructor closure'(void) __ptr64
+public: virtual struct HWND__ * __ptr64 __cdecl DirectUI::CCBaseScrollBar::CreateHWND(struct HWND__ * __ptr64) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCBaseScrollBar::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCBaseScrollBar::GetClassInfoW(void) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::CCBaseScrollBar::GetElement(void) __ptr64
+public: virtual int __cdecl DirectUI::CCBaseScrollBar::GetLine(void) __ptr64
+public: virtual int __cdecl DirectUI::CCBaseScrollBar::GetMaximum(void) __ptr64
+public: virtual int __cdecl DirectUI::CCBaseScrollBar::GetMinimum(void) __ptr64
+public: virtual int __cdecl DirectUI::CCBaseScrollBar::GetPage(void) __ptr64
+public: virtual int __cdecl DirectUI::CCBaseScrollBar::GetPosition(void) __ptr64
+public: virtual bool __cdecl DirectUI::CCBaseScrollBar::GetProportional(void) __ptr64
+public: bool __cdecl DirectUI::CCBaseScrollBar::GetTracking(void) __ptr64
+public: long __cdecl DirectUI::CCBaseScrollBar::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCBaseScrollBar::LineProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCBaseScrollBar::MaximumProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCBaseScrollBar::MinimumProp(void)
+public: virtual bool __cdecl DirectUI::CCBaseScrollBar::OnMessage(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::CCBaseScrollBar::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::CCBaseScrollBar::OnPropertyChanging(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCBaseScrollBar::PageProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCBaseScrollBar::PositionProp(void)
+public: static long __cdecl DirectUI::CCBaseScrollBar::Register(void)
+public: static void __cdecl DirectUI::CCBaseScrollBar::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: virtual long __cdecl DirectUI::CCBaseScrollBar::SetLine(int) __ptr64
+public: virtual long __cdecl DirectUI::CCBaseScrollBar::SetMaximum(int) __ptr64
+public: virtual long __cdecl DirectUI::CCBaseScrollBar::SetMinimum(int) __ptr64
+public: virtual long __cdecl DirectUI::CCBaseScrollBar::SetPage(int) __ptr64
+public: virtual long __cdecl DirectUI::CCBaseScrollBar::SetPosition(int) __ptr64
+public: long __cdecl DirectUI::CCBaseScrollBar::SetTracking(bool) __ptr64
+public: void __cdecl DirectUI::CCBaseScrollBar::SyncScrollBar(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCBaseScrollBar::TrackingProp(void)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::CCBaseScrollBar::s_pClassInfo

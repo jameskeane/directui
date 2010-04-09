@@ -1,0 +1,16 @@
+public: __thiscall DirectUI::CCSysLink::CCSysLink(class DirectUI::CCSysLink const &)
+public: __thiscall DirectUI::CCSysLink::CCSysLink(void)
+public: virtual __thiscall DirectUI::CCSysLink::~CCSysLink(void)
+public: class DirectUI::CCSysLink & __thiscall DirectUI::CCSysLink::operator=(class DirectUI::CCSysLink const &)
+const DirectUI::CCSysLink::`vftable'
+public: static long __stdcall DirectUI::CCSysLink::Create(unsigned int,class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static long __stdcall DirectUI::CCSysLink::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::CCSysLink::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::CCSysLink::GetClassInfoW(void)
+public: virtual struct tagSIZE __thiscall DirectUI::CCSysLink::GetContentSize(int,int,class DirectUI::Surface *)
+public: virtual void __thiscall DirectUI::CCSysLink::OnInput(struct DirectUI::InputEvent *)
+public: virtual bool __thiscall DirectUI::CCSysLink::OnLostDialogFocus(class DirectUI::DialogElement *)
+public: virtual bool __thiscall DirectUI::CCSysLink::OnReceivedDialogFocus(class DirectUI::DialogElement *)
+public: static long __stdcall DirectUI::CCSysLink::Register(void)
+public: static void __stdcall DirectUI::CCSysLink::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::CCSysLink::s_pClassInfo

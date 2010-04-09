@@ -1,0 +1,40 @@
+public: __cdecl DirectUI::HWNDHostAccessible::HWNDHostAccessible(void) __ptr64
+public: virtual __cdecl DirectUI::HWNDHostAccessible::~HWNDHostAccessible(void) __ptr64
+const DirectUI::HWNDHostAccessible::`vftable'{for `IAccIdentity'}
+const DirectUI::HWNDHostAccessible::`vftable'{for `IAccessible'}
+const DirectUI::HWNDHostAccessible::`vftable'{for `IEnumVARIANT'}
+const DirectUI::HWNDHostAccessible::`vftable'{for `IOleWindow'}
+const DirectUI::HWNDHostAccessible::`vftable'{for `IServiceProvider'}
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::Clone(struct IEnumVARIANT * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::ContextSensitiveHelp(int) __ptr64
+public: static long __cdecl DirectUI::HWNDHostAccessible::Create(class DirectUI::Element * __ptr64,struct IAccessible * __ptr64,class DirectUI::DuiAccessible * __ptr64 * __ptr64)
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::Disconnect(void) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::GetIdentityString(unsigned long,unsigned char * __ptr64 * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::GetWindow(struct HWND__ * __ptr64 * __ptr64) __ptr64
+public: long __cdecl DirectUI::HWNDHostAccessible::Initialize(class DirectUI::Element * __ptr64,struct IAccessible * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::Next(unsigned long,struct tagVARIANT * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::QueryService(struct _GUID const & __ptr64,struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::Reset(void) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::Skip(unsigned long) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::accDoDefaultAction(struct tagVARIANT) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::accHitTest(long,long,struct tagVARIANT * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::accLocation(long * __ptr64,long * __ptr64,long * __ptr64,long * __ptr64,struct tagVARIANT) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::accNavigate(long,struct tagVARIANT,struct tagVARIANT * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::accSelect(long,struct tagVARIANT) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accChild(struct tagVARIANT,struct IDispatch * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accChildCount(long * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accDefaultAction(struct tagVARIANT,unsigned short * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accDescription(struct tagVARIANT,unsigned short * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accFocus(struct tagVARIANT * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accHelp(struct tagVARIANT,unsigned short * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accHelpTopic(unsigned short * __ptr64 * __ptr64,struct tagVARIANT,long * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accKeyboardShortcut(struct tagVARIANT,unsigned short * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accName(struct tagVARIANT,unsigned short * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accParent(struct IDispatch * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accRole(struct tagVARIANT,struct tagVARIANT * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accSelection(struct tagVARIANT * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accState(struct tagVARIANT,struct tagVARIANT * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::get_accValue(struct tagVARIANT,unsigned short * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::put_accName(struct tagVARIANT,unsigned short * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHostAccessible::put_accValue(struct tagVARIANT,unsigned short * __ptr64) __ptr64

@@ -1,0 +1,15 @@
+public: __cdecl DirectUI::NineGridLayout::NineGridLayout(class DirectUI::NineGridLayout const & __ptr64) __ptr64
+public: __cdecl DirectUI::NineGridLayout::NineGridLayout(void) __ptr64
+public: virtual __cdecl DirectUI::NineGridLayout::~NineGridLayout(void) __ptr64
+public: class DirectUI::NineGridLayout & __ptr64 __cdecl DirectUI::NineGridLayout::operator=(class DirectUI::NineGridLayout const & __ptr64) __ptr64
+const DirectUI::NineGridLayout::`vftable'
+public: static long __cdecl DirectUI::NineGridLayout::Create(int,int * __ptr64,class DirectUI::Value * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::NineGridLayout::Create(class DirectUI::Layout * __ptr64 * __ptr64)
+public: virtual void __cdecl DirectUI::NineGridLayout::DoLayout(class DirectUI::Element * __ptr64,int,int) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::NineGridLayout::GetAdjacent(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64,unsigned long) __ptr64
+public: void __cdecl DirectUI::NineGridLayout::Initialize(void) __ptr64
+public: virtual void __cdecl DirectUI::NineGridLayout::OnAdd(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,unsigned int) __ptr64
+public: virtual void __cdecl DirectUI::NineGridLayout::OnLayoutPosChanged(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,int,int) __ptr64
+public: virtual void __cdecl DirectUI::NineGridLayout::OnRemove(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,unsigned int) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::NineGridLayout::UpdateDesiredSize(class DirectUI::Element * __ptr64,int,int,class DirectUI::Surface * __ptr64) __ptr64
+private: void __cdecl DirectUI::NineGridLayout::_UpdateTileList(int,class DirectUI::Element * __ptr64) __ptr64

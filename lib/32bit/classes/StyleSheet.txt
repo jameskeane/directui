@@ -1,0 +1,5 @@
+public: __thiscall DirectUI::StyleSheet::StyleSheet(class DirectUI::StyleSheet const &)
+public: __thiscall DirectUI::StyleSheet::StyleSheet(void)
+public: class DirectUI::StyleSheet & __thiscall DirectUI::StyleSheet::operator=(class DirectUI::StyleSheet const &)
+const DirectUI::StyleSheet::`vftable'
+public: static long __stdcall DirectUI::StyleSheet::Create(class DirectUI::StyleSheet * *)

@@ -1,0 +1,15 @@
+public: __cdecl DirectUI::SelectorNoDefault::SelectorNoDefault(class DirectUI::SelectorNoDefault const & __ptr64) __ptr64
+public: __cdecl DirectUI::SelectorNoDefault::SelectorNoDefault(void) __ptr64
+public: virtual __cdecl DirectUI::SelectorNoDefault::~SelectorNoDefault(void) __ptr64
+public: class DirectUI::SelectorNoDefault & __ptr64 __cdecl DirectUI::SelectorNoDefault::operator=(class DirectUI::SelectorNoDefault const & __ptr64) __ptr64
+const DirectUI::SelectorNoDefault::`vftable'
+public: static long __cdecl DirectUI::SelectorNoDefault::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::SelectorNoDefault::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::SelectorNoDefault::GetClassInfoW(void) __ptr64
+public: long __cdecl DirectUI::SelectorNoDefault::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::SelectorNoDefault::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::SelectorNoDefault::OnKeyFocusMoved(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64) __ptr64
+public: static long __cdecl DirectUI::SelectorNoDefault::Register(void)
+public: static void __cdecl DirectUI::SelectorNoDefault::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: virtual long __cdecl DirectUI::SelectorNoDefault::SetSelection(class DirectUI::Element * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::SelectorNoDefault::s_pClassInfo

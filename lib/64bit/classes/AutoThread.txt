@@ -1,0 +1,4 @@
+public: __cdecl DirectUI::AutoThread::AutoThread(void) __ptr64
+public: __cdecl DirectUI::AutoThread::~AutoThread(void) __ptr64
+public: class DirectUI::AutoThread & __ptr64 __cdecl DirectUI::AutoThread::operator=(class DirectUI::AutoThread const & __ptr64) __ptr64
+public: long __cdecl DirectUI::AutoThread::Init(void) __ptr64

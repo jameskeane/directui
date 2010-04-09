@@ -1,0 +1,15 @@
+public: __cdecl DirectUI::BorderLayout::BorderLayout(class DirectUI::BorderLayout const & __ptr64) __ptr64
+public: __cdecl DirectUI::BorderLayout::BorderLayout(void) __ptr64
+public: virtual __cdecl DirectUI::BorderLayout::~BorderLayout(void) __ptr64
+public: class DirectUI::BorderLayout & __ptr64 __cdecl DirectUI::BorderLayout::operator=(class DirectUI::BorderLayout const & __ptr64) __ptr64
+const DirectUI::BorderLayout::`vftable'
+public: static long __cdecl DirectUI::BorderLayout::Create(int,int * __ptr64,class DirectUI::Value * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::BorderLayout::Create(class DirectUI::Layout * __ptr64 * __ptr64)
+public: virtual void __cdecl DirectUI::BorderLayout::DoLayout(class DirectUI::Element * __ptr64,int,int) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::BorderLayout::GetAdjacent(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64,unsigned long) __ptr64
+public: void __cdecl DirectUI::BorderLayout::Initialize(void) __ptr64
+public: virtual void __cdecl DirectUI::BorderLayout::OnAdd(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,unsigned int) __ptr64
+public: virtual void __cdecl DirectUI::BorderLayout::OnLayoutPosChanged(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,int,int) __ptr64
+public: virtual void __cdecl DirectUI::BorderLayout::OnRemove(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,unsigned int) __ptr64
+private: void __cdecl DirectUI::BorderLayout::SetClient(class DirectUI::Element * __ptr64) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::BorderLayout::UpdateDesiredSize(class DirectUI::Element * __ptr64,int,int,class DirectUI::Surface * __ptr64) __ptr64

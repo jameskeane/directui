@@ -1,0 +1,13 @@
+public: __thiscall DirectUI::UnknownElement::UnknownElement(class DirectUI::UnknownElement const &)
+public: __thiscall DirectUI::UnknownElement::UnknownElement(void)
+public: virtual __thiscall DirectUI::UnknownElement::~UnknownElement(void)
+public: class DirectUI::UnknownElement & __thiscall DirectUI::UnknownElement::operator=(class DirectUI::UnknownElement const &)
+const DirectUI::UnknownElement::`vftable'
+public: static long __stdcall DirectUI::UnknownElement::Create(unsigned int,class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static long __stdcall DirectUI::UnknownElement::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::UnknownElement::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::UnknownElement::GetClassInfoW(void)
+public: long __thiscall DirectUI::UnknownElement::Initialize(unsigned int,class DirectUI::Element *,unsigned long *)
+public: static long __stdcall DirectUI::UnknownElement::Register(void)
+public: static void __stdcall DirectUI::UnknownElement::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::UnknownElement::s_pClassInfo

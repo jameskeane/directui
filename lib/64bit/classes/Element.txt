@@ -1,0 +1,381 @@
+public: __cdecl DirectUI::Element::Element(class DirectUI::Element const & __ptr64) __ptr64
+public: __cdecl DirectUI::Element::Element(void) __ptr64
+public: virtual __cdecl DirectUI::Element::~Element(void) __ptr64
+public: class DirectUI::Element & __ptr64 __cdecl DirectUI::Element::operator=(class DirectUI::Element const & __ptr64) __ptr64
+const DirectUI::Element::`vftable'
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::AbsorbsShortcutProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::AccDefActionProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::AccDescProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::AccHelpProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::AccItemStatusProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::AccItemTypeProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::AccNameProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::AccRoleProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::AccStateProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::AccValueProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::AccessibleProp(void)
+protected: virtual void __cdecl DirectUI::Element::ActivateTooltip(class DirectUI::Element * __ptr64,unsigned long) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::ActiveProp(void)
+public: long __cdecl DirectUI::Element::Add(class DirectUI::Element * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::Add(class DirectUI::Element * __ptr64,int (__cdecl*)(void const * __ptr64,void const * __ptr64)) __ptr64
+public: virtual long __cdecl DirectUI::Element::Add(class DirectUI::Element * __ptr64 * __ptr64,unsigned int) __ptr64
+public: long __cdecl DirectUI::Element::AddListener(struct DirectUI::IElementListener * __ptr64) __ptr64
+public: unsigned long __cdecl DirectUI::Element::AddRef(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::AlphaProp(void)
+public: static class UID __cdecl DirectUI::Element::AnimationChange(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::AnimationProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::BackgroundProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::BorderColorProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::BorderStyleProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::BorderThicknessProp(void)
+public: void __cdecl DirectUI::Element::BroadcastEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::ChildrenProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::ClassProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::CompositedTextProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::ContentAlignProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::ContentProp(void)
+public: static long __cdecl DirectUI::Element::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::CursorProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::CustomProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::DPIProp(void)
+public: virtual long __cdecl DirectUI::Element::DefaultAction(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::DesiredSizeProp(void)
+public: long __cdecl DirectUI::Element::Destroy(bool) __ptr64
+public: long __cdecl DirectUI::Element::DestroyAll(bool) __ptr64
+public: void __cdecl DirectUI::Element::Detach(class DirectUI::DeferCycle * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::DirectionProp(void)
+public: void __cdecl DirectUI::Element::DoubleBuffered(bool) __ptr64
+public: void __cdecl DirectUI::Element::EnableUiaEvents(bool) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::EnabledProp(void)
+public: void __cdecl DirectUI::Element::EndDefer(unsigned long) __ptr64
+public: bool __cdecl DirectUI::Element::EnsureVisible(unsigned int) __ptr64
+public: bool __cdecl DirectUI::Element::EnsureVisible(void) __ptr64
+public: virtual bool __cdecl DirectUI::Element::EnsureVisible(int,int,int,int) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::ExtentProp(void)
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::Element::FindDescendent(unsigned short) __ptr64
+private: class DirectUI::Element * __ptr64 __cdecl DirectUI::Element::FindDescendentWorker(unsigned short) __ptr64
+public: void __cdecl DirectUI::Element::FireEvent(struct DirectUI::Event * __ptr64,bool,bool) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::FontFaceProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::FontProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::FontQualityProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::FontSizeProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::FontStyleProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::FontWeightProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::ForegroundProp(void)
+public: bool __cdecl DirectUI::Element::GetAbsorbsShortcut(void) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Element::GetAccDefAction(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Element::GetAccDesc(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Element::GetAccHelp(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Element::GetAccItemStatus(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Element::GetAccItemType(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Element::GetAccName(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Element::GetAccNameAsDisplayed(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: int __cdecl DirectUI::Element::GetAccRole(void) __ptr64
+public: int __cdecl DirectUI::Element::GetAccState(void) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Element::GetAccValue(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: bool __cdecl DirectUI::Element::GetAccessible(void) __ptr64
+public: virtual long __cdecl DirectUI::Element::GetAccessibleImpl(struct IAccessible * __ptr64 * __ptr64) __ptr64
+public: int __cdecl DirectUI::Element::GetActive(void) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::Element::GetAdjacent(class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64,unsigned long) __ptr64
+public: int __cdecl DirectUI::Element::GetAlpha(void) __ptr64
+public: int __cdecl DirectUI::Element::GetAnimation(void) __ptr64
+public: struct DirectUI::Fill const * __ptr64 __cdecl DirectUI::Element::GetBackgroundColor(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: int __cdecl DirectUI::Element::GetBackgroundStdColor(void) __ptr64
+public: struct DirectUI::Fill const * __ptr64 __cdecl DirectUI::Element::GetBorderColor(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: int __cdecl DirectUI::Element::GetBorderStdColor(void) __ptr64
+public: int __cdecl DirectUI::Element::GetBorderStyle(void) __ptr64
+public: struct tagRECT const * __ptr64 __cdecl DirectUI::Element::GetBorderThickness(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: class DirectUI::DynamicArray<class DirectUI::Element * __ptr64,0> * __ptr64 __cdecl DirectUI::Element::GetChildren(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Element::GetClass(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Element::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Element::GetClassInfoW(void) __ptr64
+public: bool __cdecl DirectUI::Element::GetClickablePoint(struct tagPOINT * __ptr64) __ptr64
+public: int __cdecl DirectUI::Element::GetColorize(void) __ptr64
+private: unsigned int __cdecl DirectUI::Element::GetCommonDrawTextFlags(int) __ptr64
+public: int __cdecl DirectUI::Element::GetContentAlign(void) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::Element::GetContentSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Element::GetContentString(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: virtual unsigned short const * __ptr64 __cdecl DirectUI::Element::GetContentStringAsDisplayed(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: int __cdecl DirectUI::Element::GetDPI(void) __ptr64
+public: class DirectUI::DeferCycle * __ptr64 __cdecl DirectUI::Element::GetDeferObject(void) __ptr64
+public: struct tagSIZE const * __ptr64 __cdecl DirectUI::Element::GetDesiredSize(void) __ptr64
+public: int __cdecl DirectUI::Element::GetDirection(void) __ptr64
+public: struct HGADGET__ * __ptr64 __cdecl DirectUI::Element::GetDisplayNode(void) __ptr64
+public: virtual long __cdecl DirectUI::Element::GetElementProviderImpl(class DirectUI::InvokeHelper * __ptr64,class DirectUI::ElementProvider * __ptr64 * __ptr64) __ptr64
+public: bool __cdecl DirectUI::Element::GetEnabled(void) __ptr64
+public: long __cdecl DirectUI::Element::GetEncodedContentString(unsigned short * __ptr64,unsigned __int64) __ptr64
+public: struct tagSIZE const * __ptr64 __cdecl DirectUI::Element::GetExtent(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: static struct _RTL_CRITICAL_SECTION * __ptr64 __cdecl DirectUI::Element::GetFactoryLock(void)
+public: unsigned short const * __ptr64 __cdecl DirectUI::Element::GetFont(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Element::GetFontFace(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: int __cdecl DirectUI::Element::GetFontQuality(void) __ptr64
+public: int __cdecl DirectUI::Element::GetFontSize(void) __ptr64
+public: int __cdecl DirectUI::Element::GetFontStyle(void) __ptr64
+public: int __cdecl DirectUI::Element::GetFontWeight(void) __ptr64
+public: struct DirectUI::Fill const * __ptr64 __cdecl DirectUI::Element::GetForegroundColor(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: int __cdecl DirectUI::Element::GetForegroundStdColor(void) __ptr64
+public: int __cdecl DirectUI::Element::GetHeight(void) __ptr64
+public: bool __cdecl DirectUI::Element::GetHighDPI(void) __ptr64
+public: unsigned short __cdecl DirectUI::Element::GetID(void) __ptr64
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::Element::GetImmediateChild(class DirectUI::Element * __ptr64) __ptr64
+public: int __cdecl DirectUI::Element::GetIndex(void) __ptr64
+public: virtual bool __cdecl DirectUI::Element::GetKeyFocused(void) __ptr64
+public: bool __cdecl DirectUI::Element::GetKeyWithin(void) __ptr64
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::Element::GetKeyWithinChild(void) __ptr64
+public: class DirectUI::Layout * __ptr64 __cdecl DirectUI::Element::GetLayout(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: int __cdecl DirectUI::Element::GetLayoutPos(void) __ptr64
+public: struct tagPOINT const * __ptr64 __cdecl DirectUI::Element::GetLocation(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: struct tagRECT const * __ptr64 __cdecl DirectUI::Element::GetMargin(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: struct tagSIZE const * __ptr64 __cdecl DirectUI::Element::GetMinSize(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: bool __cdecl DirectUI::Element::GetMouseFocused(void) __ptr64
+public: bool __cdecl DirectUI::Element::GetMouseWithin(void) __ptr64
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::Element::GetMouseWithinChild(void) __ptr64
+public: bool __cdecl DirectUI::Element::GetOverhang(void) __ptr64
+public: struct tagRECT const * __ptr64 __cdecl DirectUI::Element::GetPadding(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::Element::GetParent(void) __ptr64
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::Element::GetRoot(void) __ptr64
+public: long __cdecl DirectUI::Element::GetRootRelativeBounds(struct tagRECT * __ptr64) __ptr64
+public: bool __cdecl DirectUI::Element::GetSelected(void) __ptr64
+public: int __cdecl DirectUI::Element::GetShadowIntensity(void) __ptr64
+public: class DirectUI::StyleSheet * __ptr64 __cdecl DirectUI::Element::GetSheet(void) __ptr64
+public: int __cdecl DirectUI::Element::GetShortcut(void) __ptr64
+public: unsigned short __cdecl DirectUI::Element::GetShortcutChar(void) __ptr64
+public: int __cdecl DirectUI::Element::GetTextGlowSize(void) __ptr64
+public: bool __cdecl DirectUI::Element::GetTooltip(void) __ptr64
+public: int __cdecl DirectUI::Element::GetTooltipMaxWidth(void) __ptr64
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::Element::GetTopLevel(void) __ptr64
+public: float __cdecl DirectUI::Element::GetTreeAlphaLevel(void) __ptr64
+public: class DirectUI::Value * __ptr64 __cdecl DirectUI::Element::GetValue(struct DirectUI::PropertyInfo const * __ptr64 (__cdecl*)(void),int,struct DirectUI::UpdateCache * __ptr64) __ptr64
+public: class DirectUI::Value * __ptr64 __cdecl DirectUI::Element::GetValue(struct DirectUI::PropertyInfo const * __ptr64,int,struct DirectUI::UpdateCache * __ptr64) __ptr64
+public: bool __cdecl DirectUI::Element::GetVisible(void) __ptr64
+public: int __cdecl DirectUI::Element::GetWidth(void) __ptr64
+public: bool __cdecl DirectUI::Element::GetWindowActive(void) __ptr64
+public: int __cdecl DirectUI::Element::GetX(void) __ptr64
+public: int __cdecl DirectUI::Element::GetY(void) __ptr64
+public: virtual void __cdecl DirectUI::Element::HandleUiaDestroyListener(void) __ptr64
+public: virtual void __cdecl DirectUI::Element::HandleUiaEventListener(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Element::HandleUiaPropertyChangingListener(struct DirectUI::PropertyInfo const * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Element::HandleUiaPropertyListener(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: bool __cdecl DirectUI::Element::HasAnimation(void) __ptr64
+public: bool __cdecl DirectUI::Element::HasBorder(void) __ptr64
+public: bool __cdecl DirectUI::Element::HasChildren(void) __ptr64
+public: bool __cdecl DirectUI::Element::HasContent(void) __ptr64
+public: bool __cdecl DirectUI::Element::HasLayout(void) __ptr64
+public: bool __cdecl DirectUI::Element::HasMargin(void) __ptr64
+public: bool __cdecl DirectUI::Element::HasPadding(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::HeightProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::HighDPIProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::IDProp(void)
+public: static void __cdecl DirectUI::Element::InitDefaultFontSize(void)
+public: long __cdecl DirectUI::Element::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::Insert(class DirectUI::Element * __ptr64,unsigned int) __ptr64
+public: virtual long __cdecl DirectUI::Element::Insert(class DirectUI::Element * __ptr64 * __ptr64,unsigned int,unsigned int) __ptr64
+public: void __cdecl DirectUI::Element::InvokeAnimation(int,unsigned int) __ptr64
+public: void __cdecl DirectUI::Element::InvokeAnimation(unsigned int,unsigned int,float,float,bool) __ptr64
+public: bool __cdecl DirectUI::Element::IsCompositedText(void) __ptr64
+public: virtual bool __cdecl DirectUI::Element::IsContentProtected(void) __ptr64
+public: bool __cdecl DirectUI::Element::IsDefaultCAlign(void) __ptr64
+public: bool __cdecl DirectUI::Element::IsDefaultCursor(void) __ptr64
+public: bool __cdecl DirectUI::Element::IsDescendent(class DirectUI::Element * __ptr64) __ptr64
+public: bool __cdecl DirectUI::Element::IsDestroyed(void) __ptr64
+public: bool __cdecl DirectUI::Element::IsHosted(void) __ptr64
+private: bool __cdecl DirectUI::Element::IsPointValid(double,double) __ptr64
+public: bool __cdecl DirectUI::Element::IsRTL(void) __ptr64
+public: virtual bool __cdecl DirectUI::Element::IsRTLReading(void) __ptr64
+public: int __cdecl DirectUI::Element::IsRoot(void) __ptr64
+public: bool __cdecl DirectUI::Element::IsSelfLayout(void) __ptr64
+public: bool __cdecl DirectUI::Element::IsValidAccessor(struct DirectUI::PropertyInfo const * __ptr64,int,bool) __ptr64
+public: static bool __cdecl DirectUI::Element::IsValidValue(struct DirectUI::PropertyInfo const * __ptr64,class DirectUI::Value * __ptr64)
+public: bool __cdecl DirectUI::Element::IsWordWrap(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::KeyFocusedProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::KeyWithinProp(void)
+public: static class UID __cdecl DirectUI::Element::KeyboardNavigate(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::LastDSConstProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::LayoutPosProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::LayoutProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::LocationProp(void)
+public: void __cdecl DirectUI::Element::MapElementPoint(class DirectUI::Element * __ptr64,struct tagPOINT const * __ptr64,struct tagPOINT * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::MarginProp(void)
+protected: void __cdecl DirectUI::Element::MarkHosted(void) __ptr64
+public: void __cdecl DirectUI::Element::MarkNeedsDSUpdate(void) __ptr64
+protected: void __cdecl DirectUI::Element::MarkSelfLayout(void) __ptr64
+public: virtual unsigned int __cdecl DirectUI::Element::MessageCallback(struct tagGMSG * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::MinSizeProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::MouseFocusedProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::MouseWithinProp(void)
+public: bool __cdecl DirectUI::Element::NeedsDSUpdate(void) __ptr64
+public: virtual void __cdecl DirectUI::Element::OnDestroy(void) __ptr64
+public: virtual void __cdecl DirectUI::Element::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Element::OnGroupChanged(int,bool) __ptr64
+protected: virtual void __cdecl DirectUI::Element::OnHosted(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Element::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Element::OnKeyFocusMoved(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Element::OnMouseFocusMoved(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Element::OnPropertyChanged(struct DirectUI::PropertyInfo * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Element::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::Element::OnPropertyChanging(struct DirectUI::PropertyInfo * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::Element::OnPropertyChanging(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::Element::OnUnHosted(class DirectUI::Element * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::OverhangProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::PaddingProp(void)
+public: virtual void __cdecl DirectUI::Element::Paint(struct HDC__ * __ptr64,struct tagRECT const * __ptr64,struct tagRECT const * __ptr64,struct tagRECT * __ptr64,struct tagRECT * __ptr64) __ptr64
+public: void __cdecl DirectUI::Element::PaintBackground(struct HDC__ * __ptr64,class DirectUI::Value * __ptr64,struct tagRECT const & __ptr64,struct tagRECT const & __ptr64,struct tagRECT const & __ptr64,struct tagRECT const & __ptr64) __ptr64
+public: void __cdecl DirectUI::Element::PaintBorder(struct HDC__ * __ptr64,class DirectUI::Value * __ptr64,struct tagRECT * __ptr64,struct tagRECT const & __ptr64) __ptr64
+public: void __cdecl DirectUI::Element::PaintContent(struct HDC__ * __ptr64,struct tagRECT const * __ptr64) __ptr64
+public: void __cdecl DirectUI::Element::PaintFocusRect(struct HDC__ * __ptr64,struct tagRECT const * __ptr64,struct tagRECT const * __ptr64) __ptr64
+public: void __cdecl DirectUI::Element::PaintStringContent(struct HDC__ * __ptr64,struct tagRECT const * __ptr64,class DirectUI::Value * __ptr64,int) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::ParentProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::PosInLayoutProp(void)
+public: void __cdecl DirectUI::Element::PostEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::Element::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::QueueDefaultAction(void) __ptr64
+public: static long __cdecl DirectUI::Element::Register(void)
+public: unsigned long __cdecl DirectUI::Element::Release(void) __ptr64
+public: long __cdecl DirectUI::Element::Remove(class DirectUI::Element * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::Element::Remove(class DirectUI::Element * __ptr64 * __ptr64,unsigned int) __ptr64
+public: long __cdecl DirectUI::Element::RemoveAll(void) __ptr64
+public: void __cdecl DirectUI::Element::RemoveListener(struct DirectUI::IElementListener * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::RemoveLocalValue(struct DirectUI::PropertyInfo const * __ptr64 (__cdecl*)(void)) __ptr64
+public: long __cdecl DirectUI::Element::RemoveLocalValue(struct DirectUI::PropertyInfo const * __ptr64) __ptr64
+private: unsigned short * __ptr64 __cdecl DirectUI::Element::RemoveShortcutFromName(unsigned short const * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::Element::RemoveTooltip(class DirectUI::Element * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::SelectedProp(void)
+public: long __cdecl DirectUI::Element::SetAbsorbsShortcut(bool) __ptr64
+public: long __cdecl DirectUI::Element::SetAccDefAction(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetAccDesc(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetAccHelp(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetAccItemStatus(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetAccItemType(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetAccName(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetAccRole(int) __ptr64
+public: long __cdecl DirectUI::Element::SetAccState(int) __ptr64
+public: long __cdecl DirectUI::Element::SetAccValue(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetAccessible(bool) __ptr64
+public: long __cdecl DirectUI::Element::SetActive(int) __ptr64
+public: long __cdecl DirectUI::Element::SetAlpha(int) __ptr64
+public: long __cdecl DirectUI::Element::SetAnimation(int) __ptr64
+public: long __cdecl DirectUI::Element::SetBackgroundColor(struct DirectUI::Fill const & __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetBackgroundColor(unsigned long) __ptr64
+public: long __cdecl DirectUI::Element::SetBackgroundColor(unsigned long,unsigned long,unsigned char) __ptr64
+public: long __cdecl DirectUI::Element::SetBackgroundColor(unsigned long,unsigned long,unsigned long,unsigned char) __ptr64
+public: long __cdecl DirectUI::Element::SetBackgroundColor(unsigned short const * __ptr64,int,int) __ptr64
+public: long __cdecl DirectUI::Element::SetBackgroundStdColor(int) __ptr64
+public: long __cdecl DirectUI::Element::SetBorderColor(unsigned long) __ptr64
+public: long __cdecl DirectUI::Element::SetBorderGradientColor(unsigned long,unsigned long,unsigned char) __ptr64
+public: long __cdecl DirectUI::Element::SetBorderStdColor(int) __ptr64
+public: long __cdecl DirectUI::Element::SetBorderStyle(int) __ptr64
+public: long __cdecl DirectUI::Element::SetBorderThickness(int,int,int,int) __ptr64
+public: long __cdecl DirectUI::Element::SetClass(unsigned short const * __ptr64) __ptr64
+public: static void __cdecl DirectUI::Element::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::Element::SetCompositedText(bool) __ptr64
+public: long __cdecl DirectUI::Element::SetContentAlign(int) __ptr64
+public: long __cdecl DirectUI::Element::SetContentGraphic(unsigned short const * __ptr64,unsigned char,unsigned int) __ptr64
+public: long __cdecl DirectUI::Element::SetContentGraphic(unsigned short const * __ptr64,unsigned short,unsigned short) __ptr64
+public: long __cdecl DirectUI::Element::SetContentString(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetCursor(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetCursorHandle(struct HICON__ * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetDirection(int) __ptr64
+public: long __cdecl DirectUI::Element::SetEnabled(bool) __ptr64
+public: long __cdecl DirectUI::Element::SetEncodedContentString(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetFont(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetFontFace(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetFontQuality(int) __ptr64
+public: long __cdecl DirectUI::Element::SetFontSize(int) __ptr64
+public: long __cdecl DirectUI::Element::SetFontStyle(int) __ptr64
+public: long __cdecl DirectUI::Element::SetFontWeight(int) __ptr64
+public: long __cdecl DirectUI::Element::SetForegroundColor(unsigned long) __ptr64
+public: long __cdecl DirectUI::Element::SetForegroundColor(unsigned long,unsigned long,unsigned char) __ptr64
+public: long __cdecl DirectUI::Element::SetForegroundColor(unsigned long,unsigned long,unsigned long,unsigned char) __ptr64
+public: long __cdecl DirectUI::Element::SetForegroundStdColor(int) __ptr64
+public: long __cdecl DirectUI::Element::SetHeight(int) __ptr64
+public: long __cdecl DirectUI::Element::SetID(unsigned short const * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Element::SetKeyFocus(void) __ptr64
+public: long __cdecl DirectUI::Element::SetLayout(class DirectUI::Layout * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetLayoutPos(int) __ptr64
+public: long __cdecl DirectUI::Element::SetMargin(int,int,int,int) __ptr64
+public: long __cdecl DirectUI::Element::SetMinSize(int,int) __ptr64
+public: long __cdecl DirectUI::Element::SetOverhang(bool) __ptr64
+public: long __cdecl DirectUI::Element::SetPadding(int,int,int,int) __ptr64
+public: long __cdecl DirectUI::Element::SetSelected(bool) __ptr64
+public: long __cdecl DirectUI::Element::SetShadowIntensity(int) __ptr64
+public: long __cdecl DirectUI::Element::SetSheet(class DirectUI::StyleSheet * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetShortcut(int) __ptr64
+public: long __cdecl DirectUI::Element::SetStdCursor(int) __ptr64
+protected: long __cdecl DirectUI::ElementProxy::SetString(struct tagVARIANT * __ptr64,unsigned short const * __ptr64 (__cdecl DirectUI::Element::*)(class DirectUI::Value * __ptr64 * __ptr64) __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetTextGlowSize(int) __ptr64
+public: long __cdecl DirectUI::Element::SetTooltip(bool) __ptr64
+public: long __cdecl DirectUI::Element::SetTooltipMaxWidth(int) __ptr64
+public: long __cdecl DirectUI::Element::SetValue(struct DirectUI::PropertyInfo const * __ptr64 (__cdecl*)(void),int,class DirectUI::Value * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetValue(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64) __ptr64
+public: long __cdecl DirectUI::Element::SetVisible(bool) __ptr64
+public: long __cdecl DirectUI::Element::SetWidth(int) __ptr64
+public: long __cdecl DirectUI::Element::SetWindowActive(bool) __ptr64
+public: long __cdecl DirectUI::Element::SetX(int) __ptr64
+public: long __cdecl DirectUI::Element::SetY(int) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::ShadowIntensityProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::SheetProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::ShortcutProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::SizeInLayoutProp(void)
+public: long __cdecl DirectUI::Element::SortChildren(int (__cdecl*)(void const * __ptr64,void const * __ptr64)) __ptr64
+public: void __cdecl DirectUI::Element::StartDefer(unsigned long * __ptr64) __ptr64
+public: void __cdecl DirectUI::Element::StopAnimation(unsigned int) __ptr64
+public: class DirectUI::DeferCycle * __ptr64 __cdecl DirectUI::Element::TestDeferObject(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::TextGlowSizeProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::TooltipMaxWidthProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::TooltipProp(void)
+private: bool __cdecl DirectUI::Element::TryLinePattern(struct tagPOINT * __ptr64,struct tagRECT const & __ptr64) __ptr64
+private: bool __cdecl DirectUI::Element::TryPattern(double,double,struct tagPOINT * __ptr64,struct tagRECT const & __ptr64) __ptr64
+private: bool __cdecl DirectUI::Element::TrySparsePattern(struct tagPOINT * __ptr64,struct tagRECT const & __ptr64) __ptr64
+public: bool __cdecl DirectUI::Element::UiaEvents(void) __ptr64
+public: static long __cdecl DirectUI::Element::UnRegister(struct DirectUI::IClassInfo * __ptr64 * __ptr64)
+public: void __cdecl DirectUI::Element::UpdateLayout(void) __ptr64
+protected: virtual void __cdecl DirectUI::Element::UpdateTooltip(class DirectUI::Element * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::VisibleProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::WidthProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::WindowActiveProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::XProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Element::YProp(void)
+public: static void __cdecl DirectUI::Element::_AddDependency(class DirectUI::Element * __ptr64,struct DirectUI::PropertyInfo const * __ptr64,int,struct DirectUI::DepRecs * __ptr64,class DirectUI::DeferCycle * __ptr64,long * __ptr64)
+private: void __cdecl DirectUI::Element::_BroadcastEventWorker(struct DirectUI::Event * __ptr64) __ptr64
+private: int __cdecl DirectUI::Element::_CachedValueIsEqual(struct DirectUI::PropertyInfo const * __ptr64,class DirectUI::Element * __ptr64) __ptr64
+public: void __cdecl DirectUI::Element::_ClearNeedsLayout(void) __ptr64
+public: static long __cdecl DirectUI::Element::_DisplayNodeCallback(struct HGADGET__ * __ptr64,void * __ptr64,struct EventMsg * __ptr64)
+public: void __cdecl DirectUI::Element::_EndOptimizedLayoutQ(void) __ptr64
+private: void __cdecl DirectUI::Element::_FlushDS(class DirectUI::DeferCycle * __ptr64) __ptr64
+protected: static void __cdecl DirectUI::Element::_FlushLayout(class DirectUI::Element * __ptr64,class DirectUI::DeferCycle * __ptr64)
+private: void __cdecl DirectUI::Element::_GetBuriedSheetDependencies(struct DirectUI::PropertyInfo const * __ptr64,class DirectUI::Element * __ptr64,struct DirectUI::DepRecs * __ptr64,class DirectUI::DeferCycle * __ptr64,long * __ptr64) __ptr64
+public: int __cdecl DirectUI::Element::_GetChangesUpdatePass(void) __ptr64
+private: class DirectUI::Value * __ptr64 __cdecl DirectUI::Element::_GetComputedValue(struct DirectUI::PropertyInfo const * __ptr64,struct DirectUI::UpdateCache * __ptr64) __ptr64
+private: long __cdecl DirectUI::Element::_GetDependencies(struct DirectUI::PropertyInfo const * __ptr64,int,struct DirectUI::DepRecs * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::DeferCycle * __ptr64) __ptr64
+private: class DirectUI::Value * __ptr64 __cdecl DirectUI::Element::_GetLocalValue(struct DirectUI::PropertyInfo const * __ptr64) __ptr64
+private: class DirectUI::Value * __ptr64 __cdecl DirectUI::Element::_GetLocalValueFromVM(struct DirectUI::PropertyInfo const * __ptr64) __ptr64
+public: unsigned int __cdecl DirectUI::Element::_GetNeedsLayout(void) __ptr64
+private: class DirectUI::Value * __ptr64 __cdecl DirectUI::Element::_GetSpecifiedValue(struct DirectUI::PropertyInfo const * __ptr64,struct DirectUI::UpdateCache * __ptr64) __ptr64
+private: class DirectUI::Value * __ptr64 __cdecl DirectUI::Element::_GetSpecifiedValueIgnoreCache(struct DirectUI::PropertyInfo const * __ptr64) __ptr64
+private: void __cdecl DirectUI::Element::_InheritProperties(void) __ptr64
+protected: static void __cdecl DirectUI::Element::_InvalidateCachedDSConstraints(class DirectUI::Element * __ptr64)
+public: static int __cdecl DirectUI::Element::_MarkElementForDS(class DirectUI::Element * __ptr64)
+public: static int __cdecl DirectUI::Element::_MarkElementForLayout(class DirectUI::Element * __ptr64,unsigned int)
+protected: void __cdecl DirectUI::Element::_OnFontPropChanged(class DirectUI::Value * __ptr64) __ptr64
+private: long __cdecl DirectUI::Element::_PostSourceChange(void) __ptr64
+private: long __cdecl DirectUI::Element::_PreSourceChange(struct DirectUI::PropertyInfo const * __ptr64 (__cdecl*)(void),int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+private: long __cdecl DirectUI::Element::_PreSourceChange(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+protected: long __cdecl DirectUI::Element::_RemoveLocalValue(struct DirectUI::PropertyInfo const * __ptr64 (__cdecl*)(void),bool) __ptr64
+protected: long __cdecl DirectUI::Element::_RemoveLocalValue(struct DirectUI::PropertyInfo const * __ptr64,bool) __ptr64
+protected: virtual void __cdecl DirectUI::Element::_SelfLayoutDoLayout(int,int) __ptr64
+protected: virtual struct tagSIZE __cdecl DirectUI::Element::_SelfLayoutUpdateDesiredSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+public: static bool __cdecl DirectUI::Element::_SetGroupChanges(class DirectUI::Element * __ptr64,int,class DirectUI::DeferCycle * __ptr64)
+public: int __cdecl DirectUI::Element::_SetNeedsLayout(unsigned int) __ptr64
+protected: long __cdecl DirectUI::Element::_SetValue(struct DirectUI::PropertyInfo const * __ptr64 (__cdecl*)(void),int,class DirectUI::Value * __ptr64,bool) __ptr64
+protected: long __cdecl DirectUI::Element::_SetValue(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,bool) __ptr64
+public: void __cdecl DirectUI::Element::_StartOptimizedLayoutQ(void) __ptr64
+private: void __cdecl DirectUI::Element::_SyncBackground(void) __ptr64
+private: void __cdecl DirectUI::Element::_SyncRedrawStyle(void) __ptr64
+private: void __cdecl DirectUI::Element::_SyncVisible(void) __ptr64
+public: static void __cdecl DirectUI::Element::_TransferGroupFlags(class DirectUI::Element * __ptr64,int)
+public: struct tagSIZE __cdecl DirectUI::Element::_UpdateDesiredSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+public: void __cdecl DirectUI::Element::_UpdateLayoutPosition(int,int) __ptr64
+public: void __cdecl DirectUI::Element::_UpdateLayoutSize(int,int) __ptr64
+private: void __cdecl DirectUI::Element::_UpdatePropertyInCache(struct DirectUI::PropertyInfo const * __ptr64) __ptr64
+private: static void __cdecl DirectUI::Element::_VoidPCNotifyTree(int,class DirectUI::DeferCycle * __ptr64)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Element::s_pClassInfo

@@ -1,0 +1,18 @@
+public: __thiscall DirectUI::Bind::Bind(class DirectUI::Bind const &)
+public: __thiscall DirectUI::Bind::Bind(void)
+public: virtual __thiscall DirectUI::Bind::~Bind(void)
+public: class DirectUI::Bind & __thiscall DirectUI::Bind::operator=(class DirectUI::Bind const &)
+const DirectUI::Bind::`vftable'
+public: static struct DirectUI::PropertyInfo const * __stdcall DirectUI::Bind::ConnectProp(void)
+public: static long __stdcall DirectUI::Bind::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::Bind::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::Bind::GetClassInfoW(void)
+public: unsigned short const * __thiscall DirectUI::Bind::GetConnect(class DirectUI::Value * *)
+public: unsigned short const * __thiscall DirectUI::Bind::GetProperty(class DirectUI::Value * *)
+public: long __thiscall DirectUI::Bind::Initialize(class DirectUI::Element *,unsigned long *)
+public: static struct DirectUI::PropertyInfo const * __stdcall DirectUI::Bind::PropertyProp(void)
+public: static long __stdcall DirectUI::Bind::Register(void)
+public: static void __stdcall DirectUI::Bind::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+public: long __thiscall DirectUI::Bind::SetConnect(unsigned short const *)
+public: long __thiscall DirectUI::Bind::SetProperty(unsigned short const *)
+private: static struct DirectUI::IClassInfo * DirectUI::Bind::s_pClassInfo

@@ -1,0 +1,40 @@
+public: __cdecl DirectUI::TaskPage::TaskPage(class DirectUI::TaskPage const & __ptr64) __ptr64
+public: __cdecl DirectUI::TaskPage::TaskPage(void) __ptr64
+public: virtual __cdecl DirectUI::TaskPage::~TaskPage(void) __ptr64
+public: class DirectUI::TaskPage & __ptr64 __cdecl DirectUI::TaskPage::operator=(class DirectUI::TaskPage const & __ptr64) __ptr64
+public: __cdecl DirectUI::TaskPage::operator struct _PSP * __ptr64(void) __ptr64
+const DirectUI::TaskPage::`vftable'{for `DirectUI::IElementListener'}
+const DirectUI::TaskPage::`vftable'{for `DirectUI::IXProviderCP'}
+private: virtual long __cdecl DirectUI::TaskPage::CreateDUICP(class DirectUI::HWNDElement * __ptr64,struct HWND__ * __ptr64,struct HWND__ * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,class DirectUI::DUIXmlParser * __ptr64 * __ptr64) __ptr64
+private: virtual long __cdecl DirectUI::TaskPage::CreateParserCP(class DirectUI::DUIXmlParser * __ptr64 * __ptr64) __ptr64
+public: long __cdecl DirectUI::TaskPage::DUICreatePropertySheetPage(struct HINSTANCE__ * __ptr64) __ptr64
+private: virtual void __cdecl DirectUI::TaskPage::DestroyCP(void) __ptr64
+private: void __cdecl DirectUI::TaskPage::FreeComCtl32(void) __ptr64
+protected: class DirectUI::Element * __ptr64 __cdecl DirectUI::TaskPage::GetElement(void) __ptr64
+protected: virtual unsigned int __cdecl DirectUI::TaskPage::GetPageRCID(void) __ptr64
+protected: virtual unsigned short const * __ptr64 __cdecl DirectUI::TaskPage::GetPageResID(void) __ptr64
+public: struct HWND__ * __ptr64 __cdecl DirectUI::TaskPage::GetParentHWND(void) __ptr64
+protected: virtual void __cdecl DirectUI::TaskPage::InitPropSheetPage(struct _PROPSHEETPAGEW * __ptr64) __ptr64
+private: long __cdecl DirectUI::TaskPage::LoadComCtl32(void) __ptr64
+private: long __cdecl DirectUI::TaskPage::LoadPage(class DirectUI::Element * __ptr64 * __ptr64,class DirectUI::Element * __ptr64,class DirectUI::DUIXmlParser * __ptr64 * __ptr64) __ptr64
+protected: virtual long __cdecl DirectUI::TaskPage::LoadPage(class DirectUI::HWNDElement * __ptr64,struct HINSTANCE__ * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,class DirectUI::DUIXmlParser * __ptr64 * __ptr64) __ptr64
+protected: virtual long __cdecl DirectUI::TaskPage::LoadParser(class DirectUI::DUIXmlParser * __ptr64 * __ptr64) __ptr64
+protected: virtual __int64 __cdecl DirectUI::TaskPage::OnKillActive(void) __ptr64
+protected: virtual void __cdecl DirectUI::TaskPage::OnListenedEvent(class DirectUI::Element * __ptr64,struct DirectUI::Event * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::TaskPage::OnListenedInput(class DirectUI::Element * __ptr64,struct DirectUI::InputEvent * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::TaskPage::OnListenedPropertyChanged(class DirectUI::Element * __ptr64,struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+protected: virtual bool __cdecl DirectUI::TaskPage::OnListenedPropertyChanging(class DirectUI::Element * __ptr64,struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::TaskPage::OnListenerAttach(class DirectUI::Element * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::TaskPage::OnListenerDetach(class DirectUI::Element * __ptr64) __ptr64
+protected: virtual bool __cdecl DirectUI::TaskPage::OnMessage(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+protected: virtual __int64 __cdecl DirectUI::TaskPage::OnQueryCancel(void) __ptr64
+protected: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::TaskPage::OnQueryInitialFocus(void) __ptr64
+protected: virtual __int64 __cdecl DirectUI::TaskPage::OnReset(void) __ptr64
+protected: virtual __int64 __cdecl DirectUI::TaskPage::OnSetActive(void) __ptr64
+protected: virtual __int64 __cdecl DirectUI::TaskPage::OnWizBack(void) __ptr64
+protected: virtual __int64 __cdecl DirectUI::TaskPage::OnWizFinish(void) __ptr64
+protected: virtual __int64 __cdecl DirectUI::TaskPage::OnWizNext(void) __ptr64
+private: int __cdecl DirectUI::TaskPage::OnWndMsg(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+protected: __int64 __cdecl DirectUI::TaskPage::PropSheet_SendMessage(unsigned int,unsigned __int64,__int64) __ptr64
+private: static __int64 __cdecl DirectUI::TaskPage::StaticXHostSubclassProc(struct HWND__ * __ptr64,unsigned int,unsigned __int64,__int64)
+private: static void __cdecl DirectUI::TaskPage::StaticXmlParserError(unsigned short const * __ptr64,unsigned short const * __ptr64,int,void * __ptr64)

@@ -1,0 +1,45 @@
+public: __cdecl DirectUI::ScrollBar::ScrollBar(class DirectUI::ScrollBar const & __ptr64) __ptr64
+public: __cdecl DirectUI::ScrollBar::ScrollBar(void) __ptr64
+public: virtual __cdecl DirectUI::ScrollBar::~ScrollBar(void) __ptr64
+public: class DirectUI::ScrollBar & __ptr64 __cdecl DirectUI::ScrollBar::operator=(class DirectUI::ScrollBar const & __ptr64) __ptr64
+const DirectUI::ScrollBar::`vftable'{for `DirectUI::BaseScrollBar'}
+const DirectUI::ScrollBar::`vftable'{for `DirectUI::Element'}
+public: static long __cdecl DirectUI::ScrollBar::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::ScrollBar::Create(bool,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+protected: virtual long __cdecl DirectUI::ScrollBar::CreateButtons(void) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::ScrollBar::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::ScrollBar::GetClassInfoW(void) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::ScrollBar::GetElement(void) __ptr64
+public: virtual int __cdecl DirectUI::ScrollBar::GetLine(void) __ptr64
+public: virtual int __cdecl DirectUI::ScrollBar::GetMaximum(void) __ptr64
+public: virtual int __cdecl DirectUI::ScrollBar::GetMinimum(void) __ptr64
+public: int __cdecl DirectUI::ScrollBar::GetOrder(void) __ptr64
+public: virtual int __cdecl DirectUI::ScrollBar::GetPage(void) __ptr64
+public: virtual int __cdecl DirectUI::ScrollBar::GetPosition(void) __ptr64
+public: virtual bool __cdecl DirectUI::ScrollBar::GetProportional(void) __ptr64
+public: bool __cdecl DirectUI::ScrollBar::GetVertical(void) __ptr64
+public: long __cdecl DirectUI::ScrollBar::Initialize(bool,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::ScrollBar::LineProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::ScrollBar::MaximumProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::ScrollBar::MinimumProp(void)
+public: virtual void __cdecl DirectUI::ScrollBar::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::ScrollBar::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::ScrollBar::OnPropertyChanging(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::ScrollBar::OrderProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::ScrollBar::PageProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::ScrollBar::PositionProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::ScrollBar::ProportionalProp(void)
+public: static long __cdecl DirectUI::ScrollBar::Register(void)
+public: static void __cdecl DirectUI::ScrollBar::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: virtual long __cdecl DirectUI::ScrollBar::SetLine(int) __ptr64
+public: virtual long __cdecl DirectUI::ScrollBar::SetMaximum(int) __ptr64
+public: virtual long __cdecl DirectUI::ScrollBar::SetMinimum(int) __ptr64
+public: long __cdecl DirectUI::ScrollBar::SetOrder(int) __ptr64
+public: virtual long __cdecl DirectUI::ScrollBar::SetPage(int) __ptr64
+public: virtual long __cdecl DirectUI::ScrollBar::SetPosition(int) __ptr64
+public: long __cdecl DirectUI::ScrollBar::SetProportional(bool) __ptr64
+public: long __cdecl DirectUI::ScrollBar::SetVertical(bool) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::ScrollBar::VerticalProp(void)
+public: virtual void __cdecl DirectUI::ScrollBar::_SelfLayoutDoLayout(int,int) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::ScrollBar::_SelfLayoutUpdateDesiredSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::ScrollBar::s_pClassInfo

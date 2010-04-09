@@ -1,0 +1,11 @@
+public: __thiscall DirectUI::ElementWithHWND::ElementWithHWND(class DirectUI::ElementWithHWND const &)
+public: __thiscall DirectUI::ElementWithHWND::ElementWithHWND(void)
+public: virtual __thiscall DirectUI::ElementWithHWND::~ElementWithHWND(void)
+public: class DirectUI::ElementWithHWND & __thiscall DirectUI::ElementWithHWND::operator=(class DirectUI::ElementWithHWND const &)
+const DirectUI::ElementWithHWND::`vftable'
+public: static long __stdcall DirectUI::ElementWithHWND::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::ElementWithHWND::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::ElementWithHWND::GetClassInfoW(void)
+public: static long __stdcall DirectUI::ElementWithHWND::Register(void)
+public: static void __stdcall DirectUI::ElementWithHWND::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::ElementWithHWND::s_pClassInfo

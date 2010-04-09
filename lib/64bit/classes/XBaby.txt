@@ -1,0 +1,30 @@
+public: __cdecl DirectUI::XBaby::XBaby(class DirectUI::XBaby const & __ptr64) __ptr64
+public: __cdecl DirectUI::XBaby::XBaby(void) __ptr64
+public: virtual __cdecl DirectUI::XBaby::~XBaby(void) __ptr64
+public: class DirectUI::XBaby & __ptr64 __cdecl DirectUI::XBaby::operator=(class DirectUI::XBaby const & __ptr64) __ptr64
+const DirectUI::XBaby::`vftable'{for `DirectUI::HWNDElement'}
+const DirectUI::XBaby::`vftable'{for `DirectUI::IElementListener'}
+public: void __cdecl DirectUI::XBaby::CacheParser(class DirectUI::DUIXmlParser * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::XBaby::CanSetFocus(void) __ptr64
+public: static long __cdecl DirectUI::XBaby::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::XBaby::Create(class DirectUI::IXElementCP * __ptr64,class DirectUI::XProvider * __ptr64,struct HWND__ * __ptr64,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: virtual long __cdecl DirectUI::XBaby::CreateStyleParser(class DirectUI::DUIXmlParser * __ptr64 * __ptr64) __ptr64
+public: void __cdecl DirectUI::XBaby::ForceThemeChange(unsigned __int64,__int64) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::XBaby::GetAdjacent(class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64,unsigned long) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::XBaby::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::XBaby::GetClassInfoW(void) __ptr64
+public: struct tagSIZE __cdecl DirectUI::XBaby::GetContentDesiredSize(int,int) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::XBaby::GetFocusableElement(void) __ptr64
+public: long __cdecl DirectUI::XBaby::GetHostedElementID(unsigned short * __ptr64) __ptr64
+protected: long __cdecl DirectUI::XBaby::Initialize(class DirectUI::IXElementCP * __ptr64,class DirectUI::XProvider * __ptr64,struct HWND__ * __ptr64,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::XBaby::OnChildLostFocus(class DirectUI::Element * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::XBaby::OnChildReceivedFocus(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::XBaby::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::XBaby::OnNoChildWithShortcutFound(struct DirectUI::KeyboardEvent * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::XBaby::OnThemeChanged(struct DirectUI::ThemeChangedEvent * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::XBaby::OnWmThemeChanged(unsigned __int64,__int64) __ptr64
+public: static long __cdecl DirectUI::XBaby::Register(void)
+public: static void __cdecl DirectUI::XBaby::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: virtual void __cdecl DirectUI::XBaby::SetKeyFocus(void) __ptr64
+public: long __cdecl DirectUI::XBaby::SetToHost(class DirectUI::Element * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::XBaby::s_pClassInfo

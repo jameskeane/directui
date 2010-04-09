@@ -1,0 +1,11 @@
+public: __thiscall DirectUI::FillLayout::FillLayout(class DirectUI::FillLayout const &)
+public: __thiscall DirectUI::FillLayout::FillLayout(void)
+public: virtual __thiscall DirectUI::FillLayout::~FillLayout(void)
+public: class DirectUI::FillLayout & __thiscall DirectUI::FillLayout::operator=(class DirectUI::FillLayout const &)
+const DirectUI::FillLayout::`vftable'
+public: static long __stdcall DirectUI::FillLayout::Create(int,int *,class DirectUI::Value * *)
+public: static long __stdcall DirectUI::FillLayout::Create(class DirectUI::Layout * *)
+public: virtual void __thiscall DirectUI::FillLayout::DoLayout(class DirectUI::Element *,int,int)
+public: virtual class DirectUI::Element * __thiscall DirectUI::FillLayout::GetAdjacent(class DirectUI::Element *,class DirectUI::Element *,int,struct DirectUI::NavReference const *,unsigned long)
+public: void __thiscall DirectUI::FillLayout::Initialize(void)
+public: virtual struct tagSIZE __thiscall DirectUI::FillLayout::UpdateDesiredSize(class DirectUI::Element *,int,int,class DirectUI::Surface *)

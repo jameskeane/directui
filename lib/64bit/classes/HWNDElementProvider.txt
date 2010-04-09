@@ -1,0 +1,15 @@
+public: __cdecl DirectUI::HWNDElementProvider::HWNDElementProvider(void) __ptr64
+public: virtual __cdecl DirectUI::HWNDElementProvider::~HWNDElementProvider(void) __ptr64
+const DirectUI::HWNDElementProvider::`vftable'
+const DirectUI::HWNDElementProvider::`vftable'{for `IRawElementProviderAdviseEvents'}
+const DirectUI::HWNDElementProvider::`vftable'{for `IRawElementProviderFragment'}
+const DirectUI::HWNDElementProvider::`vftable'{for `IRawElementProviderSimple'}
+const DirectUI::HWNDElementProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __cdecl DirectUI::HWNDElementProvider::AddRef(void) __ptr64
+public: static long __cdecl DirectUI::HWNDElementProvider::Create(class DirectUI::HWNDElement * __ptr64,class DirectUI::InvokeHelper * __ptr64,class DirectUI::HWNDElementProvider * __ptr64 * __ptr64)
+public: virtual long __cdecl DirectUI::HWNDElementProvider::ElementProviderFromPoint(double,double,struct IRawElementProviderFragment * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDElementProvider::GetFocus(struct IRawElementProviderFragment * __ptr64 * __ptr64) __ptr64
+public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::HWNDElementProvider::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+protected: virtual long __cdecl DirectUI::HWNDElementProvider::Init(class DirectUI::HWNDElement * __ptr64,class DirectUI::InvokeHelper * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDElementProvider::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+public: virtual unsigned long __cdecl DirectUI::HWNDElementProvider::Release(void) __ptr64

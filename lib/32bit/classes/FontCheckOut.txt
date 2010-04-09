@@ -1,0 +1,3 @@
+public: __thiscall DirectUI::FontCheckOut::FontCheckOut(class DirectUI::Element *,struct HDC__ *)
+public: __thiscall DirectUI::FontCheckOut::~FontCheckOut(void)
+public: class DirectUI::FontCheckOut & __thiscall DirectUI::FontCheckOut::operator=(class DirectUI::FontCheckOut const &)

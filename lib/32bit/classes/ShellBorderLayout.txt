@@ -1,0 +1,13 @@
+public: __thiscall DirectUI::ShellBorderLayout::ShellBorderLayout(class DirectUI::ShellBorderLayout const &)
+public: __thiscall DirectUI::ShellBorderLayout::ShellBorderLayout(void)
+public: virtual __thiscall DirectUI::ShellBorderLayout::~ShellBorderLayout(void)
+public: class DirectUI::ShellBorderLayout & __thiscall DirectUI::ShellBorderLayout::operator=(class DirectUI::ShellBorderLayout const &)
+const DirectUI::ShellBorderLayout::`vftable'
+public: static long __stdcall DirectUI::ShellBorderLayout::Create(int,int *,class DirectUI::Value * *)
+public: static long __stdcall DirectUI::ShellBorderLayout::Create(class DirectUI::Layout * *)
+public: virtual class DirectUI::Element * __thiscall DirectUI::ShellBorderLayout::GetAdjacent(class DirectUI::Element *,class DirectUI::Element *,int,struct DirectUI::NavReference const *,unsigned long)
+public: virtual void __thiscall DirectUI::ShellBorderLayout::OnAdd(class DirectUI::Element *,class DirectUI::Element * *,unsigned int)
+public: virtual void __thiscall DirectUI::ShellBorderLayout::OnLayoutPosChanged(class DirectUI::Element *,class DirectUI::Element *,int,int)
+public: virtual void __thiscall DirectUI::ShellBorderLayout::OnRemove(class DirectUI::Element *,class DirectUI::Element * *,unsigned int)
+private: long __thiscall DirectUI::ShellBorderLayout::_CalcTabOrder(class DirectUI::Element *)
+private: void __thiscall DirectUI::ShellBorderLayout::_Reset(void)

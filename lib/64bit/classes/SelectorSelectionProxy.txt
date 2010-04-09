@@ -1,0 +1,7 @@
+public: __cdecl DirectUI::SelectorSelectionProxy::SelectorSelectionProxy(class DirectUI::SelectorSelectionProxy const & __ptr64) __ptr64
+public: __cdecl DirectUI::SelectorSelectionProxy::SelectorSelectionProxy(void) __ptr64
+public: class DirectUI::SelectorSelectionProxy & __ptr64 __cdecl DirectUI::SelectorSelectionProxy::operator=(class DirectUI::SelectorSelectionProxy const & __ptr64) __ptr64
+const DirectUI::SelectorSelectionProxy::`vftable'
+public: virtual long __cdecl DirectUI::SelectorSelectionProxy::DoMethod(int,char * __ptr64) __ptr64
+private: long __cdecl DirectUI::SelectorSelectionProxy::GetIsSelectionRequired(int * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::SelectorSelectionProxy::Init(class DirectUI::Element * __ptr64) __ptr64

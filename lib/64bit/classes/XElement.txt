@@ -1,0 +1,31 @@
+public: __cdecl DirectUI::XElement::XElement(class DirectUI::XElement const & __ptr64) __ptr64
+public: __cdecl DirectUI::XElement::XElement(void) __ptr64
+public: virtual __cdecl DirectUI::XElement::~XElement(void) __ptr64
+public: class DirectUI::XElement & __ptr64 __cdecl DirectUI::XElement::operator=(class DirectUI::XElement const & __ptr64) __ptr64
+const DirectUI::XElement::`vftable'{for `DirectUI::HWNDHost'}
+const DirectUI::XElement::`vftable'{for `DirectUI::IXElementCP'}
+public: static long __cdecl DirectUI::XElement::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::XElement::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: virtual struct HWND__ * __ptr64 __cdecl DirectUI::XElement::CreateHWND(struct HWND__ * __ptr64) __ptr64
+public: void __cdecl DirectUI::XElement::FreeProvider(void) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::XElement::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::XElement::GetClassInfoW(void) __ptr64
+public: struct HWND__ * __ptr64 __cdecl DirectUI::XElement::GetInnerHWND(void) __ptr64
+public: virtual struct HWND__ * __ptr64 __cdecl DirectUI::XElement::GetNotificationSinkHWND(void) __ptr64
+public: struct DirectUI::IXProvider * __ptr64 __cdecl DirectUI::XElement::GetProvider(void) __ptr64
+public: long __cdecl DirectUI::XElement::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: bool __cdecl DirectUI::XElement::IsDescendent(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::XElement::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::XElement::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::XElement::OnMessage(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::XElement::OnSinkThemeChanged(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::XElement::OnSysChar(unsigned short) __ptr64
+public: static long __cdecl DirectUI::XElement::Register(void)
+public: static void __cdecl DirectUI::XElement::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: virtual void __cdecl DirectUI::XElement::SetKeyFocus(void) __ptr64
+public: long __cdecl DirectUI::XElement::SetProvider(struct IUnknown * __ptr64) __ptr64
+public: static class UID __cdecl DirectUI::XElement::UnhandledSyschar(void)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::XElement::s_pClassInfo
+public: static unsigned int const DirectUI::XElement::s_uButtonFocusChangeMsg
+public: static unsigned int const DirectUI::XElement::s_uNavigateOutMsg
+public: static unsigned int const DirectUI::XElement::s_uUnhandledSyscharMsg

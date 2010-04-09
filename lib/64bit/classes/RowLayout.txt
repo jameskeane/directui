@@ -1,0 +1,12 @@
+public: __cdecl DirectUI::RowLayout::RowLayout(class DirectUI::RowLayout const & __ptr64) __ptr64
+public: __cdecl DirectUI::RowLayout::RowLayout(void) __ptr64
+public: virtual __cdecl DirectUI::RowLayout::~RowLayout(void) __ptr64
+public: class DirectUI::RowLayout & __ptr64 __cdecl DirectUI::RowLayout::operator=(class DirectUI::RowLayout const & __ptr64) __ptr64
+const DirectUI::RowLayout::`vftable'
+public: static long __cdecl DirectUI::RowLayout::Create(int,unsigned int,unsigned int,class DirectUI::Layout * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::RowLayout::Create(int,int * __ptr64,class DirectUI::Value * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::RowLayout::Create(unsigned int,unsigned int,class DirectUI::Layout * __ptr64 * __ptr64)
+public: virtual void __cdecl DirectUI::RowLayout::DoLayout(class DirectUI::Element * __ptr64,int,int) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::RowLayout::GetAdjacent(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64,unsigned long) __ptr64
+public: long __cdecl DirectUI::RowLayout::Initialize(int,unsigned int,unsigned int) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::RowLayout::UpdateDesiredSize(class DirectUI::Element * __ptr64,int,int,class DirectUI::Surface * __ptr64) __ptr64

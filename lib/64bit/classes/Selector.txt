@@ -1,0 +1,21 @@
+public: __cdecl DirectUI::Selector::Selector(class DirectUI::Selector const & __ptr64) __ptr64
+public: __cdecl DirectUI::Selector::Selector(void) __ptr64
+public: virtual __cdecl DirectUI::Selector::~Selector(void) __ptr64
+public: class DirectUI::Selector & __ptr64 __cdecl DirectUI::Selector::operator=(class DirectUI::Selector const & __ptr64) __ptr64
+const DirectUI::Selector::`vftable'
+public: static long __cdecl DirectUI::Selector::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::Selector::GetAdjacent(class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64,unsigned long) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Selector::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Selector::GetClassInfoW(void) __ptr64
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::Selector::GetSelection(void) __ptr64
+public: long __cdecl DirectUI::Selector::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Selector::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Selector::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Selector::OnKeyFocusMoved(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Selector::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static long __cdecl DirectUI::Selector::Register(void)
+public: static class UID __cdecl DirectUI::Selector::SelectionChange(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Selector::SelectionProp(void)
+public: static void __cdecl DirectUI::Selector::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: virtual long __cdecl DirectUI::Selector::SetSelection(class DirectUI::Element * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Selector::s_pClassInfo

@@ -1,0 +1,8 @@
+public: __thiscall DirectUI::TableItemProxy::TableItemProxy(class DirectUI::TableItemProxy const &)
+public: __thiscall DirectUI::TableItemProxy::TableItemProxy(void)
+public: class DirectUI::TableItemProxy & __thiscall DirectUI::TableItemProxy::operator=(class DirectUI::TableItemProxy const &)
+const DirectUI::TableItemProxy::`vftable'
+public: static class DirectUI::TableItemProxy * __stdcall DirectUI::TableItemProxy::Create(class DirectUI::Element *)
+public: virtual long __thiscall DirectUI::TableItemProxy::DoMethod(int,char *)
+protected: virtual void __thiscall DirectUI::TableItemProxy::Init(class DirectUI::Element *)
+public: static bool __stdcall DirectUI::TableItemProxy::IsPatternSupported(class DirectUI::Element *)

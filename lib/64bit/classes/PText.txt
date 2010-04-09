@@ -1,0 +1,14 @@
+public: __cdecl DirectUI::PText::PText(class DirectUI::PText const & __ptr64) __ptr64
+public: __cdecl DirectUI::PText::PText(void) __ptr64
+public: virtual __cdecl DirectUI::PText::~PText(void) __ptr64
+public: class DirectUI::PText & __ptr64 __cdecl DirectUI::PText::operator=(class DirectUI::PText const & __ptr64) __ptr64
+const DirectUI::PText::`vftable'
+public: static long __cdecl DirectUI::PText::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::PText::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::PText::GetClassInfoW(void) __ptr64
+public: long __cdecl DirectUI::PText::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::PText::OnPropertyChanging(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static long __cdecl DirectUI::PText::Register(void)
+public: static void __cdecl DirectUI::PText::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: void __cdecl DirectUI::PText::SetDataEntry(struct DirectUI::IDataEntry * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::PText::s_pClassInfo

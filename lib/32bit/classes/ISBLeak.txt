@@ -1,0 +1,4 @@
+public: __thiscall DirectUI::ISBLeak::ISBLeak(struct DirectUI::ISBLeak const &)
+public: __thiscall DirectUI::ISBLeak::ISBLeak(void)
+public: struct DirectUI::ISBLeak & __thiscall DirectUI::ISBLeak::operator=(struct DirectUI::ISBLeak const &)
+const DirectUI::ISBLeak::`vftable'

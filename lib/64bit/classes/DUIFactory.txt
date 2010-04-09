@@ -1,0 +1,12 @@
+public: __cdecl DirectUI::DUIFactory::DUIFactory(struct HWND__ * __ptr64) __ptr64
+public: __cdecl DirectUI::DUIFactory::~DUIFactory(void) __ptr64
+public: class DirectUI::DUIFactory & __ptr64 __cdecl DirectUI::DUIFactory::operator=(class DirectUI::DUIFactory const & __ptr64) __ptr64
+private: void __cdecl DirectUI::DUIFactory::ClearParser(void) __ptr64
+public: long __cdecl DirectUI::DUIFactory::CreateParser(void) __ptr64
+public: class DirectUI::DUIXmlParser * __ptr64 __cdecl DirectUI::DUIFactory::DetachParser(void) __ptr64
+public: class DirectUI::DUIXmlParser * __ptr64 __cdecl DirectUI::DUIFactory::GetParser(void) __ptr64
+public: long __cdecl DirectUI::DUIFactory::LoadFromBuffer(unsigned short const * __ptr64,unsigned __int64,unsigned short const * __ptr64,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64) __ptr64
+public: long __cdecl DirectUI::DUIFactory::LoadFromFile(unsigned short const * __ptr64,unsigned short const * __ptr64,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64) __ptr64
+public: long __cdecl DirectUI::DUIFactory::LoadFromResource(struct HINSTANCE__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,unsigned short const * __ptr64) __ptr64
+public: void __cdecl DirectUI::DUIFactory::SetError(unsigned short const * __ptr64,...) __ptr64
+private: static void __cdecl DirectUI::DUIFactory::s_XMLParseError(unsigned short const * __ptr64,unsigned short const * __ptr64,int,void * __ptr64)

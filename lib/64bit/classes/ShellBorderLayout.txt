@@ -1,0 +1,13 @@
+public: __cdecl DirectUI::ShellBorderLayout::ShellBorderLayout(class DirectUI::ShellBorderLayout const & __ptr64) __ptr64
+public: __cdecl DirectUI::ShellBorderLayout::ShellBorderLayout(void) __ptr64
+public: virtual __cdecl DirectUI::ShellBorderLayout::~ShellBorderLayout(void) __ptr64
+public: class DirectUI::ShellBorderLayout & __ptr64 __cdecl DirectUI::ShellBorderLayout::operator=(class DirectUI::ShellBorderLayout const & __ptr64) __ptr64
+const DirectUI::ShellBorderLayout::`vftable'
+public: static long __cdecl DirectUI::ShellBorderLayout::Create(int,int * __ptr64,class DirectUI::Value * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::ShellBorderLayout::Create(class DirectUI::Layout * __ptr64 * __ptr64)
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::ShellBorderLayout::GetAdjacent(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64,unsigned long) __ptr64
+public: virtual void __cdecl DirectUI::ShellBorderLayout::OnAdd(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,unsigned int) __ptr64
+public: virtual void __cdecl DirectUI::ShellBorderLayout::OnLayoutPosChanged(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,int,int) __ptr64
+public: virtual void __cdecl DirectUI::ShellBorderLayout::OnRemove(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,unsigned int) __ptr64
+private: long __cdecl DirectUI::ShellBorderLayout::_CalcTabOrder(class DirectUI::Element * __ptr64) __ptr64
+private: void __cdecl DirectUI::ShellBorderLayout::_Reset(void) __ptr64

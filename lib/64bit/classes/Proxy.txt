@@ -1,0 +1,8 @@
+public: __cdecl DirectUI::Proxy::Proxy(class DirectUI::Proxy const & __ptr64) __ptr64
+public: __cdecl DirectUI::Proxy::Proxy(void) __ptr64
+public: virtual __cdecl DirectUI::Proxy::~Proxy(void) __ptr64
+public: class DirectUI::Proxy & __ptr64 __cdecl DirectUI::Proxy::operator=(class DirectUI::Proxy const & __ptr64) __ptr64
+const DirectUI::Proxy::`vftable'
+protected: void __cdecl DirectUI::Proxy::Invoke(unsigned int,void * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::Proxy::OnInvoke(unsigned int,void * __ptr64) __ptr64
+public: static long __cdecl DirectUI::Proxy::SyncCallback(struct HGADGET__ * __ptr64,void * __ptr64,struct EventMsg * __ptr64)

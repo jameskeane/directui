@@ -1,0 +1,16 @@
+public: __cdecl DirectUI::RangeValueProvider::RangeValueProvider(void) __ptr64
+public: virtual __cdecl DirectUI::RangeValueProvider::~RangeValueProvider(void) __ptr64
+const DirectUI::RangeValueProvider::`vftable'
+const DirectUI::RangeValueProvider::`vftable'{for `DirectUI::IProvider'}
+const DirectUI::RangeValueProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __cdecl DirectUI::RangeValueProvider::AddRef(void) __ptr64
+public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::RangeValueProvider::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::RangeValueProvider::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+public: virtual unsigned long __cdecl DirectUI::RangeValueProvider::Release(void) __ptr64
+public: virtual long __cdecl DirectUI::RangeValueProvider::SetValue(double) __ptr64
+public: virtual long __cdecl DirectUI::RangeValueProvider::get_IsReadOnly(int * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::RangeValueProvider::get_LargeChange(double * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::RangeValueProvider::get_Maximum(double * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::RangeValueProvider::get_Minimum(double * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::RangeValueProvider::get_SmallChange(double * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::RangeValueProvider::get_Value(double * __ptr64) __ptr64

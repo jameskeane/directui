@@ -1,0 +1,16 @@
+public: __thiscall DirectUI::CCListBox::CCListBox(class DirectUI::CCListBox const &)
+public: __thiscall DirectUI::CCListBox::CCListBox(void)
+public: virtual __thiscall DirectUI::CCListBox::~CCListBox(void)
+public: class DirectUI::CCListBox & __thiscall DirectUI::CCListBox::operator=(class DirectUI::CCListBox const &)
+const DirectUI::CCListBox::`vftable'
+public: int __thiscall DirectUI::CCListBox::AddString(unsigned short const *)
+public: static long __stdcall DirectUI::CCListBox::Create(unsigned int,class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static long __stdcall DirectUI::CCListBox::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: int __thiscall DirectUI::CCListBox::DeleteString(int)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::CCListBox::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::CCListBox::GetClassInfoW(void)
+public: virtual struct tagSIZE __thiscall DirectUI::CCListBox::GetContentSize(int,int,class DirectUI::Surface *)
+public: int __thiscall DirectUI::CCListBox::GetCount(void)
+public: static long __stdcall DirectUI::CCListBox::Register(void)
+public: static void __stdcall DirectUI::CCListBox::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::CCListBox::s_pClassInfo

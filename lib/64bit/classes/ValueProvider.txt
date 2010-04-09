@@ -1,0 +1,12 @@
+public: __cdecl DirectUI::ValueProvider::ValueProvider(void) __ptr64
+public: virtual __cdecl DirectUI::ValueProvider::~ValueProvider(void) __ptr64
+const DirectUI::ValueProvider::`vftable'
+const DirectUI::ValueProvider::`vftable'{for `DirectUI::IProvider'}
+const DirectUI::ValueProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __cdecl DirectUI::ValueProvider::AddRef(void) __ptr64
+public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::ValueProvider::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::ValueProvider::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+public: virtual unsigned long __cdecl DirectUI::ValueProvider::Release(void) __ptr64
+public: virtual long __cdecl DirectUI::ValueProvider::SetValue(unsigned short const * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ValueProvider::get_IsReadOnly(int * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ValueProvider::get_Value(unsigned short * __ptr64 * __ptr64) __ptr64

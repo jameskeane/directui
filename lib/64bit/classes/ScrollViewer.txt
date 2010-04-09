@@ -1,0 +1,18 @@
+public: __cdecl DirectUI::ScrollViewer::ScrollViewer(class DirectUI::ScrollViewer const & __ptr64) __ptr64
+public: __cdecl DirectUI::ScrollViewer::ScrollViewer(void) __ptr64
+public: virtual __cdecl DirectUI::ScrollViewer::~ScrollViewer(void) __ptr64
+public: class DirectUI::ScrollViewer & __ptr64 __cdecl DirectUI::ScrollViewer::operator=(class DirectUI::ScrollViewer const & __ptr64) __ptr64
+const DirectUI::ScrollViewer::`vftable'{for `DirectUI::Element'}
+const DirectUI::ScrollViewer::`vftable'{for `DirectUI::IElementListener'}
+protected: virtual long __cdecl DirectUI::ScrollViewer::AddChildren(void) __ptr64
+public: static long __cdecl DirectUI::ScrollViewer::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+protected: virtual long __cdecl DirectUI::ScrollViewer::CreateScrollBars(void) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::ScrollViewer::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::ScrollViewer::GetClassInfoW(void) __ptr64
+protected: virtual class DirectUI::BaseScrollBar * __ptr64 __cdecl DirectUI::ScrollViewer::GetHScroll(void) __ptr64
+protected: virtual class DirectUI::BaseScrollBar * __ptr64 __cdecl DirectUI::ScrollViewer::GetVScroll(void) __ptr64
+public: virtual void __cdecl DirectUI::ScrollViewer::OnListenedPropertyChanged(class DirectUI::Element * __ptr64,struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::ScrollViewer::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static long __cdecl DirectUI::ScrollViewer::Register(void)
+public: static void __cdecl DirectUI::ScrollViewer::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::ScrollViewer::s_pClassInfo

@@ -1,0 +1,14 @@
+public: __cdecl DirectUI::Repeater::Repeater(class DirectUI::Repeater const & __ptr64) __ptr64
+public: __cdecl DirectUI::Repeater::Repeater(void) __ptr64
+public: virtual __cdecl DirectUI::Repeater::~Repeater(void) __ptr64
+public: class DirectUI::Repeater & __ptr64 __cdecl DirectUI::Repeater::operator=(class DirectUI::Repeater const & __ptr64) __ptr64
+const DirectUI::Repeater::`vftable'
+protected: virtual long __cdecl DirectUI::Repeater::BuildElement(void) __ptr64
+public: static long __cdecl DirectUI::Repeater::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Repeater::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Repeater::GetClassInfoW(void) __ptr64
+public: long __cdecl DirectUI::Repeater::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: static long __cdecl DirectUI::Repeater::Register(void)
+public: static void __cdecl DirectUI::Repeater::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: void __cdecl DirectUI::Repeater::SetDataEngine(struct DirectUI::IDataEngine * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Repeater::s_pClassInfo

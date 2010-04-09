@@ -1,0 +1,26 @@
+public: __cdecl DirectUI::Button::Button(class DirectUI::Button const & __ptr64) __ptr64
+public: __cdecl DirectUI::Button::Button(void) __ptr64
+public: virtual __cdecl DirectUI::Button::~Button(void) __ptr64
+public: class DirectUI::Button & __ptr64 __cdecl DirectUI::Button::operator=(class DirectUI::Button const & __ptr64) __ptr64
+const DirectUI::Button::`vftable'
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Button::CapturedProp(void)
+public: static class UID __cdecl DirectUI::Button::Click(void)
+public: static class UID __cdecl DirectUI::Button::Context(void)
+public: static long __cdecl DirectUI::Button::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::Button::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: virtual long __cdecl DirectUI::Button::DefaultAction(void) __ptr64
+public: bool __cdecl DirectUI::Button::GetCaptured(void) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Button::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Button::GetClassInfoW(void) __ptr64
+public: bool __cdecl DirectUI::Button::GetPressed(void) __ptr64
+public: long __cdecl DirectUI::Button::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Button::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::Button::OnLostDialogFocus(class DirectUI::DialogElement * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Button::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::Button::OnReceivedDialogFocus(class DirectUI::DialogElement * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Button::PressedProp(void)
+public: static long __cdecl DirectUI::Button::Register(void)
+public: long __cdecl DirectUI::Button::SetCaptured(bool) __ptr64
+public: static void __cdecl DirectUI::Button::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::Button::SetPressed(bool) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Button::s_pClassInfo

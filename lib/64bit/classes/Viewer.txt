@@ -1,0 +1,33 @@
+public: __cdecl DirectUI::Viewer::Viewer(class DirectUI::Viewer const & __ptr64) __ptr64
+public: __cdecl DirectUI::Viewer::Viewer(void) __ptr64
+public: virtual __cdecl DirectUI::Viewer::~Viewer(void) __ptr64
+public: class DirectUI::Viewer & __ptr64 __cdecl DirectUI::Viewer::operator=(class DirectUI::Viewer const & __ptr64) __ptr64
+const DirectUI::Viewer::`vftable'
+public: static long __cdecl DirectUI::Viewer::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: virtual bool __cdecl DirectUI::Viewer::EnsureVisible(int,int,int,int) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Viewer::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Viewer::GetClassInfoW(void) __ptr64
+private: class DirectUI::Element * __ptr64 __cdecl DirectUI::Viewer::GetContent(void) __ptr64
+public: int __cdecl DirectUI::Viewer::GetXOffset(void) __ptr64
+public: bool __cdecl DirectUI::Viewer::GetXScrollable(void) __ptr64
+public: int __cdecl DirectUI::Viewer::GetYOffset(void) __ptr64
+public: bool __cdecl DirectUI::Viewer::GetYScrollable(void) __ptr64
+public: long __cdecl DirectUI::Viewer::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+private: bool __cdecl DirectUI::Viewer::InternalEnsureVisible(int,int,int,int) __ptr64
+public: virtual void __cdecl DirectUI::Viewer::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Viewer::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Viewer::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::Viewer::OnPropertyChanging(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static long __cdecl DirectUI::Viewer::Register(void)
+public: static void __cdecl DirectUI::Viewer::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::Viewer::SetXOffset(int) __ptr64
+public: long __cdecl DirectUI::Viewer::SetXScrollable(bool) __ptr64
+public: long __cdecl DirectUI::Viewer::SetYOffset(int) __ptr64
+public: long __cdecl DirectUI::Viewer::SetYScrollable(bool) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Viewer::XOffsetProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Viewer::XScrollableProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Viewer::YOffsetProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Viewer::YScrollableProp(void)
+public: virtual void __cdecl DirectUI::Viewer::_SelfLayoutDoLayout(int,int) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::Viewer::_SelfLayoutUpdateDesiredSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Viewer::s_pClassInfo

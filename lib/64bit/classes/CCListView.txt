@@ -1,0 +1,14 @@
+public: __cdecl DirectUI::CCListView::CCListView(class DirectUI::CCListView const & __ptr64) __ptr64
+public: __cdecl DirectUI::CCListView::CCListView(void) __ptr64
+public: virtual __cdecl DirectUI::CCListView::~CCListView(void) __ptr64
+public: class DirectUI::CCListView & __ptr64 __cdecl DirectUI::CCListView::operator=(class DirectUI::CCListView const & __ptr64) __ptr64
+const DirectUI::CCListView::`vftable'
+public: static long __cdecl DirectUI::CCListView::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::CCListView::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCListView::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCListView::GetClassInfoW(void) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::CCListView::GetContentSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+public: long __cdecl DirectUI::CCListView::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: static long __cdecl DirectUI::CCListView::Register(void)
+public: static void __cdecl DirectUI::CCListView::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::CCListView::s_pClassInfo

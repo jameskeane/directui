@@ -1,0 +1,9 @@
+public: __thiscall DirectUI::InvokeHelper::InvokeHelper(void)
+public: virtual __thiscall DirectUI::InvokeHelper::~InvokeHelper(void)
+const DirectUI::InvokeHelper::`vftable'
+public: long __thiscall DirectUI::InvokeHelper::DoInvoke(int,class DirectUI::ElementProvider *,class DirectUI::ProviderProxy * (__stdcall*)(class DirectUI::Element *),char *)
+public: int __thiscall DirectUI::InvokeHelper::Init(unsigned long)
+private: void __thiscall DirectUI::InvokeHelper::OnInvoke(struct DirectUI::InvokeHelper::InvokeArgs *)
+public: void __thiscall DirectUI::InvokeHelper::Uninit(void)
+private: static int __stdcall DirectUI::InvokeHelper::_WndProc(void *,struct HWND__ *,unsigned int,unsigned int,long,long *)
+private: static unsigned int const DirectUI::InvokeHelper::s_uInvokeHelperMsg

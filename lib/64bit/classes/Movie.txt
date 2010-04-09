@@ -1,0 +1,58 @@
+public: __cdecl DirectUI::Movie::Movie(class DirectUI::Movie const & __ptr64) __ptr64
+public: __cdecl DirectUI::Movie::Movie(void) __ptr64
+public: virtual __cdecl DirectUI::Movie::~Movie(void) __ptr64
+public: class DirectUI::Movie & __ptr64 __cdecl DirectUI::Movie::operator=(class DirectUI::Movie const & __ptr64) __ptr64
+const DirectUI::Movie::`vftable'
+public: static class UID __cdecl DirectUI::Movie::AdvanceFrame(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Movie::AutoStartProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Movie::AutoStopProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Movie::CompositingQualityProp(void)
+public: static long __cdecl DirectUI::Movie::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::Movie::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Movie::DrawOutlinesProp(void)
+public: void __cdecl DirectUI::Movie::Forward(void) __ptr64
+public: bool __cdecl DirectUI::Movie::GetAutoStart(void) __ptr64
+public: bool __cdecl DirectUI::Movie::GetAutoStop(void) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Movie::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Movie::GetClassInfoW(void) __ptr64
+public: int __cdecl DirectUI::Movie::GetCompositingQuality(void) __ptr64
+public: bool __cdecl DirectUI::Movie::GetDrawOutlines(void) __ptr64
+public: int __cdecl DirectUI::Movie::GetInterpolationMode(void) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Movie::GetPath(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: int __cdecl DirectUI::Movie::GetPixelOffsetMode(void) __ptr64
+public: bool __cdecl DirectUI::Movie::GetPlayAllFramesMode(void) __ptr64
+public: bool __cdecl DirectUI::Movie::GetRepeat(void) __ptr64
+public: int __cdecl DirectUI::Movie::GetSmoothingMode(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Movie::InterpolationModeProp(void)
+public: long __cdecl DirectUI::Movie::LoadFromPath(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Movie::LoadFromResource(struct HINSTANCE__ * __ptr64,int) __ptr64
+public: virtual void __cdecl DirectUI::Movie::OnDestroy(void) __ptr64
+public: virtual void __cdecl DirectUI::Movie::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Movie::OnHosted(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Movie::Paint(struct HDC__ * __ptr64,struct tagRECT const * __ptr64,struct tagRECT const * __ptr64,struct tagRECT * __ptr64,struct tagRECT * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Movie::PathProp(void)
+public: void __cdecl DirectUI::Movie::Pause(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Movie::PixelOffsetModeProp(void)
+public: void __cdecl DirectUI::Movie::Play(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Movie::PlayAllFramesModeProp(void)
+public: static void __cdecl DirectUI::Movie::RawActionProc(struct GMA_ACTIONINFO * __ptr64)
+public: static long __cdecl DirectUI::Movie::Register(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Movie::RepeatProp(void)
+public: void __cdecl DirectUI::Movie::Resume(void) __ptr64
+public: void __cdecl DirectUI::Movie::Rewind(void) __ptr64
+public: long __cdecl DirectUI::Movie::SetAutoStart(bool) __ptr64
+public: long __cdecl DirectUI::Movie::SetAutoStop(bool) __ptr64
+public: static void __cdecl DirectUI::Movie::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::Movie::SetCompositingQuality(int) __ptr64
+public: long __cdecl DirectUI::Movie::SetDrawOutlines(bool) __ptr64
+public: long __cdecl DirectUI::Movie::SetInterpolationMode(int) __ptr64
+public: long __cdecl DirectUI::Movie::SetPath(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Movie::SetPixelOffsetMode(int) __ptr64
+public: long __cdecl DirectUI::Movie::SetPlayAllFramesMode(bool) __ptr64
+public: long __cdecl DirectUI::Movie::SetRepeat(bool) __ptr64
+public: long __cdecl DirectUI::Movie::SetSmoothingMode(int) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Movie::SmoothingModeProp(void)
+private: void __cdecl DirectUI::Movie::advanceFrameActionStart(void) __ptr64
+private: void __cdecl DirectUI::Movie::advanceFrameActionStop(void) __ptr64
+public: void __cdecl DirectUI::Movie::doAction(struct GMA_ACTIONINFO * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Movie::s_pClassInfo

@@ -1,0 +1,11 @@
+public: __thiscall DirectUI::ValueProxy::ValueProxy(class DirectUI::ValueProxy const &)
+public: __thiscall DirectUI::ValueProxy::ValueProxy(void)
+public: class DirectUI::ValueProxy & __thiscall DirectUI::ValueProxy::operator=(class DirectUI::ValueProxy const &)
+const DirectUI::ValueProxy::`vftable'
+public: static class DirectUI::ValueProxy * __stdcall DirectUI::ValueProxy::Create(class DirectUI::Element *)
+public: virtual long __thiscall DirectUI::ValueProxy::DoMethod(int,char *)
+private: long __thiscall DirectUI::ValueProxy::GetIsReadOnly(int *)
+private: long __thiscall DirectUI::ValueProxy::GetValue(unsigned short * *)
+protected: virtual void __thiscall DirectUI::ValueProxy::Init(class DirectUI::Element *)
+public: static bool __stdcall DirectUI::ValueProxy::IsPatternSupported(class DirectUI::Element *)
+private: long __thiscall DirectUI::ValueProxy::SetValue(unsigned short const *)

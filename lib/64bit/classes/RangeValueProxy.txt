@@ -1,0 +1,8 @@
+protected: __cdecl DirectUI::RangeValueProxy::RangeValueProxy(void) __ptr64
+public: __cdecl DirectUI::RangeValueProxy::RangeValueProxy(class DirectUI::RangeValueProxy const & __ptr64) __ptr64
+public: class DirectUI::RangeValueProxy & __ptr64 __cdecl DirectUI::RangeValueProxy::operator=(class DirectUI::RangeValueProxy const & __ptr64) __ptr64
+const DirectUI::RangeValueProxy::`vftable'
+public: static class DirectUI::RangeValueProxy * __ptr64 __cdecl DirectUI::RangeValueProxy::Create(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::RangeValueProxy::DoMethod(int,char * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::RangeValueProxy::Init(class DirectUI::Element * __ptr64) __ptr64
+public: static bool __cdecl DirectUI::RangeValueProxy::IsPatternSupported(class DirectUI::Element * __ptr64)

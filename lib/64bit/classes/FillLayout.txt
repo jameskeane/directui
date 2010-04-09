@@ -1,0 +1,11 @@
+public: __cdecl DirectUI::FillLayout::FillLayout(class DirectUI::FillLayout const & __ptr64) __ptr64
+public: __cdecl DirectUI::FillLayout::FillLayout(void) __ptr64
+public: virtual __cdecl DirectUI::FillLayout::~FillLayout(void) __ptr64
+public: class DirectUI::FillLayout & __ptr64 __cdecl DirectUI::FillLayout::operator=(class DirectUI::FillLayout const & __ptr64) __ptr64
+const DirectUI::FillLayout::`vftable'
+public: static long __cdecl DirectUI::FillLayout::Create(int,int * __ptr64,class DirectUI::Value * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::FillLayout::Create(class DirectUI::Layout * __ptr64 * __ptr64)
+public: virtual void __cdecl DirectUI::FillLayout::DoLayout(class DirectUI::Element * __ptr64,int,int) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::FillLayout::GetAdjacent(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64,unsigned long) __ptr64
+public: void __cdecl DirectUI::FillLayout::Initialize(void) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::FillLayout::UpdateDesiredSize(class DirectUI::Element * __ptr64,int,int,class DirectUI::Surface * __ptr64) __ptr64

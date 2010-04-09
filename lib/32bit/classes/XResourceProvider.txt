@@ -1,0 +1,10 @@
+public: __thiscall DirectUI::XResourceProvider::XResourceProvider(class DirectUI::XResourceProvider const &)
+public: __thiscall DirectUI::XResourceProvider::XResourceProvider(void)
+public: class DirectUI::XResourceProvider & __thiscall DirectUI::XResourceProvider::operator=(class DirectUI::XResourceProvider const &)
+const DirectUI::XResourceProvider::`vftable'
+public: static long __stdcall DirectUI::XResourceProvider::Create(class DirectUI::XResourceProvider * *)
+public: static long __stdcall DirectUI::XResourceProvider::Create(struct HINSTANCE__ *,unsigned short const *,unsigned short const *,unsigned short const *,class DirectUI::XResourceProvider * *)
+public: virtual long __thiscall DirectUI::XResourceProvider::CreateDUICP(class DirectUI::HWNDElement *,struct HWND__ *,struct HWND__ *,class DirectUI::Element * *,class DirectUI::DUIXmlParser * *)
+public: virtual long __thiscall DirectUI::XResourceProvider::CreateParserCP(class DirectUI::DUIXmlParser * *)
+public: virtual void __thiscall DirectUI::XResourceProvider::DestroyCP(void)
+public: long __thiscall DirectUI::XResourceProvider::Initialize(struct HINSTANCE__ *,unsigned short const *,unsigned short const *,unsigned short const *)

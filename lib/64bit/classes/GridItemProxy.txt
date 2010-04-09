@@ -1,0 +1,11 @@
+public: __cdecl DirectUI::GridItemProxy::GridItemProxy(class DirectUI::GridItemProxy const & __ptr64) __ptr64
+public: __cdecl DirectUI::GridItemProxy::GridItemProxy(void) __ptr64
+public: class DirectUI::GridItemProxy & __ptr64 __cdecl DirectUI::GridItemProxy::operator=(class DirectUI::GridItemProxy const & __ptr64) __ptr64
+const DirectUI::GridItemProxy::`vftable'
+public: static class DirectUI::GridItemProxy * __ptr64 __cdecl DirectUI::GridItemProxy::Create(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::GridItemProxy::DoMethod(int,char * __ptr64) __ptr64
+private: long __cdecl DirectUI::GridItemProxy::GetColumn(int * __ptr64) __ptr64
+private: long __cdecl DirectUI::GridItemProxy::GetContainingGrid(struct IRawElementProviderSimple * __ptr64 * __ptr64) __ptr64
+private: long __cdecl DirectUI::GridItemProxy::GetRow(int * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::GridItemProxy::Init(class DirectUI::Element * __ptr64) __ptr64
+public: static bool __cdecl DirectUI::GridItemProxy::IsPatternSupported(class DirectUI::Element * __ptr64)

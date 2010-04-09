@@ -1,0 +1,22 @@
+public: __cdecl DirectUI::Macro::Macro(class DirectUI::Macro const & __ptr64) __ptr64
+public: __cdecl DirectUI::Macro::Macro(void) __ptr64
+public: virtual __cdecl DirectUI::Macro::~Macro(void) __ptr64
+public: class DirectUI::Macro & __ptr64 __cdecl DirectUI::Macro::operator=(class DirectUI::Macro const & __ptr64) __ptr64
+const DirectUI::Macro::`vftable'
+public: virtual long __cdecl DirectUI::Macro::Add(class DirectUI::Element * __ptr64 * __ptr64,unsigned int) __ptr64
+protected: virtual long __cdecl DirectUI::Macro::BuildElement(void) __ptr64
+public: static long __cdecl DirectUI::Macro::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Macro::ExpandProp(void)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Macro::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Macro::GetClassInfoW(void) __ptr64
+public: struct DirectUI::IDataEntry * __ptr64 __cdecl DirectUI::Macro::GetDataEntry(void) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Macro::GetExpand(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: long __cdecl DirectUI::Macro::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Macro::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static long __cdecl DirectUI::Macro::Register(void)
+protected: void __cdecl DirectUI::Macro::ResolveBindings(void) __ptr64
+public: static void __cdecl DirectUI::Macro::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: void __cdecl DirectUI::Macro::SetDataEntry(struct DirectUI::IDataEntry * __ptr64,class DirectUI::Element * __ptr64) __ptr64
+public: long __cdecl DirectUI::Macro::SetExpand(unsigned short const * __ptr64) __ptr64
+public: void __cdecl DirectUI::Macro::SetParser(class DirectUI::DUIXmlParser * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Macro::s_pClassInfo

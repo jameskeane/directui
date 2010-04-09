@@ -1,0 +1,24 @@
+public: __cdecl DirectUI::ClassInfoBase::ClassInfoBase(class DirectUI::ClassInfoBase const & __ptr64) __ptr64
+public: __cdecl DirectUI::ClassInfoBase::ClassInfoBase(void) __ptr64
+public: virtual __cdecl DirectUI::ClassInfoBase::~ClassInfoBase(void) __ptr64
+public: class DirectUI::ClassInfoBase & __ptr64 __cdecl DirectUI::ClassInfoBase::operator=(class DirectUI::ClassInfoBase const & __ptr64) __ptr64
+const DirectUI::ClassInfoBase::`vftable'
+public: virtual void __cdecl DirectUI::ClassInfoBase::AddChild(void) __ptr64
+public: virtual void __cdecl DirectUI::ClassInfoBase::AddRef(void) __ptr64
+public: virtual void __cdecl DirectUI::ClassInfoBase::AssertPIZeroRef(void)const __ptr64
+public: static bool __cdecl DirectUI::ClassInfoBase::ClassExist(struct DirectUI::IClassInfo * __ptr64 * __ptr64,struct DirectUI::PropertyInfo const * __ptr64 const * __ptr64,unsigned int,struct DirectUI::IClassInfo * __ptr64,struct HINSTANCE__ * __ptr64,unsigned short const * __ptr64,bool)
+public: virtual void __cdecl DirectUI::ClassInfoBase::Destroy(void) __ptr64
+public: virtual struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::ClassInfoBase::EnumPropertyInfo(unsigned int) __ptr64
+public: virtual struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::ClassInfoBase::GetByClassIndex(unsigned int) __ptr64
+public: virtual int __cdecl DirectUI::ClassInfoBase::GetChildren(void)const __ptr64
+public: virtual unsigned int __cdecl DirectUI::ClassInfoBase::GetGlobalIndex(void)const __ptr64
+public: virtual struct HINSTANCE__ * __ptr64 __cdecl DirectUI::ClassInfoBase::GetModule(void)const __ptr64
+public: virtual unsigned short const * __ptr64 __cdecl DirectUI::ClassInfoBase::GetName(void)const __ptr64
+public: virtual unsigned int __cdecl DirectUI::ClassInfoBase::GetPICount(void)const __ptr64
+public: long __cdecl DirectUI::ClassInfoBase::Initialize(struct HINSTANCE__ * __ptr64,unsigned short const * __ptr64,bool,struct DirectUI::PropertyInfo const * __ptr64 const * __ptr64,unsigned int) __ptr64
+public: virtual bool __cdecl DirectUI::ClassInfoBase::IsGlobal(void)const __ptr64
+public: virtual bool __cdecl DirectUI::ClassInfoBase::IsSubclassOf(struct DirectUI::IClassInfo * __ptr64)const __ptr64
+public: virtual bool __cdecl DirectUI::ClassInfoBase::IsValidProperty(struct DirectUI::PropertyInfo const * __ptr64)const __ptr64
+public: long __cdecl DirectUI::ClassInfoBase::Register(void) __ptr64
+public: virtual int __cdecl DirectUI::ClassInfoBase::Release(void) __ptr64
+public: virtual void __cdecl DirectUI::ClassInfoBase::RemoveChild(void) __ptr64

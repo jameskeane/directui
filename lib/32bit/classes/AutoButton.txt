@@ -1,0 +1,14 @@
+public: __thiscall DirectUI::AutoButton::AutoButton(class DirectUI::AutoButton const &)
+public: __thiscall DirectUI::AutoButton::AutoButton(void)
+public: virtual __thiscall DirectUI::AutoButton::~AutoButton(void)
+public: class DirectUI::AutoButton & __thiscall DirectUI::AutoButton::operator=(class DirectUI::AutoButton const &)
+const DirectUI::AutoButton::`vftable'
+public: static long __stdcall DirectUI::AutoButton::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::AutoButton::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::AutoButton::GetClassInfoW(void)
+public: long __thiscall DirectUI::AutoButton::Initialize(class DirectUI::Element *,unsigned long *)
+public: virtual void __thiscall DirectUI::AutoButton::OnEvent(struct DirectUI::Event *)
+public: static long __stdcall DirectUI::AutoButton::Register(void)
+public: static void __stdcall DirectUI::AutoButton::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+public: static class UID __stdcall DirectUI::AutoButton::Toggle(void)
+private: static struct DirectUI::IClassInfo * DirectUI::AutoButton::s_pClassInfo

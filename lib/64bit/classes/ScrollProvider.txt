@@ -1,0 +1,17 @@
+public: __cdecl DirectUI::ScrollProvider::ScrollProvider(void) __ptr64
+public: virtual __cdecl DirectUI::ScrollProvider::~ScrollProvider(void) __ptr64
+const DirectUI::ScrollProvider::`vftable'
+const DirectUI::ScrollProvider::`vftable'{for `DirectUI::IProvider'}
+const DirectUI::ScrollProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __cdecl DirectUI::ScrollProvider::AddRef(void) __ptr64
+public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::ScrollProvider::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::ScrollProvider::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+public: virtual unsigned long __cdecl DirectUI::ScrollProvider::Release(void) __ptr64
+public: virtual long __cdecl DirectUI::ScrollProvider::Scroll(enum ScrollAmount,enum ScrollAmount) __ptr64
+public: virtual long __cdecl DirectUI::ScrollProvider::SetScrollPercent(double,double) __ptr64
+public: virtual long __cdecl DirectUI::ScrollProvider::get_HorizontalScrollPercent(double * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ScrollProvider::get_HorizontalViewSize(double * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ScrollProvider::get_HorizontallyScrollable(int * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ScrollProvider::get_VerticalScrollPercent(double * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ScrollProvider::get_VerticalViewSize(double * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ScrollProvider::get_VerticallyScrollable(int * __ptr64) __ptr64

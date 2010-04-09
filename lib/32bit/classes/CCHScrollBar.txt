@@ -1,0 +1,14 @@
+public: __thiscall DirectUI::CCHScrollBar::CCHScrollBar(class DirectUI::CCHScrollBar const &)
+public: __thiscall DirectUI::CCHScrollBar::CCHScrollBar(void)
+public: virtual __thiscall DirectUI::CCHScrollBar::~CCHScrollBar(void)
+public: class DirectUI::CCHScrollBar & __thiscall DirectUI::CCHScrollBar::operator=(class DirectUI::CCHScrollBar const &)
+const DirectUI::CCHScrollBar::`vftable'{for `DirectUI::BaseScrollBar'}
+const DirectUI::CCHScrollBar::`vftable'{for `DirectUI::CCBase'}
+public: static long __stdcall DirectUI::CCHScrollBar::Create(unsigned int,class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static long __stdcall DirectUI::CCHScrollBar::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::CCHScrollBar::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::CCHScrollBar::GetClassInfoW(void)
+public: virtual struct tagSIZE __thiscall DirectUI::CCHScrollBar::GetContentSize(int,int,class DirectUI::Surface *)
+public: static long __stdcall DirectUI::CCHScrollBar::Register(void)
+public: static void __stdcall DirectUI::CCHScrollBar::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::CCHScrollBar::s_pClassInfo

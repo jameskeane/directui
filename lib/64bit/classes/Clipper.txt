@@ -1,0 +1,14 @@
+public: __cdecl DirectUI::Clipper::Clipper(class DirectUI::Clipper const & __ptr64) __ptr64
+public: __cdecl DirectUI::Clipper::Clipper(void) __ptr64
+public: virtual __cdecl DirectUI::Clipper::~Clipper(void) __ptr64
+public: class DirectUI::Clipper & __ptr64 __cdecl DirectUI::Clipper::operator=(class DirectUI::Clipper const & __ptr64) __ptr64
+const DirectUI::Clipper::`vftable'
+public: static long __cdecl DirectUI::Clipper::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Clipper::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Clipper::GetClassInfoW(void) __ptr64
+public: long __cdecl DirectUI::Clipper::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: static long __cdecl DirectUI::Clipper::Register(void)
+public: static void __cdecl DirectUI::Clipper::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: virtual void __cdecl DirectUI::Clipper::_SelfLayoutDoLayout(int,int) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::Clipper::_SelfLayoutUpdateDesiredSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Clipper::s_pClassInfo

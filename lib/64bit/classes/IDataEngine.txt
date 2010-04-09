@@ -1,0 +1,5 @@
+public: __cdecl DirectUI::IDataEngine::IDataEngine(struct DirectUI::IDataEngine const & __ptr64) __ptr64
+public: __cdecl DirectUI::IDataEngine::IDataEngine(void) __ptr64
+public: virtual __cdecl DirectUI::IDataEngine::~IDataEngine(void) __ptr64
+public: struct DirectUI::IDataEngine & __ptr64 __cdecl DirectUI::IDataEngine::operator=(struct DirectUI::IDataEngine const & __ptr64) __ptr64
+const DirectUI::IDataEngine::`vftable'

@@ -1,0 +1,8 @@
+public: __cdecl DirectUI::InvokeProxy::InvokeProxy(class DirectUI::InvokeProxy const & __ptr64) __ptr64
+public: __cdecl DirectUI::InvokeProxy::InvokeProxy(void) __ptr64
+public: class DirectUI::InvokeProxy & __ptr64 __cdecl DirectUI::InvokeProxy::operator=(class DirectUI::InvokeProxy const & __ptr64) __ptr64
+const DirectUI::InvokeProxy::`vftable'
+public: static class DirectUI::InvokeProxy * __ptr64 __cdecl DirectUI::InvokeProxy::Create(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::InvokeProxy::DoMethod(int,char * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::InvokeProxy::Init(class DirectUI::Element * __ptr64) __ptr64
+public: static bool __cdecl DirectUI::InvokeProxy::IsPatternSupported(class DirectUI::Element * __ptr64)

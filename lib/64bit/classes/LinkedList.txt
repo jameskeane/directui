@@ -1,0 +1,6 @@
+public: __cdecl DirectUI::LinkedList::LinkedList(void) __ptr64
+public: __cdecl DirectUI::LinkedList::~LinkedList(void) __ptr64
+public: class DirectUI::LinkedList & __ptr64 __cdecl DirectUI::LinkedList::operator=(class DirectUI::LinkedList const & __ptr64) __ptr64
+public: void __cdecl DirectUI::LinkedList::Add(class DirectUI::LinkedListNode * __ptr64) __ptr64
+public: void __cdecl DirectUI::LinkedList::Remove(class DirectUI::LinkedListNode * __ptr64) __ptr64
+public: class DirectUI::LinkedListNode * __ptr64 __cdecl DirectUI::LinkedList::RemoveTail(void) __ptr64

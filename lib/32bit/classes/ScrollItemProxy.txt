@@ -1,0 +1,8 @@
+public: __thiscall DirectUI::ScrollItemProxy::ScrollItemProxy(class DirectUI::ScrollItemProxy const &)
+public: __thiscall DirectUI::ScrollItemProxy::ScrollItemProxy(void)
+public: class DirectUI::ScrollItemProxy & __thiscall DirectUI::ScrollItemProxy::operator=(class DirectUI::ScrollItemProxy const &)
+const DirectUI::ScrollItemProxy::`vftable'
+public: static class DirectUI::ScrollItemProxy * __stdcall DirectUI::ScrollItemProxy::Create(class DirectUI::Element *)
+public: virtual long __thiscall DirectUI::ScrollItemProxy::DoMethod(int,char *)
+protected: virtual void __thiscall DirectUI::ScrollItemProxy::Init(class DirectUI::Element *)
+public: static bool __stdcall DirectUI::ScrollItemProxy::IsPatternSupported(class DirectUI::Element *)

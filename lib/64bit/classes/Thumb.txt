@@ -1,0 +1,15 @@
+public: __cdecl DirectUI::Thumb::Thumb(class DirectUI::Thumb const & __ptr64) __ptr64
+public: __cdecl DirectUI::Thumb::Thumb(void) __ptr64
+public: virtual __cdecl DirectUI::Thumb::~Thumb(void) __ptr64
+public: class DirectUI::Thumb & __ptr64 __cdecl DirectUI::Thumb::operator=(class DirectUI::Thumb const & __ptr64) __ptr64
+const DirectUI::Thumb::`vftable'
+public: static long __cdecl DirectUI::Thumb::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::Thumb::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static class UID __cdecl DirectUI::Thumb::Drag(void)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Thumb::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Thumb::GetClassInfoW(void) __ptr64
+public: long __cdecl DirectUI::Thumb::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Thumb::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: static long __cdecl DirectUI::Thumb::Register(void)
+public: static void __cdecl DirectUI::Thumb::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Thumb::s_pClassInfo

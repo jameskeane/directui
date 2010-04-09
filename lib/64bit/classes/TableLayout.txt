@@ -1,0 +1,12 @@
+public: __cdecl DirectUI::TableLayout::TableLayout(class DirectUI::TableLayout const & __ptr64) __ptr64
+public: __cdecl DirectUI::TableLayout::TableLayout(void) __ptr64
+public: virtual __cdecl DirectUI::TableLayout::~TableLayout(void) __ptr64
+public: class DirectUI::TableLayout & __ptr64 __cdecl DirectUI::TableLayout::operator=(class DirectUI::TableLayout const & __ptr64) __ptr64
+const DirectUI::TableLayout::`vftable'
+public: static long __cdecl DirectUI::TableLayout::Create(int,int * __ptr64,class DirectUI::Value * __ptr64 * __ptr64)
+public: virtual void __cdecl DirectUI::TableLayout::DoLayout(class DirectUI::Element * __ptr64,int,int) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::TableLayout::GetAdjacent(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64,unsigned long) __ptr64
+public: struct DirectUI::CellInfo * __ptr64 __cdecl DirectUI::TableLayout::GetCellInfo(int) __ptr64
+public: void __cdecl DirectUI::TableLayout::Initialize(int,int,int,int * __ptr64) __ptr64
+public: static long __cdecl DirectUI::TableLayout::InternalCreate(int,int,int,int * __ptr64,class DirectUI::Layout * __ptr64 * __ptr64)
+public: virtual struct tagSIZE __cdecl DirectUI::TableLayout::UpdateDesiredSize(class DirectUI::Element * __ptr64,int,int,class DirectUI::Surface * __ptr64) __ptr64

@@ -1,0 +1,3 @@
+public: __cdecl DirectUI::FontCheckOut::FontCheckOut(class DirectUI::Element * __ptr64,struct HDC__ * __ptr64) __ptr64
+public: __cdecl DirectUI::FontCheckOut::~FontCheckOut(void) __ptr64
+public: class DirectUI::FontCheckOut & __ptr64 __cdecl DirectUI::FontCheckOut::operator=(class DirectUI::FontCheckOut const & __ptr64) __ptr64

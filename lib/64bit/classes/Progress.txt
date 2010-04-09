@@ -1,0 +1,23 @@
+public: __cdecl DirectUI::Progress::Progress(class DirectUI::Progress const & __ptr64) __ptr64
+public: __cdecl DirectUI::Progress::Progress(void) __ptr64
+public: virtual __cdecl DirectUI::Progress::~Progress(void) __ptr64
+public: class DirectUI::Progress & __ptr64 __cdecl DirectUI::Progress::operator=(class DirectUI::Progress const & __ptr64) __ptr64
+const DirectUI::Progress::`vftable'
+public: static long __cdecl DirectUI::Progress::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Progress::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Progress::GetClassInfoW(void) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::Progress::GetContentSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+public: int __cdecl DirectUI::Progress::GetMaximum(void) __ptr64
+public: int __cdecl DirectUI::Progress::GetMinimum(void) __ptr64
+public: int __cdecl DirectUI::Progress::GetPosition(void) __ptr64
+public: long __cdecl DirectUI::Progress::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Progress::MaximumProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Progress::MinimumProp(void)
+public: virtual void __cdecl DirectUI::Progress::Paint(struct HDC__ * __ptr64,struct tagRECT const * __ptr64,struct tagRECT const * __ptr64,struct tagRECT * __ptr64,struct tagRECT * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Progress::PositionProp(void)
+public: static long __cdecl DirectUI::Progress::Register(void)
+public: static void __cdecl DirectUI::Progress::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::Progress::SetMaximum(int) __ptr64
+public: long __cdecl DirectUI::Progress::SetMinimum(int) __ptr64
+public: long __cdecl DirectUI::Progress::SetPosition(int) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Progress::s_pClassInfo

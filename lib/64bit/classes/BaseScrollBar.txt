@@ -1,0 +1,21 @@
+public: __cdecl DirectUI::BaseScrollBar::BaseScrollBar(class DirectUI::BaseScrollBar const & __ptr64) __ptr64
+public: __cdecl DirectUI::BaseScrollBar::BaseScrollBar(void) __ptr64
+public: class DirectUI::BaseScrollBar & __ptr64 __cdecl DirectUI::BaseScrollBar::operator=(class DirectUI::BaseScrollBar const & __ptr64) __ptr64
+const DirectUI::BaseScrollBar::`vftable'
+public: virtual void __cdecl DirectUI::BaseScrollBar::End(void) __ptr64
+private: int __cdecl DirectUI::BaseScrollBar::GetPageInc(void) __ptr64
+public: virtual void __cdecl DirectUI::BaseScrollBar::Home(void) __ptr64
+public: bool __cdecl DirectUI::BaseScrollBar::IsPinned(void) __ptr64
+public: bool __cdecl DirectUI::BaseScrollBar::IsScrollable(void) __ptr64
+public: virtual void __cdecl DirectUI::BaseScrollBar::LineDown(unsigned int) __ptr64
+public: virtual void __cdecl DirectUI::BaseScrollBar::LineUp(unsigned int) __ptr64
+public: void __cdecl DirectUI::BaseScrollBar::OnMaximumChanged(class DirectUI::Value * __ptr64) __ptr64
+public: void __cdecl DirectUI::BaseScrollBar::OnMinimumChanged(class DirectUI::Value * __ptr64) __ptr64
+public: void __cdecl DirectUI::BaseScrollBar::OnPageChanged(class DirectUI::Value * __ptr64) __ptr64
+public: bool __cdecl DirectUI::BaseScrollBar::OnPageChanging(class DirectUI::Value * __ptr64) __ptr64
+public: void __cdecl DirectUI::BaseScrollBar::OnPositionChanged(class DirectUI::Value * __ptr64) __ptr64
+public: bool __cdecl DirectUI::BaseScrollBar::OnPositionChanging(class DirectUI::Value * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::BaseScrollBar::PageDown(unsigned int) __ptr64
+public: virtual void __cdecl DirectUI::BaseScrollBar::PageUp(unsigned int) __ptr64
+public: static class UID __cdecl DirectUI::BaseScrollBar::Scroll(void)
+public: void __cdecl DirectUI::BaseScrollBar::SetPinned(bool) __ptr64

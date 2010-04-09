@@ -1,0 +1,30 @@
+public: __cdecl DirectUI::CCPushButton::CCPushButton(class DirectUI::CCPushButton const & __ptr64) __ptr64
+public: __cdecl DirectUI::CCPushButton::CCPushButton(unsigned long) __ptr64
+public: virtual __cdecl DirectUI::CCPushButton::~CCPushButton(void) __ptr64
+public: class DirectUI::CCPushButton & __ptr64 __cdecl DirectUI::CCPushButton::operator=(class DirectUI::CCPushButton const & __ptr64) __ptr64
+const DirectUI::CCPushButton::`vftable'
+public: void __cdecl DirectUI::CCPushButton::`default constructor closure'(void) __ptr64
+public: static long __cdecl DirectUI::CCPushButton::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::CCPushButton::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: virtual long __cdecl DirectUI::CCPushButton::DefaultAction(void) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::CCPushButton::EstimateContentSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::CCPushButton::GetButtonColor(struct HDC__ * __ptr64,struct HBRUSH__ * __ptr64 * __ptr64) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCPushButton::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCPushButton::GetClassInfoW(void) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::CCPushButton::GetContentSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+public: bool __cdecl DirectUI::CCPushButton::GetHasShield(void) __ptr64
+public: bool __cdecl DirectUI::CCPushButton::GetOverrideButtonBackground(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCPushButton::HasShieldProp(void)
+public: virtual void __cdecl DirectUI::CCPushButton::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::CCPushButton::OnLostDialogFocus(class DirectUI::DialogElement * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::CCPushButton::OnMessage(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::CCPushButton::OnNotify(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::CCPushButton::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::CCPushButton::OnReceivedDialogFocus(class DirectUI::DialogElement * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::CCPushButton::OnSelectedPropertyChanged(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCPushButton::OverrideButtonBackgroundProp(void)
+public: static long __cdecl DirectUI::CCPushButton::Register(void)
+public: static void __cdecl DirectUI::CCPushButton::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+protected: void __cdecl DirectUI::CCPushButton::SetDefaultState(unsigned long,unsigned long) __ptr64
+public: long __cdecl DirectUI::CCPushButton::SetOverrideButtonBackground(bool) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::CCPushButton::s_pClassInfo

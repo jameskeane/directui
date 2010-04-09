@@ -1,0 +1,8 @@
+public: __thiscall DirectUI::FontCache::FontCache(class DirectUI::FontCache const &)
+public: __thiscall DirectUI::FontCache::FontCache(void)
+public: class DirectUI::FontCache & __thiscall DirectUI::FontCache::operator=(class DirectUI::FontCache const &)
+const DirectUI::FontCache::`vftable'
+public: static long __stdcall DirectUI::FontCache::InitProcess(void)
+public: static long __stdcall DirectUI::FontCache::InitThread(void)
+public: static void __stdcall DirectUI::FontCache::UninitProcess(void)
+public: static void __stdcall DirectUI::FontCache::UninitThread(void)

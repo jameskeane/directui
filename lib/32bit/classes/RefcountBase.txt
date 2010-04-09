@@ -1,0 +1,5 @@
+public: __thiscall DirectUI::RefcountBase::RefcountBase(void)
+public: virtual __thiscall DirectUI::RefcountBase::~RefcountBase(void)
+const DirectUI::RefcountBase::`vftable'
+public: long __thiscall DirectUI::RefcountBase::AddRef(void)
+public: long __thiscall DirectUI::RefcountBase::Release(void)

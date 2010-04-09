@@ -1,0 +1,5 @@
+protected: __cdecl DirectUI::ProviderProxy::ProviderProxy(void) __ptr64
+public: __cdecl DirectUI::ProviderProxy::ProviderProxy(class DirectUI::ProviderProxy const & __ptr64) __ptr64
+public: class DirectUI::ProviderProxy & __ptr64 __cdecl DirectUI::ProviderProxy::operator=(class DirectUI::ProviderProxy const & __ptr64) __ptr64
+const DirectUI::ProviderProxy::`vftable'
+protected: virtual void __cdecl DirectUI::ProviderProxy::Init(class DirectUI::Element * __ptr64) __ptr64

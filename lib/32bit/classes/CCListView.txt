@@ -1,0 +1,14 @@
+public: __thiscall DirectUI::CCListView::CCListView(class DirectUI::CCListView const &)
+public: __thiscall DirectUI::CCListView::CCListView(void)
+public: virtual __thiscall DirectUI::CCListView::~CCListView(void)
+public: class DirectUI::CCListView & __thiscall DirectUI::CCListView::operator=(class DirectUI::CCListView const &)
+const DirectUI::CCListView::`vftable'
+public: static long __stdcall DirectUI::CCListView::Create(unsigned int,class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static long __stdcall DirectUI::CCListView::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::CCListView::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::CCListView::GetClassInfoW(void)
+public: virtual struct tagSIZE __thiscall DirectUI::CCListView::GetContentSize(int,int,class DirectUI::Surface *)
+public: long __thiscall DirectUI::CCListView::Initialize(unsigned int,class DirectUI::Element *,unsigned long *)
+public: static long __stdcall DirectUI::CCListView::Register(void)
+public: static void __stdcall DirectUI::CCListView::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::CCListView::s_pClassInfo

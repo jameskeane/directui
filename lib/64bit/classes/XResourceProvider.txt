@@ -1,0 +1,10 @@
+public: __cdecl DirectUI::XResourceProvider::XResourceProvider(class DirectUI::XResourceProvider const & __ptr64) __ptr64
+public: __cdecl DirectUI::XResourceProvider::XResourceProvider(void) __ptr64
+public: class DirectUI::XResourceProvider & __ptr64 __cdecl DirectUI::XResourceProvider::operator=(class DirectUI::XResourceProvider const & __ptr64) __ptr64
+const DirectUI::XResourceProvider::`vftable'
+public: static long __cdecl DirectUI::XResourceProvider::Create(class DirectUI::XResourceProvider * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::XResourceProvider::Create(struct HINSTANCE__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,class DirectUI::XResourceProvider * __ptr64 * __ptr64)
+public: virtual long __cdecl DirectUI::XResourceProvider::CreateDUICP(class DirectUI::HWNDElement * __ptr64,struct HWND__ * __ptr64,struct HWND__ * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,class DirectUI::DUIXmlParser * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::XResourceProvider::CreateParserCP(class DirectUI::DUIXmlParser * __ptr64 * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::XResourceProvider::DestroyCP(void) __ptr64
+public: long __cdecl DirectUI::XResourceProvider::Initialize(struct HINSTANCE__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64

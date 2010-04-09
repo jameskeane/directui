@@ -1,0 +1,11 @@
+public: __cdecl DirectUI::ValueProxy::ValueProxy(class DirectUI::ValueProxy const & __ptr64) __ptr64
+public: __cdecl DirectUI::ValueProxy::ValueProxy(void) __ptr64
+public: class DirectUI::ValueProxy & __ptr64 __cdecl DirectUI::ValueProxy::operator=(class DirectUI::ValueProxy const & __ptr64) __ptr64
+const DirectUI::ValueProxy::`vftable'
+public: static class DirectUI::ValueProxy * __ptr64 __cdecl DirectUI::ValueProxy::Create(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::ValueProxy::DoMethod(int,char * __ptr64) __ptr64
+private: long __cdecl DirectUI::ValueProxy::GetIsReadOnly(int * __ptr64) __ptr64
+private: long __cdecl DirectUI::ValueProxy::GetValue(unsigned short * __ptr64 * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::ValueProxy::Init(class DirectUI::Element * __ptr64) __ptr64
+public: static bool __cdecl DirectUI::ValueProxy::IsPatternSupported(class DirectUI::Element * __ptr64)
+private: long __cdecl DirectUI::ValueProxy::SetValue(unsigned short const * __ptr64) __ptr64

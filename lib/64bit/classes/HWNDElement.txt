@@ -1,0 +1,53 @@
+public: __cdecl DirectUI::HWNDElement::HWNDElement(class DirectUI::HWNDElement const & __ptr64) __ptr64
+public: __cdecl DirectUI::HWNDElement::HWNDElement(void) __ptr64
+public: virtual __cdecl DirectUI::HWNDElement::~HWNDElement(void) __ptr64
+public: class DirectUI::HWNDElement & __ptr64 __cdecl DirectUI::HWNDElement::operator=(class DirectUI::HWNDElement const & __ptr64) __ptr64
+const DirectUI::HWNDElement::`vftable'
+public: virtual void __cdecl DirectUI::HWNDElement::ActivateTooltip(class DirectUI::Element * __ptr64,unsigned long) __ptr64
+public: virtual bool __cdecl DirectUI::HWNDElement::CanSetFocus(void) __ptr64
+public: static class UID __cdecl DirectUI::HWNDElement::CompositionChange(void)
+public: static long __cdecl DirectUI::HWNDElement::Create(struct HWND__ * __ptr64,bool,unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: virtual long __cdecl DirectUI::HWNDElement::CreateStyleParser(class DirectUI::DUIXmlParser * __ptr64 * __ptr64) __ptr64
+public: void __cdecl DirectUI::HWNDElement::DelayActivateTooltip(void) __ptr64
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::HWNDElement::ElementFromPoint(struct tagPOINT * __ptr64) __ptr64
+public: static bool __cdecl DirectUI::HWNDElement::FindShortcut(unsigned short,class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,int * __ptr64,int * __ptr64,int)
+protected: static bool __cdecl DirectUI::HWNDElement::FindShortcutRecursive(unsigned short,class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,int * __ptr64,int * __ptr64,int)
+public: void __cdecl DirectUI::HWNDElement::FlushWorkingSet(void) __ptr64
+public: virtual long __cdecl DirectUI::HWNDElement::GetAccessibleImpl(struct IAccessible * __ptr64 * __ptr64) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::HWNDElement::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::HWNDElement::GetClassInfoW(void) __ptr64
+public: static class DirectUI::HWNDElement * __ptr64 __cdecl DirectUI::HWNDElement::GetFocusedHWNDElement(void)
+public: virtual struct HWND__ * __ptr64 __cdecl DirectUI::HWNDElement::GetHWND(void) __ptr64
+public: static class DirectUI::Element * __ptr64 __cdecl DirectUI::HWNDElement::GetKeyFocusedElement(void)
+public: unsigned short __cdecl DirectUI::HWNDElement::GetUIState(void) __ptr64
+public: bool __cdecl DirectUI::HWNDElement::GetWrapKeyboardNavigate(void) __ptr64
+public: long __cdecl DirectUI::HWNDElement::Initialize(struct HWND__ * __ptr64,bool,unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: bool __cdecl DirectUI::HWNDElement::IsFirstElement(class DirectUI::Element * __ptr64) __ptr64
+public: bool __cdecl DirectUI::HWNDElement::IsLastElement(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::HWNDElement::OnCompositionChanged(void) __ptr64
+public: virtual void __cdecl DirectUI::HWNDElement::OnDestroy(void) __ptr64
+public: virtual void __cdecl DirectUI::HWNDElement::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::HWNDElement::OnGetDlgCode(struct tagMSG * __ptr64,__int64 * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::HWNDElement::OnGroupChanged(int,bool) __ptr64
+public: virtual void __cdecl DirectUI::HWNDElement::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::HWNDElement::OnNoChildWithShortcutFound(struct DirectUI::KeyboardEvent * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::HWNDElement::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::HWNDElement::OnThemeChanged(struct DirectUI::ThemeChangedEvent * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::HWNDElement::OnWmThemeChanged(unsigned __int64,__int64) __ptr64
+public: static long __cdecl DirectUI::HWNDElement::Register(void)
+public: virtual void __cdecl DirectUI::HWNDElement::RemoveTooltip(class DirectUI::Element * __ptr64) __ptr64
+public: static void __cdecl DirectUI::HWNDElement::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: void __cdecl DirectUI::HWNDElement::SetFocus(bool) __ptr64
+public: void __cdecl DirectUI::HWNDElement::SetParentSizeControl(bool) __ptr64
+public: void __cdecl DirectUI::HWNDElement::SetScreenCenter(bool) __ptr64
+public: long __cdecl DirectUI::HWNDElement::SetWrapKeyboardNavigate(bool) __ptr64
+public: bool __cdecl DirectUI::HWNDElement::ShowAccel(void) __ptr64
+public: bool __cdecl DirectUI::HWNDElement::ShowFocus(void) __ptr64
+public: void __cdecl DirectUI::HWNDElement::ShowUIState(bool,bool) __ptr64
+public: static __int64 __cdecl DirectUI::HWNDElement::StaticWndProc(struct HWND__ * __ptr64,unsigned int,unsigned __int64,__int64)
+public: static class UID __cdecl DirectUI::HWNDElement::ThemeChange(void)
+public: void __cdecl DirectUI::HWNDElement::ToggleUIState(bool,bool) __ptr64
+public: virtual void __cdecl DirectUI::HWNDElement::UpdateTooltip(class DirectUI::Element * __ptr64) __ptr64
+public: virtual __int64 __cdecl DirectUI::HWNDElement::WndProc(struct HWND__ * __ptr64,unsigned int,unsigned __int64,__int64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::HWNDElement::WrapKeyboardNavigateProp(void)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::HWNDElement::s_pClassInfo

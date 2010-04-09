@@ -1,0 +1,28 @@
+public: __cdecl DirectUI::CCBase::CCBase(class DirectUI::CCBase const & __ptr64) __ptr64
+public: __cdecl DirectUI::CCBase::CCBase(unsigned long,unsigned short const * __ptr64) __ptr64
+public: virtual __cdecl DirectUI::CCBase::~CCBase(void) __ptr64
+public: class DirectUI::CCBase & __ptr64 __cdecl DirectUI::CCBase::operator=(class DirectUI::CCBase const & __ptr64) __ptr64
+const DirectUI::CCBase::`vftable'
+public: void __cdecl DirectUI::CCBase::`default constructor closure'(void) __ptr64
+public: static long __cdecl DirectUI::CCBase::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::CCBase::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: virtual struct HWND__ * __ptr64 __cdecl DirectUI::CCBase::CreateHWND(struct HWND__ * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::CCBase::DefaultAction(void) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCBase::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCBase::GetClassInfoW(void) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::CCBase::GetContentSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+public: int __cdecl DirectUI::CCBase::GetWinStyle(void) __ptr64
+public: long __cdecl DirectUI::CCBase::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::CCBase::OnCustomDraw(struct tagNMCUSTOMDRAWINFO * __ptr64,__int64 * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::CCBase::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::CCBase::OnLostDialogFocus(class DirectUI::DialogElement * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::CCBase::OnNotify(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::CCBase::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::CCBase::OnReceivedDialogFocus(class DirectUI::DialogElement * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::CCBase::PostCreate(struct HWND__ * __ptr64) __ptr64
+public: static long __cdecl DirectUI::CCBase::Register(void)
+public: static void __cdecl DirectUI::CCBase::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: void __cdecl DirectUI::CCBase::SetNotifyHandler(int (__cdecl*)(unsigned int,unsigned __int64,__int64,__int64 * __ptr64,void * __ptr64),void * __ptr64) __ptr64
+public: long __cdecl DirectUI::CCBase::SetWinStyle(int) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCBase::WinStyleProp(void)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::CCBase::s_pClassInfo

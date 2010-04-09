@@ -1,0 +1,4 @@
+public: __cdecl DirectUI::IProvider::IProvider(class DirectUI::IProvider const & __ptr64) __ptr64
+public: __cdecl DirectUI::IProvider::IProvider(void) __ptr64
+public: class DirectUI::IProvider & __ptr64 __cdecl DirectUI::IProvider::operator=(class DirectUI::IProvider const & __ptr64) __ptr64
+const DirectUI::IProvider::`vftable'

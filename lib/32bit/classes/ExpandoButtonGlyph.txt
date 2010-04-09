@@ -1,0 +1,15 @@
+public: __thiscall DirectUI::ExpandoButtonGlyph::ExpandoButtonGlyph(class DirectUI::ExpandoButtonGlyph const &)
+public: __thiscall DirectUI::ExpandoButtonGlyph::ExpandoButtonGlyph(void)
+public: virtual __thiscall DirectUI::ExpandoButtonGlyph::~ExpandoButtonGlyph(void)
+public: class DirectUI::ExpandoButtonGlyph & __thiscall DirectUI::ExpandoButtonGlyph::operator=(class DirectUI::ExpandoButtonGlyph const &)
+const DirectUI::ExpandoButtonGlyph::`vftable'
+public: static long __stdcall DirectUI::ExpandoButtonGlyph::Create(unsigned int,class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static long __stdcall DirectUI::ExpandoButtonGlyph::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::ExpandoButtonGlyph::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::ExpandoButtonGlyph::GetClassInfoW(void)
+public: long __thiscall DirectUI::ExpandoButtonGlyph::Initialize(unsigned int,class DirectUI::Element *,unsigned long *)
+public: virtual bool __thiscall DirectUI::ExpandoButtonGlyph::OnLostDialogFocus(class DirectUI::DialogElement *)
+public: virtual bool __thiscall DirectUI::ExpandoButtonGlyph::OnReceivedDialogFocus(class DirectUI::DialogElement *)
+public: static long __stdcall DirectUI::ExpandoButtonGlyph::Register(void)
+public: static void __stdcall DirectUI::ExpandoButtonGlyph::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::ExpandoButtonGlyph::s_pClassInfo

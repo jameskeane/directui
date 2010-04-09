@@ -1,0 +1,30 @@
+public: __cdecl DirectUI::ElementProvider::ElementProvider(void) __ptr64
+public: virtual __cdecl DirectUI::ElementProvider::~ElementProvider(void) __ptr64
+const DirectUI::ElementProvider::`vftable'{for `IRawElementProviderAdviseEvents'}
+const DirectUI::ElementProvider::`vftable'{for `IRawElementProviderFragment'}
+const DirectUI::ElementProvider::`vftable'{for `IRawElementProviderSimple'}
+const DirectUI::ElementProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __cdecl DirectUI::ElementProvider::AddRef(void) __ptr64
+public: virtual long __cdecl DirectUI::ElementProvider::AdviseEventAdded(int,struct tagSAFEARRAY * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ElementProvider::AdviseEventRemoved(int,struct tagSAFEARRAY * __ptr64) __ptr64
+public: static long __cdecl DirectUI::ElementProvider::Create(class DirectUI::Element * __ptr64,class DirectUI::InvokeHelper * __ptr64,class DirectUI::ElementProvider * __ptr64 * __ptr64)
+protected: long __cdecl DirectUI::ElementProvider::DoInvoke(int,...) __ptr64
+public: long __cdecl DirectUI::ElementProvider::DoInvokeArgs(int,class DirectUI::ProviderProxy * __ptr64 (__cdecl*)(class DirectUI::Element * __ptr64),char * __ptr64) __ptr64
+public: virtual class DirectUI::Element const volatile * __ptr64 __cdecl DirectUI::ElementProvider::GetElement(void) __ptr64
+public: class DirectUI::Element const * __ptr64 __cdecl DirectUI::ElementProvider::GetElementKey(void) __ptr64
+public: virtual long __cdecl DirectUI::ElementProvider::GetEmbeddedFragmentRoots(struct tagSAFEARRAY * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ElementProvider::GetPatternProvider(int,struct IUnknown * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ElementProvider::GetPropertyValue(int,struct tagVARIANT * __ptr64) __ptr64
+public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::ElementProvider::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::ElementProvider::GetRuntimeId(struct tagSAFEARRAY * __ptr64 * __ptr64) __ptr64
+protected: virtual long __cdecl DirectUI::ElementProvider::Init(class DirectUI::Element * __ptr64,class DirectUI::InvokeHelper * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ElementProvider::Navigate(enum NavigateDirection,struct IRawElementProviderFragment * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ElementProvider::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+public: virtual unsigned long __cdecl DirectUI::ElementProvider::Release(void) __ptr64
+public: virtual long __cdecl DirectUI::ElementProvider::SetFocus(void) __ptr64
+public: void __cdecl DirectUI::ElementProvider::TossElement(void) __ptr64
+public: void __cdecl DirectUI::ElementProvider::TossPatternProvider(enum DirectUI::Schema::Pattern) __ptr64
+public: virtual long __cdecl DirectUI::ElementProvider::get_BoundingRectangle(struct UiaRect * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ElementProvider::get_FragmentRoot(struct IRawElementProviderFragmentRoot * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ElementProvider::get_HostRawElementProvider(struct IRawElementProviderSimple * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::ElementProvider::get_ProviderOptions(enum ProviderOptions * __ptr64) __ptr64

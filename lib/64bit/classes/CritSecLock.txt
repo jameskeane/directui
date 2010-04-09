@@ -1,0 +1,4 @@
+public: __cdecl DirectUI::CritSecLock::CritSecLock(struct _RTL_CRITICAL_SECTION * __ptr64) __ptr64
+public: __cdecl DirectUI::CritSecLock::~CritSecLock(void) __ptr64
+public: class DirectUI::CritSecLock & __ptr64 __cdecl DirectUI::CritSecLock::operator=(class DirectUI::CritSecLock const & __ptr64) __ptr64
+public: void __cdecl DirectUI::CritSecLock::Unlock(void) __ptr64

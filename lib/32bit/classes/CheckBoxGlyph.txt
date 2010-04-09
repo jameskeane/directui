@@ -1,0 +1,15 @@
+public: __thiscall DirectUI::CheckBoxGlyph::CheckBoxGlyph(class DirectUI::CheckBoxGlyph const &)
+public: __thiscall DirectUI::CheckBoxGlyph::CheckBoxGlyph(void)
+public: virtual __thiscall DirectUI::CheckBoxGlyph::~CheckBoxGlyph(void)
+public: class DirectUI::CheckBoxGlyph & __thiscall DirectUI::CheckBoxGlyph::operator=(class DirectUI::CheckBoxGlyph const &)
+const DirectUI::CheckBoxGlyph::`vftable'
+public: static long __stdcall DirectUI::CheckBoxGlyph::Create(unsigned int,class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static long __stdcall DirectUI::CheckBoxGlyph::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::CheckBoxGlyph::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::CheckBoxGlyph::GetClassInfoW(void)
+public: long __thiscall DirectUI::CheckBoxGlyph::Initialize(unsigned int,class DirectUI::Element *,unsigned long *)
+public: virtual bool __thiscall DirectUI::CheckBoxGlyph::OnLostDialogFocus(class DirectUI::DialogElement *)
+public: virtual bool __thiscall DirectUI::CheckBoxGlyph::OnReceivedDialogFocus(class DirectUI::DialogElement *)
+public: static long __stdcall DirectUI::CheckBoxGlyph::Register(void)
+public: static void __stdcall DirectUI::CheckBoxGlyph::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::CheckBoxGlyph::s_pClassInfo

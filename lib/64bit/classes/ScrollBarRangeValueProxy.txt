@@ -1,0 +1,6 @@
+public: __cdecl DirectUI::ScrollBarRangeValueProxy::ScrollBarRangeValueProxy(class DirectUI::ScrollBarRangeValueProxy const & __ptr64) __ptr64
+public: __cdecl DirectUI::ScrollBarRangeValueProxy::ScrollBarRangeValueProxy(void) __ptr64
+public: class DirectUI::ScrollBarRangeValueProxy & __ptr64 __cdecl DirectUI::ScrollBarRangeValueProxy::operator=(class DirectUI::ScrollBarRangeValueProxy const & __ptr64) __ptr64
+const DirectUI::ScrollBarRangeValueProxy::`vftable'
+public: virtual long __cdecl DirectUI::ScrollBarRangeValueProxy::DoMethod(int,char * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::ScrollBarRangeValueProxy::Init(class DirectUI::Element * __ptr64) __ptr64

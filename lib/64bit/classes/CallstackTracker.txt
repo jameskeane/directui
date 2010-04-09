@@ -1,0 +1,28 @@
+public: __cdecl DirectUI::CallstackTracker::CallstackTracker(void) __ptr64
+public: __cdecl DirectUI::CallstackTracker::~CallstackTracker(void) __ptr64
+public: class DirectUI::CallstackTracker & __ptr64 __cdecl DirectUI::CallstackTracker::operator=(class DirectUI::CallstackTracker const & __ptr64) __ptr64
+public: int __cdecl DirectUI::CallstackTracker::CaptureCallstackFrames(void) __ptr64
+private: static int __cdecl DirectUI::CallstackTracker::DllsLoaded(void)
+public: int __cdecl DirectUI::CallstackTracker::EnumCallstackFrames(void (__cdecl*)(char const * __ptr64,char const * __ptr64,unsigned long,unsigned long)) __ptr64
+private: void __cdecl DirectUI::CallstackTracker::FillSymbolInfo(struct DirectUI::CallstackTracker::STACK_SYMBOL_INFO * __ptr64,unsigned __int64) __ptr64
+private: unsigned __int64 __cdecl DirectUI::CallstackTracker::GetModuleBase(void * __ptr64,unsigned __int64) __ptr64
+private: static int const DirectUI::CallstackTracker::INITIALSTACKSKIP
+public: static int __cdecl DirectUI::CallstackTracker::Init(void)
+private: static int __cdecl DirectUI::CallstackTracker::InitFailed(void)
+private: static int __cdecl DirectUI::CallstackTracker::InitializeDllInfo(void)
+private: static int __cdecl DirectUI::CallstackTracker::InitializeSymbols(void)
+private: static int __cdecl DirectUI::CallstackTracker::IsCorrectImageHlpVersion(void)
+private: static int const DirectUI::CallstackTracker::STACKDEPTH
+public: static void __cdecl DirectUI::CallstackTracker::Uninit(void)
+private: static struct DirectUI::CallstackTracker::IMGHLPFN_LOAD * DirectUI::CallstackTracker::s_ImageHlpFuncList
+private: static int DirectUI::CallstackTracker::s_fInitFailed
+private: static void * __ptr64 __ptr64 DirectUI::CallstackTracker::s_hProcess
+private: static struct HINSTANCE__ * __ptr64 __ptr64 DirectUI::CallstackTracker::s_hinstImageHlp
+private: static struct HINSTANCE__ * __ptr64 __ptr64 DirectUI::CallstackTracker::s_hinstNtDll
+private: static struct API_VERSION * __ptr64 (__cdecl* __ptr64 DirectUI::CallstackTracker::s_pfnImagehlpApiVersionEx)(struct API_VERSION * __ptr64)
+private: static unsigned short (__cdecl* __ptr64 DirectUI::CallstackTracker::s_pfnRtlCaptureStackBackTrace)(unsigned long,unsigned long,void * __ptr64 * __ptr64,unsigned long * __ptr64)
+private: static int (__cdecl* __ptr64 DirectUI::CallstackTracker::s_pfnSymFromAddr)(void * __ptr64,unsigned __int64,unsigned __int64 * __ptr64,struct _SYMBOL_INFO * __ptr64)
+private: static int (__cdecl* __ptr64 DirectUI::CallstackTracker::s_pfnSymGetModuleInfo64)(void * __ptr64,unsigned __int64,struct _IMAGEHLP_MODULE64 * __ptr64)
+private: static int (__cdecl* __ptr64 DirectUI::CallstackTracker::s_pfnSymInitialize)(void * __ptr64,char const * __ptr64,int)
+private: static unsigned __int64 (__cdecl* __ptr64 DirectUI::CallstackTracker::s_pfnSymLoadModule64)(void * __ptr64,void * __ptr64,char const * __ptr64,char const * __ptr64,unsigned __int64,unsigned long)
+private: static unsigned long (__cdecl* __ptr64 DirectUI::CallstackTracker::s_pfnSymSetOptions)(unsigned long)

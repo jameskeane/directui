@@ -1,0 +1,46 @@
+public: __cdecl DirectUI::BaseScrollViewer::BaseScrollViewer(class DirectUI::BaseScrollViewer const & __ptr64) __ptr64
+public: __cdecl DirectUI::BaseScrollViewer::BaseScrollViewer(void) __ptr64
+public: virtual __cdecl DirectUI::BaseScrollViewer::~BaseScrollViewer(void) __ptr64
+public: class DirectUI::BaseScrollViewer & __ptr64 __cdecl DirectUI::BaseScrollViewer::operator=(class DirectUI::BaseScrollViewer const & __ptr64) __ptr64
+const DirectUI::BaseScrollViewer::`vftable'{for `DirectUI::Element'}
+const DirectUI::BaseScrollViewer::`vftable'{for `DirectUI::IElementListener'}
+public: virtual long __cdecl DirectUI::BaseScrollViewer::Add(class DirectUI::Element * __ptr64 * __ptr64,unsigned int) __ptr64
+private: void __cdecl DirectUI::BaseScrollViewer::CheckScroll(class DirectUI::BaseScrollBar * __ptr64,int,int,int) __ptr64
+protected: void __cdecl DirectUI::BaseScrollViewer::FireAnimationChangeEvent(bool) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::BaseScrollViewer::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::BaseScrollViewer::GetClassInfoW(void) __ptr64
+public: int __cdecl DirectUI::BaseScrollViewer::GetPinning(void) __ptr64
+public: int __cdecl DirectUI::BaseScrollViewer::GetXBarVisibility(void) __ptr64
+public: int __cdecl DirectUI::BaseScrollViewer::GetXOffset(void) __ptr64
+public: bool __cdecl DirectUI::BaseScrollViewer::GetXScrollable(void) __ptr64
+public: int __cdecl DirectUI::BaseScrollViewer::GetYBarVisibility(void) __ptr64
+public: int __cdecl DirectUI::BaseScrollViewer::GetYOffset(void) __ptr64
+public: bool __cdecl DirectUI::BaseScrollViewer::GetYScrollable(void) __ptr64
+public: long __cdecl DirectUI::BaseScrollViewer::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::BaseScrollViewer::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::BaseScrollViewer::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::BaseScrollViewer::OnListenedEvent(class DirectUI::Element * __ptr64,struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::BaseScrollViewer::OnListenedInput(class DirectUI::Element * __ptr64,struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::BaseScrollViewer::OnListenedPropertyChanged(class DirectUI::Element * __ptr64,struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::BaseScrollViewer::OnListenedPropertyChanging(class DirectUI::Element * __ptr64,struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::BaseScrollViewer::OnListenerAttach(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::BaseScrollViewer::OnListenerDetach(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::BaseScrollViewer::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::BaseScrollViewer::OnPropertyChanging(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::BaseScrollViewer::PinningProp(void)
+public: static long __cdecl DirectUI::BaseScrollViewer::Register(void)
+public: static void __cdecl DirectUI::BaseScrollViewer::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::BaseScrollViewer::SetPinning(int) __ptr64
+public: long __cdecl DirectUI::BaseScrollViewer::SetXBarVisibility(int) __ptr64
+public: long __cdecl DirectUI::BaseScrollViewer::SetXOffset(int) __ptr64
+public: long __cdecl DirectUI::BaseScrollViewer::SetXScrollable(bool) __ptr64
+public: long __cdecl DirectUI::BaseScrollViewer::SetYBarVisibility(int) __ptr64
+public: long __cdecl DirectUI::BaseScrollViewer::SetYOffset(int) __ptr64
+public: long __cdecl DirectUI::BaseScrollViewer::SetYScrollable(bool) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::BaseScrollViewer::XBarVisibilityProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::BaseScrollViewer::XOffsetProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::BaseScrollViewer::XScrollableProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::BaseScrollViewer::YBarVisibilityProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::BaseScrollViewer::YOffsetProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::BaseScrollViewer::YScrollableProp(void)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::BaseScrollViewer::s_pClassInfo

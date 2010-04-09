@@ -1,0 +1,14 @@
+public: __thiscall DirectUI::CCProgressBar::CCProgressBar(class DirectUI::CCProgressBar const &)
+public: __thiscall DirectUI::CCProgressBar::CCProgressBar(void)
+public: virtual __thiscall DirectUI::CCProgressBar::~CCProgressBar(void)
+public: class DirectUI::CCProgressBar & __thiscall DirectUI::CCProgressBar::operator=(class DirectUI::CCProgressBar const &)
+const DirectUI::CCProgressBar::`vftable'
+public: static long __stdcall DirectUI::CCProgressBar::Create(unsigned int,class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static long __stdcall DirectUI::CCProgressBar::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::CCProgressBar::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::CCProgressBar::GetClassInfoW(void)
+public: long __thiscall DirectUI::CCProgressBar::Initialize(unsigned int,class DirectUI::Element *,unsigned long *)
+public: virtual void __thiscall DirectUI::CCProgressBar::OnInput(struct DirectUI::InputEvent *)
+public: static long __stdcall DirectUI::CCProgressBar::Register(void)
+public: static void __stdcall DirectUI::CCProgressBar::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::CCProgressBar::s_pClassInfo

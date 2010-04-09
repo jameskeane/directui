@@ -1,0 +1,6 @@
+public: __cdecl DirectUI::ProgressRangeValueProxy::ProgressRangeValueProxy(class DirectUI::ProgressRangeValueProxy const & __ptr64) __ptr64
+public: __cdecl DirectUI::ProgressRangeValueProxy::ProgressRangeValueProxy(void) __ptr64
+public: class DirectUI::ProgressRangeValueProxy & __ptr64 __cdecl DirectUI::ProgressRangeValueProxy::operator=(class DirectUI::ProgressRangeValueProxy const & __ptr64) __ptr64
+const DirectUI::ProgressRangeValueProxy::`vftable'
+public: virtual long __cdecl DirectUI::ProgressRangeValueProxy::DoMethod(int,char * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::ProgressRangeValueProxy::Init(class DirectUI::Element * __ptr64) __ptr64

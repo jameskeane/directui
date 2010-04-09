@@ -1,0 +1,17 @@
+public: __cdecl DirectUI::AccessibleButton::AccessibleButton(class DirectUI::AccessibleButton const & __ptr64) __ptr64
+public: __cdecl DirectUI::AccessibleButton::AccessibleButton(void) __ptr64
+public: virtual __cdecl DirectUI::AccessibleButton::~AccessibleButton(void) __ptr64
+public: struct DirectUI::AccessibleButton::ACCESSIBLEROLE & __ptr64 __cdecl DirectUI::AccessibleButton::ACCESSIBLEROLE::operator=(struct DirectUI::AccessibleButton::ACCESSIBLEROLE const & __ptr64) __ptr64
+public: class DirectUI::AccessibleButton & __ptr64 __cdecl DirectUI::AccessibleButton::operator=(class DirectUI::AccessibleButton const & __ptr64) __ptr64
+const DirectUI::AccessibleButton::`vftable'
+public: static long __cdecl DirectUI::AccessibleButton::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+private: static struct DirectUI::AccessibleButton::ACCESSIBLEROLE const * __ptr64 __cdecl DirectUI::AccessibleButton::FindAccessibleRole(int)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::AccessibleButton::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::AccessibleButton::GetClassInfoW(void) __ptr64
+public: long __cdecl DirectUI::AccessibleButton::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::AccessibleButton::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: void __cdecl DirectUI::AccessibleButton::Recalc(void) __ptr64
+public: static long __cdecl DirectUI::AccessibleButton::Register(void)
+public: static void __cdecl DirectUI::AccessibleButton::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+private: static struct DirectUI::AccessibleButton::ACCESSIBLEROLE const * const DirectUI::AccessibleButton::c_rgar
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::AccessibleButton::s_pClassInfo

@@ -1,0 +1,4 @@
+public: __thiscall DirectUI::AutoThread::AutoThread(void)
+public: __thiscall DirectUI::AutoThread::~AutoThread(void)
+public: class DirectUI::AutoThread & __thiscall DirectUI::AutoThread::operator=(class DirectUI::AutoThread const &)
+public: long __thiscall DirectUI::AutoThread::Init(void)

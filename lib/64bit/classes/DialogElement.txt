@@ -1,0 +1,42 @@
+public: __cdecl DirectUI::DialogElement::DialogElement(class DirectUI::DialogElement const & __ptr64) __ptr64
+public: __cdecl DirectUI::DialogElement::DialogElement(void) __ptr64
+public: virtual __cdecl DirectUI::DialogElement::~DialogElement(void) __ptr64
+public: class DirectUI::DialogElement & __ptr64 __cdecl DirectUI::DialogElement::operator=(class DirectUI::DialogElement const & __ptr64) __ptr64
+const DirectUI::DialogElement::`vftable'{for `DirectUI::HWNDElement'}
+const DirectUI::DialogElement::`vftable'{for `DirectUI::IElementListener'}
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::DialogElement::ButtonClassAcceptsEnterKeyProp(void)
+public: virtual bool __cdecl DirectUI::DialogElement::ClickDefaultButton(void) __ptr64
+public: static long __cdecl DirectUI::DialogElement::Create(struct HWND__ * __ptr64,bool,unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::DialogElement::DefaultButtonTrackingProp(void)
+public: bool __cdecl DirectUI::DialogElement::GetButtonClassAcceptsEnterKey(void) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::DialogElement::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::DialogElement::GetClassInfoW(void) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::DialogElement::GetDefaultButton(void) __ptr64
+public: bool __cdecl DirectUI::DialogElement::GetDefaultButtonTracking(void) __ptr64
+public: bool __cdecl DirectUI::DialogElement::GetHandleEnterKey(void) __ptr64
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::DialogElement::GetRegisteredDefaultButton(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::DialogElement::HandleEnterKeyProp(void)
+protected: static bool __cdecl DirectUI::DialogElement::IsButtonEnabledAndVisible(class DirectUI::Element * __ptr64)
+public: virtual bool __cdecl DirectUI::DialogElement::OnChildLostFocus(class DirectUI::Element * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::DialogElement::OnChildReceivedFocus(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::DialogElement::OnDestroy(void) __ptr64
+public: virtual void __cdecl DirectUI::DialogElement::OnGetDlgCode(struct tagMSG * __ptr64,__int64 * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::DialogElement::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::DialogElement::OnKeyFocusMoved(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::DialogElement::OnListenedEvent(class DirectUI::Element * __ptr64,struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::DialogElement::OnListenedInput(class DirectUI::Element * __ptr64,struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::DialogElement::OnListenedPropertyChanged(class DirectUI::Element * __ptr64,struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::DialogElement::OnListenedPropertyChanging(class DirectUI::Element * __ptr64,struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::DialogElement::OnListenerAttach(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::DialogElement::OnListenerDetach(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::DialogElement::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static long __cdecl DirectUI::DialogElement::Register(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::DialogElement::RegisteredDefaultButtonProp(void)
+public: long __cdecl DirectUI::DialogElement::SetButtonClassAcceptsEnterKey(bool) __ptr64
+public: static void __cdecl DirectUI::DialogElement::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::DialogElement::SetDefaultButtonTracking(bool) __ptr64
+public: long __cdecl DirectUI::DialogElement::SetHandleEnterKey(bool) __ptr64
+public: long __cdecl DirectUI::DialogElement::SetRegisteredDefaultButton(class DirectUI::Element * __ptr64) __ptr64
+protected: void __cdecl DirectUI::DialogElement::SetRegisteredDefaultButtonSelectedState(bool) __ptr64
+public: virtual void __cdecl DirectUI::DialogElement::UpdateChildFocus(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::DialogElement::s_pClassInfo

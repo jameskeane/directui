@@ -1,0 +1,21 @@
+public: __cdecl DirectUI::CCCommandLink::CCCommandLink(class DirectUI::CCCommandLink const & __ptr64) __ptr64
+public: __cdecl DirectUI::CCCommandLink::CCCommandLink(unsigned long) __ptr64
+public: virtual __cdecl DirectUI::CCCommandLink::~CCCommandLink(void) __ptr64
+public: class DirectUI::CCCommandLink & __ptr64 __cdecl DirectUI::CCCommandLink::operator=(class DirectUI::CCCommandLink const & __ptr64) __ptr64
+const DirectUI::CCCommandLink::`vftable'
+public: void __cdecl DirectUI::CCCommandLink::`default constructor closure'(void) __ptr64
+public: static long __cdecl DirectUI::CCCommandLink::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::CCCommandLink::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCCommandLink::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCCommandLink::GetClassInfoW(void) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::CCCommandLink::GetContentSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::CCCommandLink::GetNote(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCCommandLink::NoteProp(void)
+public: virtual void __cdecl DirectUI::CCCommandLink::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::CCCommandLink::OnSelectedPropertyChanged(void) __ptr64
+protected: virtual void __cdecl DirectUI::CCCommandLink::PostCreate(struct HWND__ * __ptr64) __ptr64
+public: static long __cdecl DirectUI::CCCommandLink::Register(void)
+public: static void __cdecl DirectUI::CCCommandLink::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::CCCommandLink::SetNote(unsigned short const * __ptr64) __ptr64
+protected: void __cdecl DirectUI::CCCommandLink::SyncNoteAndGlyph(struct HWND__ * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::CCCommandLink::s_pClassInfo

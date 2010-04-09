@@ -1,0 +1,28 @@
+public: __cdecl DirectUI::CCTrackBar::CCTrackBar(class DirectUI::CCTrackBar const & __ptr64) __ptr64
+public: __cdecl DirectUI::CCTrackBar::CCTrackBar(void) __ptr64
+public: virtual __cdecl DirectUI::CCTrackBar::~CCTrackBar(void) __ptr64
+public: class DirectUI::CCTrackBar & __ptr64 __cdecl DirectUI::CCTrackBar::operator=(class DirectUI::CCTrackBar const & __ptr64) __ptr64
+const DirectUI::CCTrackBar::`vftable'
+public: static long __cdecl DirectUI::CCTrackBar::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::CCTrackBar::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCTrackBar::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCTrackBar::GetClassInfoW(void) __ptr64
+public: int __cdecl DirectUI::CCTrackBar::GetLineSize(void) __ptr64
+public: int __cdecl DirectUI::CCTrackBar::GetRangeMax(void) __ptr64
+public: int __cdecl DirectUI::CCTrackBar::GetRangeMin(void) __ptr64
+public: int __cdecl DirectUI::CCTrackBar::GetThumbPosition(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCTrackBar::LineSizeProp(void)
+public: virtual bool __cdecl DirectUI::CCTrackBar::OnMessage(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::CCTrackBar::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::CCTrackBar::OnPropertyChanging(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::CCTrackBar::PostCreate(struct HWND__ * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCTrackBar::RangeMaxProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCTrackBar::RangeMinProp(void)
+public: static long __cdecl DirectUI::CCTrackBar::Register(void)
+public: static void __cdecl DirectUI::CCTrackBar::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::CCTrackBar::SetLineSize(int) __ptr64
+public: long __cdecl DirectUI::CCTrackBar::SetRangeMax(int) __ptr64
+public: long __cdecl DirectUI::CCTrackBar::SetRangeMin(int) __ptr64
+public: long __cdecl DirectUI::CCTrackBar::SetThumbPosition(int) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCTrackBar::ThumbPositionProp(void)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::CCTrackBar::s_pClassInfo

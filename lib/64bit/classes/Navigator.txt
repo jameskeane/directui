@@ -1,0 +1,19 @@
+public: __cdecl DirectUI::Navigator::Navigator(class DirectUI::Navigator const & __ptr64) __ptr64
+public: __cdecl DirectUI::Navigator::Navigator(void) __ptr64
+public: virtual __cdecl DirectUI::Navigator::~Navigator(void) __ptr64
+public: class DirectUI::Navigator & __ptr64 __cdecl DirectUI::Navigator::operator=(class DirectUI::Navigator const & __ptr64) __ptr64
+const DirectUI::Navigator::`vftable'
+public: static class UID __cdecl DirectUI::Navigator::ActionInitiated(void)
+public: static long __cdecl DirectUI::Navigator::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+private: void __cdecl DirectUI::Navigator::FireNavigationEvent(void) __ptr64
+public: class DirectUI::Browser * __ptr64 __cdecl DirectUI::Navigator::GetBrowser(void) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Navigator::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Navigator::GetClassInfoW(void) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Navigator::GetTargetPage(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: long __cdecl DirectUI::Navigator::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Navigator::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: static long __cdecl DirectUI::Navigator::Register(void)
+public: static void __cdecl DirectUI::Navigator::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::Navigator::SetTargetPage(unsigned short const * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Navigator::TargetPageProp(void)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Navigator::s_pClassInfo

@@ -1,0 +1,2 @@
+public: class DirectUI::Expression & __thiscall DirectUI::Expression::operator=(class DirectUI::Expression const &)
+public: void __thiscall DirectUI::Expression::Destroy(void)

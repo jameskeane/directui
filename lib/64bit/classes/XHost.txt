@@ -1,0 +1,13 @@
+public: __cdecl DirectUI::XHost::XHost(void) __ptr64
+public: __cdecl DirectUI::XHost::~XHost(void) __ptr64
+public: class DirectUI::XHost & __ptr64 __cdecl DirectUI::XHost::operator=(class DirectUI::XHost const & __ptr64) __ptr64
+public: static long __cdecl DirectUI::XHost::Create(class DirectUI::IXElementCP * __ptr64,class DirectUI::XHost * __ptr64 * __ptr64)
+public: void __cdecl DirectUI::XHost::Destroy(void) __ptr64
+public: void __cdecl DirectUI::XHost::DestroyWindow(void) __ptr64
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::XHost::GetElement(void) __ptr64
+public: struct HWND__ * __ptr64 __cdecl DirectUI::XHost::GetHWND(void) __ptr64
+public: void __cdecl DirectUI::XHost::HideWindow(void) __ptr64
+public: void __cdecl DirectUI::XHost::Host(class DirectUI::Element * __ptr64) __ptr64
+public: long __cdecl DirectUI::XHost::Initialize(class DirectUI::IXElementCP * __ptr64) __ptr64
+public: void __cdecl DirectUI::XHost::ShowWindow(int) __ptr64
+public: static __int64 __cdecl DirectUI::XHost::WndProc(struct HWND__ * __ptr64,unsigned int,unsigned __int64,__int64)

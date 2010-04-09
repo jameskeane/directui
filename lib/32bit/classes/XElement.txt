@@ -1,0 +1,31 @@
+public: __thiscall DirectUI::XElement::XElement(class DirectUI::XElement const &)
+public: __thiscall DirectUI::XElement::XElement(void)
+public: virtual __thiscall DirectUI::XElement::~XElement(void)
+public: class DirectUI::XElement & __thiscall DirectUI::XElement::operator=(class DirectUI::XElement const &)
+const DirectUI::XElement::`vftable'{for `DirectUI::HWNDHost'}
+const DirectUI::XElement::`vftable'{for `DirectUI::IXElementCP'}
+public: static long __stdcall DirectUI::XElement::Create(unsigned int,class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static long __stdcall DirectUI::XElement::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: virtual struct HWND__ * __thiscall DirectUI::XElement::CreateHWND(struct HWND__ *)
+public: void __thiscall DirectUI::XElement::FreeProvider(void)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::XElement::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::XElement::GetClassInfoW(void)
+public: struct HWND__ * __thiscall DirectUI::XElement::GetInnerHWND(void)
+public: virtual struct HWND__ * __thiscall DirectUI::XElement::GetNotificationSinkHWND(void)
+public: struct DirectUI::IXProvider * __thiscall DirectUI::XElement::GetProvider(void)
+public: long __thiscall DirectUI::XElement::Initialize(unsigned int,class DirectUI::Element *,unsigned long *)
+public: bool __thiscall DirectUI::XElement::IsDescendent(class DirectUI::Element *)
+public: virtual void __thiscall DirectUI::XElement::OnEvent(struct DirectUI::Event *)
+public: virtual void __thiscall DirectUI::XElement::OnInput(struct DirectUI::InputEvent *)
+public: virtual bool __thiscall DirectUI::XElement::OnMessage(unsigned int,unsigned int,long,long *)
+public: virtual bool __thiscall DirectUI::XElement::OnSinkThemeChanged(unsigned int,unsigned int,long,long *)
+public: virtual bool __thiscall DirectUI::XElement::OnSysChar(unsigned short)
+public: static long __stdcall DirectUI::XElement::Register(void)
+public: static void __stdcall DirectUI::XElement::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+public: virtual void __thiscall DirectUI::XElement::SetKeyFocus(void)
+public: long __thiscall DirectUI::XElement::SetProvider(struct IUnknown *)
+public: static class UID __stdcall DirectUI::XElement::UnhandledSyschar(void)
+private: static struct DirectUI::IClassInfo * DirectUI::XElement::s_pClassInfo
+public: static unsigned int const DirectUI::XElement::s_uButtonFocusChangeMsg
+public: static unsigned int const DirectUI::XElement::s_uNavigateOutMsg
+public: static unsigned int const DirectUI::XElement::s_uUnhandledSyscharMsg

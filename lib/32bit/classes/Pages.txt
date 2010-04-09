@@ -1,0 +1,17 @@
+public: __thiscall DirectUI::Pages::Pages(class DirectUI::Pages const &)
+public: __thiscall DirectUI::Pages::Pages(void)
+public: virtual __thiscall DirectUI::Pages::~Pages(void)
+public: class DirectUI::Pages & __thiscall DirectUI::Pages::operator=(class DirectUI::Pages const &)
+const DirectUI::Pages::`vftable'
+public: virtual long __thiscall DirectUI::Pages::Add(class DirectUI::Element * *,unsigned int)
+public: static long __stdcall DirectUI::Pages::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::Pages::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::Pages::GetClassInfoW(void)
+public: unsigned int __thiscall DirectUI::Pages::GetCount(void)
+public: class DirectUI::Element * __thiscall DirectUI::Pages::GetPage(unsigned int)
+public: class DirectUI::Element * __thiscall DirectUI::Pages::GetPage(unsigned short const *)
+public: long __thiscall DirectUI::Pages::Initialize(class DirectUI::Element *,unsigned long *)
+public: static long __stdcall DirectUI::Pages::Register(void)
+public: static void __stdcall DirectUI::Pages::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+public: void __thiscall DirectUI::Pages::SetNoBrowseOnFirstAdd(void)
+private: static struct DirectUI::IClassInfo * DirectUI::Pages::s_pClassInfo

@@ -1,0 +1,14 @@
+public: __thiscall DirectUI::SelectionItemProvider::SelectionItemProvider(void)
+public: virtual __thiscall DirectUI::SelectionItemProvider::~SelectionItemProvider(void)
+const DirectUI::SelectionItemProvider::`vftable'
+const DirectUI::SelectionItemProvider::`vftable'{for `DirectUI::IProvider'}
+const DirectUI::SelectionItemProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __stdcall DirectUI::SelectionItemProvider::AddRef(void)
+public: virtual long __stdcall DirectUI::SelectionItemProvider::AddToSelection(void)
+public: virtual class DirectUI::ProviderProxy * (__stdcall*__thiscall DirectUI::SelectionItemProvider::GetProxyCreator(void))(class DirectUI::Element *)
+public: virtual long __stdcall DirectUI::SelectionItemProvider::QueryInterface(struct _GUID const &,void * *)
+public: virtual unsigned long __stdcall DirectUI::SelectionItemProvider::Release(void)
+public: virtual long __stdcall DirectUI::SelectionItemProvider::RemoveFromSelection(void)
+public: virtual long __stdcall DirectUI::SelectionItemProvider::Select(void)
+public: virtual long __stdcall DirectUI::SelectionItemProvider::get_IsSelected(int *)
+public: virtual long __stdcall DirectUI::SelectionItemProvider::get_SelectionContainer(struct IRawElementProviderSimple * *)

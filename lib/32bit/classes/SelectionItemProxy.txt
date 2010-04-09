@@ -1,0 +1,8 @@
+protected: __thiscall DirectUI::SelectionItemProxy::SelectionItemProxy(void)
+public: __thiscall DirectUI::SelectionItemProxy::SelectionItemProxy(class DirectUI::SelectionItemProxy const &)
+public: class DirectUI::SelectionItemProxy & __thiscall DirectUI::SelectionItemProxy::operator=(class DirectUI::SelectionItemProxy const &)
+const DirectUI::SelectionItemProxy::`vftable'
+public: static class DirectUI::SelectionItemProxy * __stdcall DirectUI::SelectionItemProxy::Create(class DirectUI::Element *)
+public: virtual long __thiscall DirectUI::SelectionItemProxy::DoMethod(int,char *)
+protected: virtual void __thiscall DirectUI::SelectionItemProxy::Init(class DirectUI::Element *)
+public: static bool __stdcall DirectUI::SelectionItemProxy::IsPatternSupported(class DirectUI::Element *)

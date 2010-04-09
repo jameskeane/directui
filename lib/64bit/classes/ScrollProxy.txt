@@ -1,0 +1,20 @@
+public: __cdecl DirectUI::ScrollProxy::ScrollProxy(class DirectUI::ScrollProxy const & __ptr64) __ptr64
+public: __cdecl DirectUI::ScrollProxy::ScrollProxy(void) __ptr64
+public: class DirectUI::ScrollProxy & __ptr64 __cdecl DirectUI::ScrollProxy::operator=(class DirectUI::ScrollProxy const & __ptr64) __ptr64
+const DirectUI::ScrollProxy::`vftable'
+public: static class DirectUI::ScrollProxy * __ptr64 __cdecl DirectUI::ScrollProxy::Create(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::ScrollProxy::DoMethod(int,char * __ptr64) __ptr64
+private: class DirectUI::BaseScrollBar * __ptr64 __cdecl DirectUI::ScrollProxy::GetScrollBar(bool) __ptr64
+private: long __cdecl DirectUI::ScrollProxy::GetScrollPercent(bool,double * __ptr64) __ptr64
+private: long __cdecl DirectUI::ScrollProxy::GetScrollable(bool,int * __ptr64) __ptr64
+private: long __cdecl DirectUI::ScrollProxy::GetViewSize(bool,double * __ptr64) __ptr64
+private: long __cdecl DirectUI::ScrollProxy::GetViewer(class DirectUI::Viewer * __ptr64 * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::ScrollProxy::Init(class DirectUI::Element * __ptr64) __ptr64
+public: static bool __cdecl DirectUI::ScrollProxy::IsPatternSupported(class DirectUI::Element * __ptr64)
+private: long __cdecl DirectUI::ScrollProxy::Scroll(enum ScrollAmount,enum ScrollAmount) __ptr64
+private: long __cdecl DirectUI::ScrollProxy::ScrollLine(bool,bool) __ptr64
+private: long __cdecl DirectUI::ScrollProxy::ScrollPage(bool,bool) __ptr64
+private: long __cdecl DirectUI::ScrollProxy::ScrollToHorizontalPosition(int,bool) __ptr64
+private: long __cdecl DirectUI::ScrollProxy::ScrollToVerticalPosition(int,bool) __ptr64
+private: long __cdecl DirectUI::ScrollProxy::SetPercent(class DirectUI::BaseScrollBar * __ptr64,double) __ptr64
+private: long __cdecl DirectUI::ScrollProxy::SetScrollPercent(double,double) __ptr64

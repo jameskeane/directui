@@ -1,0 +1,12 @@
+public: __thiscall DirectUI::RowLayout::RowLayout(class DirectUI::RowLayout const &)
+public: __thiscall DirectUI::RowLayout::RowLayout(void)
+public: virtual __thiscall DirectUI::RowLayout::~RowLayout(void)
+public: class DirectUI::RowLayout & __thiscall DirectUI::RowLayout::operator=(class DirectUI::RowLayout const &)
+const DirectUI::RowLayout::`vftable'
+public: static long __stdcall DirectUI::RowLayout::Create(int,unsigned int,unsigned int,class DirectUI::Layout * *)
+public: static long __stdcall DirectUI::RowLayout::Create(int,int *,class DirectUI::Value * *)
+public: static long __stdcall DirectUI::RowLayout::Create(unsigned int,unsigned int,class DirectUI::Layout * *)
+public: virtual void __thiscall DirectUI::RowLayout::DoLayout(class DirectUI::Element *,int,int)
+public: virtual class DirectUI::Element * __thiscall DirectUI::RowLayout::GetAdjacent(class DirectUI::Element *,class DirectUI::Element *,int,struct DirectUI::NavReference const *,unsigned long)
+public: long __thiscall DirectUI::RowLayout::Initialize(int,unsigned int,unsigned int)
+public: virtual struct tagSIZE __thiscall DirectUI::RowLayout::UpdateDesiredSize(class DirectUI::Element *,int,int,class DirectUI::Surface *)

@@ -1,0 +1,4 @@
+public: __thiscall DirectUI::CritSecLock::CritSecLock(struct _RTL_CRITICAL_SECTION *)
+public: __thiscall DirectUI::CritSecLock::~CritSecLock(void)
+public: class DirectUI::CritSecLock & __thiscall DirectUI::CritSecLock::operator=(class DirectUI::CritSecLock const &)
+public: void __thiscall DirectUI::CritSecLock::Unlock(void)

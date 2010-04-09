@@ -1,0 +1,114 @@
+public: __cdecl DirectUI::DUIXmlParser::DUIXmlParser(class DirectUI::DUIXmlParser const & __ptr64) __ptr64
+public: __cdecl DirectUI::DUIXmlParser::DUIXmlParser(void) __ptr64
+public: virtual __cdecl DirectUI::DUIXmlParser::~DUIXmlParser(void) __ptr64
+public: struct DirectUI::DUIXmlParser::FunctionDefinition<int> & __ptr64 __cdecl DirectUI::DUIXmlParser::FunctionDefinition<int>::operator=(struct DirectUI::DUIXmlParser::FunctionDefinition<int> const & __ptr64) __ptr64
+public: struct DirectUI::DUIXmlParser::FunctionDefinition<unsigned long> & __ptr64 __cdecl DirectUI::DUIXmlParser::FunctionDefinition<unsigned long>::operator=(struct DirectUI::DUIXmlParser::FunctionDefinition<unsigned long> const & __ptr64) __ptr64
+public: struct DirectUI::DUIXmlParser::FunctionDefinition<class DirectUI::Value * __ptr64> & __ptr64 __cdecl DirectUI::DUIXmlParser::FunctionDefinition<class DirectUI::Value * __ptr64>::operator=(struct DirectUI::DUIXmlParser::FunctionDefinition<class DirectUI::Value * __ptr64> const & __ptr64) __ptr64
+public: struct DirectUI::DUIXmlParser::FunctionDefinition<struct tagRECT> & __ptr64 __cdecl DirectUI::DUIXmlParser::FunctionDefinition<struct tagRECT>::operator=(struct DirectUI::DUIXmlParser::FunctionDefinition<struct tagRECT> const & __ptr64) __ptr64
+public: class DirectUI::DUIXmlParser & __ptr64 __cdecl DirectUI::DUIXmlParser::operator=(class DirectUI::DUIXmlParser const & __ptr64) __ptr64
+const DirectUI::DUIXmlParser::`vftable'
+protected: long __cdecl DirectUI::DUIXmlParser::AddRulesToStyleSheet(struct IXmlReader * __ptr64,class DirectUI::StyleSheet * __ptr64,unsigned short const * __ptr64,class DirectUI::DynamicArray<struct DirectUI::XMLParserCond,0> * __ptr64,class DirectUI::DynamicArray<unsigned short * __ptr64,0> * __ptr64) __ptr64
+public: static long __cdecl DirectUI::DUIXmlParser::Create(class DirectUI::DUIXmlParser * __ptr64 * __ptr64,class DirectUI::Value * __ptr64 (__cdecl*)(unsigned short const * __ptr64,void * __ptr64),void * __ptr64,void (__cdecl*)(unsigned short const * __ptr64,unsigned short const * __ptr64,int,void * __ptr64),void * __ptr64)
+public: long __cdecl DirectUI::DUIXmlParser::CreateElement(unsigned short const * __ptr64,class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::CreateLayout(struct DirectUI::ParserTools::ExprNode const * __ptr64,long (__cdecl*)(int,int * __ptr64,class DirectUI::Value * __ptr64 * __ptr64)) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::CreateStyleSheet(struct IXmlReader * __ptr64,unsigned short const * __ptr64,class DirectUI::StyleSheet * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::CreateXmlReader(struct IXmlReader * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::CreateXmlReaderFromHGLOBAL(void * __ptr64,struct IXmlReader * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::CreateXmlReaderInputWithEncodingName(struct IStream * __ptr64,unsigned short const * __ptr64,struct IUnknown * __ptr64 * __ptr64) __ptr64
+public: void __cdecl DirectUI::DUIXmlParser::Destroy(void) __ptr64
+public: void __cdecl DirectUI::DUIXmlParser::EnableDesignMode(void) __ptr64
+public: class DirectUI::Value * __ptr64 (__cdecl*__cdecl DirectUI::DUIXmlParser::GetGetSheetCallback(void) __ptr64)(unsigned short const * __ptr64,void * __ptr64)
+public: struct HINSTANCE__ * __ptr64 __cdecl DirectUI::DUIXmlParser::GetHInstance(void) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::GetParserCommon(class DirectUI::DUIXmlParser * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::GetPropValPairInfo(struct IXmlReader * __ptr64,struct DirectUI::IClassInfo * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,struct DirectUI::PropertyInfo const * __ptr64 * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::GetPropValPairInfo(struct DirectUI::LINEINFO,struct DirectUI::IClassInfo * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,struct DirectUI::PropertyInfo const * __ptr64 * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: struct HINSTANCE__ * __ptr64 __cdecl DirectUI::DUIXmlParser::GetResourceHInstance(void) __ptr64
+public: long __cdecl DirectUI::DUIXmlParser::GetSheet(unsigned short const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: void * __ptr64 __cdecl DirectUI::DUIXmlParser::GetSheetContext(void) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::GetValueParser(class DirectUI::ParserTools::ValueParser * __ptr64 * __ptr64) __ptr64
+protected: static long __cdecl DirectUI::DUIXmlParser::GetXmlLiteDll(struct HINSTANCE__ * __ptr64 * __ptr64)
+protected: long __cdecl DirectUI::DUIXmlParser::Initialize(void) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::InitializeParserFromXmlLiteReader(struct IXmlReader * __ptr64) __ptr64
+protected: static bool __cdecl DirectUI::DUIXmlParser::IsThemeClassName(struct DirectUI::ParserTools::ExprNode const * __ptr64)
+public: long __cdecl DirectUI::DUIXmlParser::LookupElement(struct IXmlReader * __ptr64,unsigned short const * __ptr64,struct HINSTANCE__ * __ptr64,struct DirectUI::IClassInfo * __ptr64 * __ptr64) __ptr64
+public: long __cdecl DirectUI::DUIXmlParser::LookupElement(struct DirectUI::LINEINFO,unsigned short const * __ptr64,struct HINSTANCE__ * __ptr64,struct DirectUI::IClassInfo * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::MapPropertyEnumValue(struct DirectUI::EnumMap const * __ptr64,unsigned short const * __ptr64,int * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::MapPropertyNameToPropertyInfo(struct DirectUI::LINEINFO,struct DirectUI::IClassInfo * __ptr64,unsigned short const * __ptr64,struct DirectUI::PropertyInfo const * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseARGBColor(struct DirectUI::ParserTools::ExprNode const * __ptr64,unsigned long * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseArgs(struct DirectUI::ParserTools::ExprNode const * __ptr64,union DirectUI::DUIXmlParser::ParsedArg * __ptr64,unsigned int,char const * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseAtomValue(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseBoolValue(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseColor(struct DirectUI::ParserTools::ExprNode const * __ptr64,unsigned long * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseDFCFill(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseDTBFill(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseFillValue(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseFunction(unsigned short const * __ptr64,struct DirectUI::ParserTools::ExprNode const * __ptr64,union DirectUI::DUIXmlParser::ParsedArg * __ptr64,unsigned int,char const * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseGTCColor(struct DirectUI::ParserTools::ExprNode const * __ptr64,unsigned long * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseGTFStr(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseGTMarRect(struct DirectUI::ParserTools::ExprNode const * __ptr64,struct tagRECT * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseGTMetInt(struct DirectUI::ParserTools::ExprNode const * __ptr64,int * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseGradientFill(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseGraphicGraphic(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseGraphicHelper(bool,struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseGraphicValue(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseIconGraphic(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseImageGraphic(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseIntValue(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseLayoutValue(struct DirectUI::ParserTools::ExprNode const * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseLibrary(struct DirectUI::ParserTools::ExprNode const * __ptr64,struct HINSTANCE__ * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseLiteral(struct DirectUI::ParserTools::ExprNode const * __ptr64,unsigned short const * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseLiteralColor(unsigned short const * __ptr64,unsigned long * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseLiteralColorInt(unsigned short const * __ptr64,int * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseLiteralNumber(unsigned short const * __ptr64,int * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseMagnitude(unsigned short const * __ptr64,int * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseNumber(struct DirectUI::ParserTools::ExprNode const * __ptr64,int * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParsePointValue(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseQuotedString(struct DirectUI::ParserTools::ExprNode const * __ptr64,unsigned short const * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseRGBColor(struct DirectUI::ParserTools::ExprNode const * __ptr64,unsigned long * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseRect(struct DirectUI::ParserTools::ExprNode const * __ptr64,struct tagRECT * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseRectRect(struct DirectUI::ParserTools::ExprNode const * __ptr64,struct tagRECT * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseRectValue(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseResStr(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseResid(struct DirectUI::ParserTools::ExprNode const * __ptr64,unsigned short const * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseSGraphicGraphic(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseSGraphicHelper(bool,struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseSizeValue(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseStringValue(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseStyleSheets(struct IXmlReader * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseSysMetricInt(struct DirectUI::ParserTools::ExprNode const * __ptr64,int * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseSysMetricStr(struct DirectUI::ParserTools::ExprNode const * __ptr64,class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::ParseTheme(struct DirectUI::ParserTools::ExprNode const * __ptr64,void * __ptr64 * __ptr64) __ptr64
+protected: static int __cdecl DirectUI::DUIXmlParser::QuerySysMetric(int)
+protected: static unsigned short const * __ptr64 __cdecl DirectUI::DUIXmlParser::QuerySysMetricStr(int,unsigned short * __ptr64,unsigned int)
+protected: void __cdecl DirectUI::DUIXmlParser::ReturnValueParser(class DirectUI::ParserTools::ValueParser * __ptr64) __ptr64
+protected: void __cdecl DirectUI::DUIXmlParser::SendParseError(unsigned short const * __ptr64,unsigned short const * __ptr64,int,int,long) __ptr64
+protected: void __cdecl DirectUI::DUIXmlParser::SendParseError(unsigned short const * __ptr64,unsigned short const * __ptr64,struct IXmlReader * __ptr64,long) __ptr64
+public: void __cdecl DirectUI::DUIXmlParser::SetDefaultHInstance(struct HINSTANCE__ * __ptr64) __ptr64
+public: void __cdecl DirectUI::DUIXmlParser::SetGetSheetCallback(class DirectUI::Value * __ptr64 (__cdecl*)(unsigned short const * __ptr64,void * __ptr64),void * __ptr64) __ptr64
+public: void __cdecl DirectUI::DUIXmlParser::SetParseErrorCallback(void (__cdecl*)(unsigned short const * __ptr64,unsigned short const * __ptr64,int,void * __ptr64),void * __ptr64) __ptr64
+private: void __cdecl DirectUI::DUIXmlParser::SetParseState(enum DirectUI::_DUI_PARSE_STATE) __ptr64
+public: long __cdecl DirectUI::DUIXmlParser::SetPreprocessedXML(unsigned short const * __ptr64,struct HINSTANCE__ * __ptr64,struct HINSTANCE__ * __ptr64) __ptr64
+public: void __cdecl DirectUI::DUIXmlParser::SetUnavailableIcon(struct HICON__ * __ptr64) __ptr64
+public: void __cdecl DirectUI::DUIXmlParser::SetUnknownAttrCallback(bool (__cdecl*)(unsigned short const * __ptr64,void * __ptr64),void * __ptr64) __ptr64
+public: long __cdecl DirectUI::DUIXmlParser::SetXML(unsigned short const * __ptr64,struct HINSTANCE__ * __ptr64,struct HINSTANCE__ * __ptr64) __ptr64
+public: long __cdecl DirectUI::DUIXmlParser::SetXMLFromResource(unsigned int,struct HINSTANCE__ * __ptr64,struct HINSTANCE__ * __ptr64) __ptr64
+public: long __cdecl DirectUI::DUIXmlParser::SetXMLFromResource(unsigned short const * __ptr64,struct HINSTANCE__ * __ptr64,struct HINSTANCE__ * __ptr64) __ptr64
+public: long __cdecl DirectUI::DUIXmlParser::UpdateSheets(class DirectUI::Element * __ptr64) __ptr64
+public: void __cdecl DirectUI::DUIXmlParser::_DestroyTables(void) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::_EnterOnCurrentThread(void) __ptr64
+protected: struct DirectUI::LINEINFO __cdecl DirectUI::DUIXmlParser::_GetLineInfo(struct IXmlReader * __ptr64) __ptr64
+public: long __cdecl DirectUI::DUIXmlParser::_InitializeTables(void) __ptr64
+protected: void __cdecl DirectUI::DUIXmlParser::_LeaveOnCurrentThread(void) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::_RecordElementLayout(struct IXmlReader * __ptr64,unsigned short const * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::_RecordElementStyleSheet(unsigned short const * __ptr64,bool) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::_RecordElementTrees(struct IXmlReader * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::_RecordElementWithChildren(struct IXmlReader * __ptr64,bool,unsigned short * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::_RecordInstantiateElement(struct IXmlReader * __ptr64,unsigned short * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::_RecordSetElementProperties(struct IXmlReader * __ptr64) __ptr64
+protected: long __cdecl DirectUI::DUIXmlParser::_RecordSetValue(struct IXmlReader * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64
+protected: static struct DirectUI::DUIXmlParser::FunctionDefinition<unsigned long> const * const DirectUI::DUIXmlParser::s_fdClr
+protected: static struct DirectUI::DUIXmlParser::FunctionDefinition<class DirectUI::Value * __ptr64> const * const DirectUI::DUIXmlParser::s_fdFill
+protected: static struct DirectUI::DUIXmlParser::FunctionDefinition<class DirectUI::Value * __ptr64> const * const DirectUI::DUIXmlParser::s_fdGraphic
+protected: static struct DirectUI::DUIXmlParser::FunctionDefinition<int> const * const DirectUI::DUIXmlParser::s_fdInt
+protected: static struct DirectUI::DUIXmlParser::FunctionDefinition<struct tagRECT> const * const DirectUI::DUIXmlParser::s_fdRect
+protected: static struct DirectUI::DUIXmlParser::FunctionDefinition<class DirectUI::Value * __ptr64> const * const DirectUI::DUIXmlParser::s_fdString

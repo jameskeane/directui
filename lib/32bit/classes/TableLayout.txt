@@ -1,0 +1,12 @@
+public: __thiscall DirectUI::TableLayout::TableLayout(class DirectUI::TableLayout const &)
+public: __thiscall DirectUI::TableLayout::TableLayout(void)
+public: virtual __thiscall DirectUI::TableLayout::~TableLayout(void)
+public: class DirectUI::TableLayout & __thiscall DirectUI::TableLayout::operator=(class DirectUI::TableLayout const &)
+const DirectUI::TableLayout::`vftable'
+public: static long __stdcall DirectUI::TableLayout::Create(int,int *,class DirectUI::Value * *)
+public: virtual void __thiscall DirectUI::TableLayout::DoLayout(class DirectUI::Element *,int,int)
+public: virtual class DirectUI::Element * __thiscall DirectUI::TableLayout::GetAdjacent(class DirectUI::Element *,class DirectUI::Element *,int,struct DirectUI::NavReference const *,unsigned long)
+public: struct DirectUI::CellInfo * __thiscall DirectUI::TableLayout::GetCellInfo(int)
+public: void __thiscall DirectUI::TableLayout::Initialize(int,int,int,int *)
+public: static long __stdcall DirectUI::TableLayout::InternalCreate(int,int,int,int *,class DirectUI::Layout * *)
+public: virtual struct tagSIZE __thiscall DirectUI::TableLayout::UpdateDesiredSize(class DirectUI::Element *,int,int,class DirectUI::Surface *)

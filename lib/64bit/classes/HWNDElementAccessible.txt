@@ -1,0 +1,11 @@
+public: __cdecl DirectUI::HWNDElementAccessible::HWNDElementAccessible(void) __ptr64
+public: virtual __cdecl DirectUI::HWNDElementAccessible::~HWNDElementAccessible(void) __ptr64
+const DirectUI::HWNDElementAccessible::`vftable'{for `IAccIdentity'}
+const DirectUI::HWNDElementAccessible::`vftable'{for `IAccessible'}
+const DirectUI::HWNDElementAccessible::`vftable'{for `IEnumVARIANT'}
+const DirectUI::HWNDElementAccessible::`vftable'{for `IOleWindow'}
+const DirectUI::HWNDElementAccessible::`vftable'{for `IServiceProvider'}
+public: static long __cdecl DirectUI::HWNDElementAccessible::Create(class DirectUI::HWNDElement * __ptr64,class DirectUI::DuiAccessible * __ptr64 * __ptr64)
+public: virtual long __cdecl DirectUI::HWNDElementAccessible::Disconnect(void) __ptr64
+public: long __cdecl DirectUI::HWNDElementAccessible::Initialize(class DirectUI::HWNDElement * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::HWNDElementAccessible::get_accParent(struct IDispatch * __ptr64 * __ptr64) __ptr64

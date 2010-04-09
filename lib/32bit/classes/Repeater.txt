@@ -1,0 +1,14 @@
+public: __thiscall DirectUI::Repeater::Repeater(class DirectUI::Repeater const &)
+public: __thiscall DirectUI::Repeater::Repeater(void)
+public: virtual __thiscall DirectUI::Repeater::~Repeater(void)
+public: class DirectUI::Repeater & __thiscall DirectUI::Repeater::operator=(class DirectUI::Repeater const &)
+const DirectUI::Repeater::`vftable'
+protected: virtual long __thiscall DirectUI::Repeater::BuildElement(void)
+public: static long __stdcall DirectUI::Repeater::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::Repeater::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::Repeater::GetClassInfoW(void)
+public: long __thiscall DirectUI::Repeater::Initialize(class DirectUI::Element *,unsigned long *)
+public: static long __stdcall DirectUI::Repeater::Register(void)
+public: static void __stdcall DirectUI::Repeater::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+public: void __thiscall DirectUI::Repeater::SetDataEngine(struct DirectUI::IDataEngine *)
+private: static struct DirectUI::IClassInfo * DirectUI::Repeater::s_pClassInfo

@@ -1,0 +1,13 @@
+public: __cdecl DirectUI::UnknownElement::UnknownElement(class DirectUI::UnknownElement const & __ptr64) __ptr64
+public: __cdecl DirectUI::UnknownElement::UnknownElement(void) __ptr64
+public: virtual __cdecl DirectUI::UnknownElement::~UnknownElement(void) __ptr64
+public: class DirectUI::UnknownElement & __ptr64 __cdecl DirectUI::UnknownElement::operator=(class DirectUI::UnknownElement const & __ptr64) __ptr64
+const DirectUI::UnknownElement::`vftable'
+public: static long __cdecl DirectUI::UnknownElement::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::UnknownElement::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::UnknownElement::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::UnknownElement::GetClassInfoW(void) __ptr64
+public: long __cdecl DirectUI::UnknownElement::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: static long __cdecl DirectUI::UnknownElement::Register(void)
+public: static void __cdecl DirectUI::UnknownElement::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::UnknownElement::s_pClassInfo

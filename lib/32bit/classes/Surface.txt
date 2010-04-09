@@ -1,0 +1,8 @@
+public: __thiscall DirectUI::Surface::Surface(class DirectUI::Surface const &)
+public: __thiscall DirectUI::Surface::Surface(void)
+public: virtual __thiscall DirectUI::Surface::~Surface(void)
+public: class DirectUI::Surface & __thiscall DirectUI::Surface::operator=(class DirectUI::Surface const &)
+const DirectUI::Surface::`vftable'
+public: static enum DirectUI::Surface::EType __stdcall DirectUI::Surface::GetSurfaceType(unsigned int)
+public: static unsigned int __stdcall DirectUI::Surface::GetSurfaceType(enum DirectUI::Surface::EType)
+public: virtual enum DirectUI::Surface::EType __thiscall DirectUI::DCSurface::GetType(void)const 

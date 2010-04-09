@@ -1,0 +1,25 @@
+public: __cdecl DirectUI::Combobox::Combobox(class DirectUI::Combobox const & __ptr64) __ptr64
+public: __cdecl DirectUI::Combobox::Combobox(void) __ptr64
+public: virtual __cdecl DirectUI::Combobox::~Combobox(void) __ptr64
+public: class DirectUI::Combobox & __ptr64 __cdecl DirectUI::Combobox::operator=(class DirectUI::Combobox const & __ptr64) __ptr64
+const DirectUI::Combobox::`vftable'
+public: int __cdecl DirectUI::Combobox::AddString(unsigned short const * __ptr64) __ptr64
+public: static long __cdecl DirectUI::Combobox::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::Combobox::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: virtual struct HWND__ * __ptr64 __cdecl DirectUI::Combobox::CreateHWND(struct HWND__ * __ptr64) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Combobox::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Combobox::GetClassInfoW(void) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::Combobox::GetContentSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+public: int __cdecl DirectUI::Combobox::GetSelection(void) __ptr64
+public: long __cdecl DirectUI::Combobox::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual int __cdecl DirectUI::Combobox::OnAdjustWindowSize(int,int,unsigned int) __ptr64
+public: virtual void __cdecl DirectUI::Combobox::OnHosted(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Combobox::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::Combobox::OnNotify(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Combobox::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static long __cdecl DirectUI::Combobox::Register(void)
+public: static class UID __cdecl DirectUI::Combobox::SelectionChange(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Combobox::SelectionProp(void)
+public: static void __cdecl DirectUI::Combobox::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::Combobox::SetSelection(int) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Combobox::s_pClassInfo

@@ -1,0 +1,4 @@
+public: __thiscall DirectUI::IProvider::IProvider(class DirectUI::IProvider const &)
+public: __thiscall DirectUI::IProvider::IProvider(void)
+public: class DirectUI::IProvider & __thiscall DirectUI::IProvider::operator=(class DirectUI::IProvider const &)
+const DirectUI::IProvider::`vftable'

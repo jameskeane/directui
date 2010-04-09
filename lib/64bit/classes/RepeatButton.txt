@@ -1,0 +1,15 @@
+public: __cdecl DirectUI::RepeatButton::RepeatButton(class DirectUI::RepeatButton const & __ptr64) __ptr64
+public: __cdecl DirectUI::RepeatButton::RepeatButton(void) __ptr64
+public: virtual __cdecl DirectUI::RepeatButton::~RepeatButton(void) __ptr64
+public: class DirectUI::RepeatButton & __ptr64 __cdecl DirectUI::RepeatButton::operator=(class DirectUI::RepeatButton const & __ptr64) __ptr64
+const DirectUI::RepeatButton::`vftable'
+public: static long __cdecl DirectUI::RepeatButton::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::RepeatButton::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::RepeatButton::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::RepeatButton::GetClassInfoW(void) __ptr64
+public: long __cdecl DirectUI::RepeatButton::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::RepeatButton::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: static long __cdecl DirectUI::RepeatButton::Register(void)
+public: static void __cdecl DirectUI::RepeatButton::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+private: static void __cdecl DirectUI::RepeatButton::_RepeatButtonActionCallback(struct GMA_ACTIONINFO * __ptr64)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::RepeatButton::s_pClassInfo

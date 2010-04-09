@@ -1,0 +1,14 @@
+public: __cdecl DirectUI::AutoButton::AutoButton(class DirectUI::AutoButton const & __ptr64) __ptr64
+public: __cdecl DirectUI::AutoButton::AutoButton(void) __ptr64
+public: virtual __cdecl DirectUI::AutoButton::~AutoButton(void) __ptr64
+public: class DirectUI::AutoButton & __ptr64 __cdecl DirectUI::AutoButton::operator=(class DirectUI::AutoButton const & __ptr64) __ptr64
+const DirectUI::AutoButton::`vftable'
+public: static long __cdecl DirectUI::AutoButton::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::AutoButton::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::AutoButton::GetClassInfoW(void) __ptr64
+public: long __cdecl DirectUI::AutoButton::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::AutoButton::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: static long __cdecl DirectUI::AutoButton::Register(void)
+public: static void __cdecl DirectUI::AutoButton::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: static class UID __cdecl DirectUI::AutoButton::Toggle(void)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::AutoButton::s_pClassInfo

@@ -1,0 +1,21 @@
+public: __cdecl DirectUI::RefPointElement::RefPointElement(class DirectUI::RefPointElement const & __ptr64) __ptr64
+public: __cdecl DirectUI::RefPointElement::RefPointElement(void) __ptr64
+public: virtual __cdecl DirectUI::RefPointElement::~RefPointElement(void) __ptr64
+public: class DirectUI::RefPointElement & __ptr64 __cdecl DirectUI::RefPointElement::operator=(class DirectUI::RefPointElement const & __ptr64) __ptr64
+const DirectUI::RefPointElement::`vftable'
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::RefPointElement::ActualReferencePointProp(void)
+public: static long __cdecl DirectUI::RefPointElement::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::RefPointElement::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static class DirectUI::Element * __ptr64 __cdecl DirectUI::RefPointElement::FindRefPoint(class DirectUI::Element * __ptr64,struct tagPOINT * __ptr64)
+public: struct tagPOINT const * __ptr64 __cdecl DirectUI::RefPointElement::GetActualReferencePoint(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::RefPointElement::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::RefPointElement::GetClassInfoW(void) __ptr64
+public: struct tagPOINT const * __ptr64 __cdecl DirectUI::RefPointElement::GetReferencePoint(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: long __cdecl DirectUI::RefPointElement::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: static class DirectUI::RefPointElement * __ptr64 __cdecl DirectUI::RefPointElement::Locate(class DirectUI::Element * __ptr64)
+public: virtual void __cdecl DirectUI::RefPointElement::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::RefPointElement::ReferencePointProp(void)
+public: static long __cdecl DirectUI::RefPointElement::Register(void)
+public: static void __cdecl DirectUI::RefPointElement::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::RefPointElement::SetReferencePoint(int,int) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::RefPointElement::s_pClassInfo

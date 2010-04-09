@@ -1,0 +1,15 @@
+public: __thiscall DirectUI::RadioButtonGlyph::RadioButtonGlyph(class DirectUI::RadioButtonGlyph const &)
+public: __thiscall DirectUI::RadioButtonGlyph::RadioButtonGlyph(void)
+public: virtual __thiscall DirectUI::RadioButtonGlyph::~RadioButtonGlyph(void)
+public: class DirectUI::RadioButtonGlyph & __thiscall DirectUI::RadioButtonGlyph::operator=(class DirectUI::RadioButtonGlyph const &)
+const DirectUI::RadioButtonGlyph::`vftable'
+public: static long __stdcall DirectUI::RadioButtonGlyph::Create(unsigned int,class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static long __stdcall DirectUI::RadioButtonGlyph::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::RadioButtonGlyph::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::RadioButtonGlyph::GetClassInfoW(void)
+public: long __thiscall DirectUI::RadioButtonGlyph::Initialize(unsigned int,class DirectUI::Element *,unsigned long *)
+public: virtual bool __thiscall DirectUI::RadioButtonGlyph::OnLostDialogFocus(class DirectUI::DialogElement *)
+public: virtual bool __thiscall DirectUI::RadioButtonGlyph::OnReceivedDialogFocus(class DirectUI::DialogElement *)
+public: static long __stdcall DirectUI::RadioButtonGlyph::Register(void)
+public: static void __stdcall DirectUI::RadioButtonGlyph::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::RadioButtonGlyph::s_pClassInfo

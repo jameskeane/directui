@@ -1,0 +1,70 @@
+public: class DirectUI::Value & __ptr64 __cdecl DirectUI::Value::operator=(class DirectUI::Value const & __ptr64) __ptr64
+public: void __cdecl DirectUI::Value::AddRef(void) __ptr64
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateAtom(unsigned short)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateAtom(unsigned short const * __ptr64)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateBool(bool)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateColor(unsigned long)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateColor(unsigned long,unsigned long,unsigned char)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateColor(unsigned long,unsigned long,unsigned long,unsigned char)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateCursor(struct HICON__ * __ptr64)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateCursor(unsigned short const * __ptr64)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateDFCFill(unsigned int,unsigned int)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateDTBFill(unsigned short const * __ptr64,int,int)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateElementList(class DirectUI::DynamicArray<class DirectUI::Element * __ptr64,0> * __ptr64)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateElementRef(class DirectUI::Element * __ptr64)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateEncodedString(unsigned short const * __ptr64)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateExpression(class DirectUI::Expression * __ptr64)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateFill(struct DirectUI::Fill const & __ptr64)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateGraphic(struct HBITMAP__ * __ptr64,unsigned char,unsigned int,bool,bool,bool)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateGraphic(struct HENHMETAFILE__ * __ptr64,struct HENHMETAFILE__ * __ptr64)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateGraphic(struct HICON__ * __ptr64,bool,bool,bool)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateGraphic(unsigned short const * __ptr64,unsigned char,unsigned int,unsigned short,unsigned short,struct HINSTANCE__ * __ptr64,bool,bool)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateGraphic(unsigned short const * __ptr64,unsigned short,unsigned short,struct HINSTANCE__ * __ptr64,bool,bool)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateInt(int)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateLayout(class DirectUI::Layout * __ptr64)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreatePoint(int,int)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateRect(int,int,int,int)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateSize(int,int)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateString(unsigned short const * __ptr64,struct HINSTANCE__ * __ptr64)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::CreateStyleSheet(class DirectUI::StyleSheet * __ptr64)
+public: unsigned short __cdecl DirectUI::Value::GetAtom(void) __ptr64
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetAtomZero(void)
+public: bool __cdecl DirectUI::Value::GetBool(void) __ptr64
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetBoolFalse(void)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetBoolTrue(void)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetColorTrans(void)
+public: struct DirectUI::Cursor * __ptr64 __cdecl DirectUI::Value::GetCursor(void) __ptr64
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetCursorNull(void)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetElListNull(void)
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::Value::GetElement(void) __ptr64
+public: class DirectUI::DynamicArray<class DirectUI::Element * __ptr64,0> * __ptr64 __cdecl DirectUI::Value::GetElementList(void) __ptr64
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetElementNull(void)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetExprNull(void)
+public: class DirectUI::Expression * __ptr64 __cdecl DirectUI::Value::GetExpression(void) __ptr64
+public: struct DirectUI::Fill const * __ptr64 __cdecl DirectUI::Value::GetFill(void) __ptr64
+public: struct DirectUI::Graphic * __ptr64 __cdecl DirectUI::Value::GetGraphic(void) __ptr64
+public: void * __ptr64 __cdecl DirectUI::Value::GetImage(bool) __ptr64
+public: int __cdecl DirectUI::Value::GetInt(void) __ptr64
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetIntZero(void)
+public: class DirectUI::Layout * __ptr64 __cdecl DirectUI::Value::GetLayout(void) __ptr64
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetLayoutNull(void)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetNull(void)
+public: struct tagPOINT const * __ptr64 __cdecl DirectUI::Value::GetPoint(void) __ptr64
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetPointZero(void)
+public: struct tagRECT const * __ptr64 __cdecl DirectUI::Value::GetRect(void) __ptr64
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetRectZero(void)
+public: int __cdecl DirectUI::Value::GetRefCount(void)const __ptr64
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetSheetNull(void)
+public: struct tagSIZE const * __ptr64 __cdecl DirectUI::Value::GetSize(void) __ptr64
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetSizeZero(void)
+public: unsigned short const * __ptr64 __cdecl DirectUI::Value::GetString(void) __ptr64
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetStringNull(void)
+public: class DirectUI::StyleSheet * __ptr64 __cdecl DirectUI::Value::GetStyleSheet(void) __ptr64
+public: int __cdecl DirectUI::Value::GetType(void)const __ptr64
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetUnavailable(void)
+public: static class DirectUI::Value * __ptr64 __cdecl DirectUI::Value::GetUnset(void)
+public: bool __cdecl DirectUI::Value::IsEqual(class DirectUI::Value * __ptr64) __ptr64
+public: void __cdecl DirectUI::Value::Release(void) __ptr64
+private: static long __cdecl DirectUI::Value::StrDupW(unsigned short const * __ptr64,unsigned short * __ptr64 * __ptr64)
+public: unsigned short * __ptr64 __cdecl DirectUI::Value::ToString(unsigned short * __ptr64,unsigned int)const __ptr64
+private: void __cdecl DirectUI::Value::_ZeroRelease(void) __ptr64

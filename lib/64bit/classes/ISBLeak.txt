@@ -1,0 +1,4 @@
+public: __cdecl DirectUI::ISBLeak::ISBLeak(struct DirectUI::ISBLeak const & __ptr64) __ptr64
+public: __cdecl DirectUI::ISBLeak::ISBLeak(void) __ptr64
+public: struct DirectUI::ISBLeak & __ptr64 __cdecl DirectUI::ISBLeak::operator=(struct DirectUI::ISBLeak const & __ptr64) __ptr64
+const DirectUI::ISBLeak::`vftable'

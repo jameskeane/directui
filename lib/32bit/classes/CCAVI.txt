@@ -1,0 +1,16 @@
+public: __thiscall DirectUI::CCAVI::CCAVI(class DirectUI::CCAVI const &)
+public: __thiscall DirectUI::CCAVI::CCAVI(void)
+public: virtual __thiscall DirectUI::CCAVI::~CCAVI(void)
+public: class DirectUI::CCAVI & __thiscall DirectUI::CCAVI::operator=(class DirectUI::CCAVI const &)
+const DirectUI::CCAVI::`vftable'
+public: static long __stdcall DirectUI::CCAVI::Create(unsigned int,class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static long __stdcall DirectUI::CCAVI::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::CCAVI::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::CCAVI::GetClassInfoW(void)
+private: void __thiscall DirectUI::CCAVI::OpenAnimation(struct HWND__ *)
+public: void __thiscall DirectUI::CCAVI::Play(struct HWND__ *)
+protected: virtual void __thiscall DirectUI::CCAVI::PostCreate(struct HWND__ *)
+public: static long __stdcall DirectUI::CCAVI::Register(void)
+public: static void __stdcall DirectUI::CCAVI::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+public: void __thiscall DirectUI::CCAVI::Stop(void)
+private: static struct DirectUI::IClassInfo * DirectUI::CCAVI::s_pClassInfo

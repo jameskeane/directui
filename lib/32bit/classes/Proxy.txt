@@ -1,0 +1,8 @@
+public: __thiscall DirectUI::Proxy::Proxy(class DirectUI::Proxy const &)
+public: __thiscall DirectUI::Proxy::Proxy(void)
+public: virtual __thiscall DirectUI::Proxy::~Proxy(void)
+public: class DirectUI::Proxy & __thiscall DirectUI::Proxy::operator=(class DirectUI::Proxy const &)
+const DirectUI::Proxy::`vftable'
+protected: void __thiscall DirectUI::Proxy::Invoke(unsigned int,void *)
+protected: virtual void __thiscall DirectUI::Proxy::OnInvoke(unsigned int,void *)
+public: static long __stdcall DirectUI::Proxy::SyncCallback(struct HGADGET__ *,void *,struct EventMsg *)

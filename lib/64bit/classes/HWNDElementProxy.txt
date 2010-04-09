@@ -1,0 +1,9 @@
+public: __cdecl DirectUI::HWNDElementProxy::HWNDElementProxy(class DirectUI::HWNDElementProxy const & __ptr64) __ptr64
+public: __cdecl DirectUI::HWNDElementProxy::HWNDElementProxy(void) __ptr64
+public: class DirectUI::HWNDElementProxy & __ptr64 __cdecl DirectUI::HWNDElementProxy::operator=(class DirectUI::HWNDElementProxy const & __ptr64) __ptr64
+const DirectUI::HWNDElementProxy::`vftable'
+public: static class DirectUI::HWNDElementProxy * __ptr64 __cdecl DirectUI::HWNDElementProxy::Create(class DirectUI::HWNDElement * __ptr64)
+public: virtual long __cdecl DirectUI::HWNDElementProxy::DoMethod(int,char * __ptr64) __ptr64
+protected: long __cdecl DirectUI::HWNDElementProxy::ElementFromPoint(double,double,struct IRawElementProviderFragment * __ptr64 * __ptr64) __ptr64
+protected: long __cdecl DirectUI::HWNDElementProxy::GetFocus(struct IRawElementProviderFragment * __ptr64 * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::HWNDElementProxy::Init(class DirectUI::HWNDElement * __ptr64) __ptr64

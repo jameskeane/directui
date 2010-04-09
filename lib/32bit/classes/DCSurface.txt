@@ -1,0 +1,7 @@
+public: __thiscall DirectUI::DCSurface::DCSurface(class DirectUI::DCSurface const &)
+public: __thiscall DirectUI::DCSurface::DCSurface(struct HDC__ *)
+public: virtual __thiscall DirectUI::DCSurface::~DCSurface(void)
+public: class DirectUI::DCSurface & __thiscall DirectUI::DCSurface::operator=(class DirectUI::DCSurface const &)
+const DirectUI::DCSurface::`vftable'
+public: struct HDC__ * __thiscall DirectUI::DCSurface::GetHDC(void)
+public: virtual enum DirectUI::Surface::EType __thiscall DirectUI::DCSurface::GetType(void)const 

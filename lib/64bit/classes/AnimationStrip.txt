@@ -1,0 +1,35 @@
+public: __cdecl DirectUI::AnimationStrip::AnimationStrip(class DirectUI::AnimationStrip const & __ptr64) __ptr64
+public: __cdecl DirectUI::AnimationStrip::AnimationStrip(void) __ptr64
+public: virtual __cdecl DirectUI::AnimationStrip::~AnimationStrip(void) __ptr64
+public: class DirectUI::AnimationStrip & __ptr64 __cdecl DirectUI::AnimationStrip::operator=(class DirectUI::AnimationStrip const & __ptr64) __ptr64
+const DirectUI::AnimationStrip::`vftable'
+protected: void __cdecl DirectUI::AnimationStrip::AdvanceFrame(void) __ptr64
+public: static long __cdecl DirectUI::AnimationStrip::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::AnimationStrip::FrameDurationProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::AnimationStrip::FrameIndexProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::AnimationStrip::FrameWidthProp(void)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::AnimationStrip::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::AnimationStrip::GetClassInfoW(void) __ptr64
+public: int __cdecl DirectUI::AnimationStrip::GetFrameDuration(void) __ptr64
+public: int __cdecl DirectUI::AnimationStrip::GetFrameIndex(void) __ptr64
+public: int __cdecl DirectUI::AnimationStrip::GetFrameWidth(void) __ptr64
+public: bool __cdecl DirectUI::AnimationStrip::GetPlay(void) __ptr64
+public: long __cdecl DirectUI::AnimationStrip::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+private: long __cdecl DirectUI::AnimationStrip::LoadCommonControlExports(void) __ptr64
+protected: long __cdecl DirectUI::AnimationStrip::LoadImagesIntoAnimationStrip(void) __ptr64
+protected: void __cdecl DirectUI::AnimationStrip::OnAction(struct GMA_ACTIONINFO * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::AnimationStrip::OnDestroy(void) __ptr64
+protected: virtual void __cdecl DirectUI::AnimationStrip::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::AnimationStrip::Paint(struct HDC__ * __ptr64,struct tagRECT const * __ptr64,struct tagRECT const * __ptr64,struct tagRECT * __ptr64,struct tagRECT * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::AnimationStrip::PlayProp(void)
+protected: static void __cdecl DirectUI::AnimationStrip::RawActionProc(struct GMA_ACTIONINFO * __ptr64)
+public: static long __cdecl DirectUI::AnimationStrip::Register(void)
+public: static void __cdecl DirectUI::AnimationStrip::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::AnimationStrip::SetFrameDuration(int) __ptr64
+public: long __cdecl DirectUI::AnimationStrip::SetFrameIndex(int) __ptr64
+public: long __cdecl DirectUI::AnimationStrip::SetFrameWidth(int) __ptr64
+public: long __cdecl DirectUI::AnimationStrip::SetPlay(bool) __ptr64
+private: long __cdecl DirectUI::AnimationStrip::Start(void) __ptr64
+private: void __cdecl DirectUI::AnimationStrip::Stop(void) __ptr64
+private: void __cdecl DirectUI::AnimationStrip::UnloadCommonControlExports(void) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::AnimationStrip::s_pClassInfo

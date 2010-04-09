@@ -1,0 +1,4 @@
+public: __thiscall DirectUI::IXElementCP::IXElementCP(class DirectUI::IXElementCP const &)
+public: __thiscall DirectUI::IXElementCP::IXElementCP(void)
+public: class DirectUI::IXElementCP & __thiscall DirectUI::IXElementCP::operator=(class DirectUI::IXElementCP const &)
+const DirectUI::IXElementCP::`vftable'

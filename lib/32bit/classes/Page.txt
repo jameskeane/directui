@@ -1,0 +1,12 @@
+public: __thiscall DirectUI::Page::Page(class DirectUI::Page const &)
+public: __thiscall DirectUI::Page::Page(void)
+public: virtual __thiscall DirectUI::Page::~Page(void)
+public: class DirectUI::Page & __thiscall DirectUI::Page::operator=(class DirectUI::Page const &)
+const DirectUI::Page::`vftable'
+public: static long __stdcall DirectUI::Page::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::Page::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::Page::GetClassInfoW(void)
+public: long __thiscall DirectUI::Page::Initialize(class DirectUI::Element *,unsigned long *)
+public: static long __stdcall DirectUI::Page::Register(void)
+public: static void __stdcall DirectUI::Page::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::Page::s_pClassInfo

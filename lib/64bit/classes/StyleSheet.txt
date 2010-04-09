@@ -1,0 +1,5 @@
+public: __cdecl DirectUI::StyleSheet::StyleSheet(class DirectUI::StyleSheet const & __ptr64) __ptr64
+public: __cdecl DirectUI::StyleSheet::StyleSheet(void) __ptr64
+public: class DirectUI::StyleSheet & __ptr64 __cdecl DirectUI::StyleSheet::operator=(class DirectUI::StyleSheet const & __ptr64) __ptr64
+const DirectUI::StyleSheet::`vftable'
+public: static long __cdecl DirectUI::StyleSheet::Create(class DirectUI::StyleSheet * __ptr64 * __ptr64)

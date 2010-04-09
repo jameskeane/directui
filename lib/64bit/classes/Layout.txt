@@ -1,0 +1,23 @@
+public: __cdecl DirectUI::Layout::Layout(class DirectUI::Layout const & __ptr64) __ptr64
+public: __cdecl DirectUI::Layout::Layout(void) __ptr64
+public: virtual __cdecl DirectUI::Layout::~Layout(void) __ptr64
+public: class DirectUI::Layout & __ptr64 __cdecl DirectUI::Layout::operator=(class DirectUI::Layout const & __ptr64) __ptr64
+const DirectUI::Layout::`vftable'
+public: virtual void __cdecl DirectUI::Layout::Attach(class DirectUI::Element * __ptr64) __ptr64
+protected: void __cdecl DirectUI::Layout::ClearCacheDirty(void) __ptr64
+public: static long __cdecl DirectUI::Layout::Create(class DirectUI::Layout * __ptr64 * __ptr64)
+public: void __cdecl DirectUI::Layout::Destroy(void) __ptr64
+public: virtual void __cdecl DirectUI::Layout::Detach(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Layout::DoLayout(class DirectUI::Element * __ptr64,int,int) __ptr64
+public: virtual class DirectUI::Element * __ptr64 __cdecl DirectUI::Layout::GetAdjacent(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64,unsigned long) __ptr64
+public: class DirectUI::Element * __ptr64 __cdecl DirectUI::Layout::GetChildFromLayoutIndex(class DirectUI::Element * __ptr64,int,class DirectUI::DynamicArray<class DirectUI::Element * __ptr64,0> * __ptr64) __ptr64
+public: unsigned int __cdecl DirectUI::Layout::GetLayoutChildCount(class DirectUI::Element * __ptr64) __ptr64
+public: int __cdecl DirectUI::Layout::GetLayoutIndexFromChild(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64) __ptr64
+public: void __cdecl DirectUI::Layout::Initialize(void) __ptr64
+protected: bool __cdecl DirectUI::Layout::IsCacheDirty(void) __ptr64
+public: virtual void __cdecl DirectUI::Layout::OnAdd(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,unsigned int) __ptr64
+public: virtual void __cdecl DirectUI::Layout::OnLayoutPosChanged(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64,int,int) __ptr64
+public: virtual void __cdecl DirectUI::Layout::OnRemove(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64 * __ptr64,unsigned int) __ptr64
+protected: void __cdecl DirectUI::Layout::SetCacheDirty(void) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::Layout::UpdateDesiredSize(class DirectUI::Element * __ptr64,int,int,class DirectUI::Surface * __ptr64) __ptr64
+public: static void __cdecl DirectUI::Layout::UpdateLayoutRect(class DirectUI::Element * __ptr64,int,int,class DirectUI::Element * __ptr64,int,int,int,int)

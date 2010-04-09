@@ -1,0 +1,20 @@
+public: __cdecl DirectUI::Expando::Expando(class DirectUI::Expando const & __ptr64) __ptr64
+public: __cdecl DirectUI::Expando::Expando(void) __ptr64
+public: virtual __cdecl DirectUI::Expando::~Expando(void) __ptr64
+public: class DirectUI::Expando & __ptr64 __cdecl DirectUI::Expando::operator=(class DirectUI::Expando const & __ptr64) __ptr64
+const DirectUI::Expando::`vftable'
+public: virtual long __cdecl DirectUI::Expando::Add(class DirectUI::Element * __ptr64 * __ptr64,unsigned int) __ptr64
+protected: static unsigned short __cdecl DirectUI::Expando::Arrow(void)
+protected: static unsigned short __cdecl DirectUI::Expando::Clipper(void)
+public: static long __cdecl DirectUI::Expando::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Expando::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Expando::GetClassInfoW(void) __ptr64
+public: long __cdecl DirectUI::Expando::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Expando::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::Expando::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static long __cdecl DirectUI::Expando::Register(void)
+public: static void __cdecl DirectUI::Expando::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+protected: void __cdecl DirectUI::Expando::UpdateChildren(class DirectUI::Value * __ptr64) __ptr64
+private: static unsigned short DirectUI::Expando::_atmArrow
+private: static unsigned short DirectUI::Expando::_atmClipper
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Expando::s_pClassInfo

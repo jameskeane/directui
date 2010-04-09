@@ -1,0 +1,14 @@
+public: __cdecl DirectUI::GridItemProvider::GridItemProvider(void) __ptr64
+public: virtual __cdecl DirectUI::GridItemProvider::~GridItemProvider(void) __ptr64
+const DirectUI::GridItemProvider::`vftable'
+const DirectUI::GridItemProvider::`vftable'{for `DirectUI::IProvider'}
+const DirectUI::GridItemProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __cdecl DirectUI::GridItemProvider::AddRef(void) __ptr64
+public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::GridItemProvider::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::GridItemProvider::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+public: virtual unsigned long __cdecl DirectUI::GridItemProvider::Release(void) __ptr64
+public: virtual long __cdecl DirectUI::GridItemProvider::get_Column(int * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::GridItemProvider::get_ColumnSpan(int * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::GridItemProvider::get_ContainingGrid(struct IRawElementProviderSimple * __ptr64 * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::GridItemProvider::get_Row(int * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::GridItemProvider::get_RowSpan(int * __ptr64) __ptr64

@@ -1,0 +1,166 @@
+public: class DirectUI::Schema & __ptr64 __cdecl DirectUI::Schema::operator=(class DirectUI::Schema const & __ptr64) __ptr64
+public: static int DirectUI::Schema::AcceleratorKeyProperty
+public: static int DirectUI::Schema::AccessKeyProperty
+public: static int DirectUI::Schema::AsyncContentLoadedEvent
+public: static int DirectUI::Schema::AutomationFocusChangedEvent
+public: static int DirectUI::Schema::AutomationIdProperty
+public: static int DirectUI::Schema::AutomationPropertyChangedEvent
+public: static int DirectUI::Schema::BoundingRectangleProperty
+public: static int DirectUI::Schema::ButtonControlType
+public: static int DirectUI::Schema::CalendarControlType
+public: static int DirectUI::Schema::CheckBoxControlType
+public: static int DirectUI::Schema::ClassNameProperty
+public: static int DirectUI::Schema::ClickablePointProperty
+public: static int DirectUI::Schema::ComboBoxControlType
+public: static int DirectUI::Schema::ControlTypeProperty
+public: static long __cdecl DirectUI::Schema::CreatePatternProvider(enum DirectUI::Schema::Pattern,class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+public: static int DirectUI::Schema::CultureProperty
+public: static int DirectUI::Schema::CustomControlType
+public: static int DirectUI::Schema::DataGridControlType
+public: static int DirectUI::Schema::DataItemControlType
+public: static int DirectUI::Schema::DockPattern
+public: static int DirectUI::Schema::DocumentControlType
+public: static int DirectUI::Schema::EditControlType
+public: static enum DirectUI::Schema::Event __cdecl DirectUI::Schema::EventFromEventId(int)
+public: static int DirectUI::Schema::ExpandCollapsePattern
+public: static int DirectUI::Schema::ExpandCollapse_ExpandCollapseState_Property
+public: static int DirectUI::Schema::FrameworkId
+private: static long __cdecl DirectUI::Schema::GetProcs(void)
+public: static int DirectUI::Schema::GridItemPattern
+public: static int DirectUI::Schema::GridItem_ColumnSpan_Property
+public: static int DirectUI::Schema::GridItem_Column_Property
+public: static int DirectUI::Schema::GridItem_Parent_Property
+public: static int DirectUI::Schema::GridItem_RowSpan_Property
+public: static int DirectUI::Schema::GridItem_Row_Property
+public: static int DirectUI::Schema::GridPattern
+public: static int DirectUI::Schema::Grid_ColumnCount_Property
+public: static int DirectUI::Schema::Grid_RowCount_Property
+public: static int DirectUI::Schema::GroupControlType
+public: static int DirectUI::Schema::HasKeyboardFocusProperty
+public: static int DirectUI::Schema::HeaderControlType
+public: static int DirectUI::Schema::HeaderItemControlType
+public: static int DirectUI::Schema::HelpTextProperty
+public: static int DirectUI::Schema::HyperlinkControlType
+public: static int DirectUI::Schema::ImageControlType
+public: static long __cdecl DirectUI::Schema::Init(void)
+public: static int DirectUI::Schema::InvokeInvokedEvent
+public: static int DirectUI::Schema::InvokePattern
+public: static int DirectUI::Schema::IsContentElementProperty
+public: static int DirectUI::Schema::IsControlElementProperty
+public: static int DirectUI::Schema::IsEnabledProperty
+public: static int DirectUI::Schema::IsKeyboardFocusableProperty
+public: static int DirectUI::Schema::IsOffscreen
+public: static int DirectUI::Schema::IsPasswordProperty
+protected: long __cdecl DirectUI::ElementProxy::IsPatternSupported(enum DirectUI::Schema::Pattern,bool * __ptr64) __ptr64
+public: static int DirectUI::Schema::ItemContainerPattern
+public: static int DirectUI::Schema::ItemStatusProperty
+public: static int DirectUI::Schema::ItemTypeProperty
+public: static int DirectUI::Schema::LabeledByProperty
+public: static int DirectUI::Schema::LayoutInvalidatedEvent
+public: static int DirectUI::Schema::ListControlType
+public: static int DirectUI::Schema::ListItemControlType
+public: static int DirectUI::Schema::LocalizedControlTypeProperty
+public: static int __cdecl DirectUI::Schema::LookupAccessibleRole(int,bool * __ptr64)
+private: static long __cdecl DirectUI::Schema::LookupControlInfos(void)
+private: static long __cdecl DirectUI::Schema::LookupEventInfos(void)
+private: static long __cdecl DirectUI::Schema::LookupPatternInfos(void)
+private: static long __cdecl DirectUI::Schema::LookupPropertyInfos(void)
+public: static int DirectUI::Schema::MenuBarControlType
+public: static int DirectUI::Schema::MenuClosedEvent
+public: static int DirectUI::Schema::MenuControlType
+public: static int DirectUI::Schema::MenuItemControlType
+public: static int DirectUI::Schema::MenuOpenedEvent
+public: static int DirectUI::Schema::MultipleViewPattern
+public: static int DirectUI::Schema::NameProperty
+public: static int DirectUI::Schema::NewNativeWindowHandleProperty
+public: static int DirectUI::Schema::NullControlType
+public: static int DirectUI::Schema::Orientation
+public: static int DirectUI::Schema::PaneControlType
+public: static enum DirectUI::Schema::Pattern __cdecl DirectUI::Schema::PatternFromPatternId(int)
+public: static bool (__cdecl*__cdecl DirectUI::Schema::PfnIsSupportedFromPattern(enum DirectUI::Schema::Pattern))(class DirectUI::Element * __ptr64)
+public: static int DirectUI::Schema::ProcessIdProperty
+public: static int DirectUI::Schema::ProgressBarControlType
+public: static int DirectUI::Schema::RadioButtonControlType
+public: static int DirectUI::Schema::RangeValuePattern
+public: static int DirectUI::Schema::RangeValue_IsReadOnly_Property
+public: static int DirectUI::Schema::RangeValue_LargeChange_Property
+public: static int DirectUI::Schema::RangeValue_Maximum_Property
+public: static int DirectUI::Schema::RangeValue_Minimum_Property
+public: static int DirectUI::Schema::RangeValue_SmallChange_Property
+public: static int DirectUI::Schema::RangeValue_Value_Property
+public: static int DirectUI::Schema::RuntimeIdProperty
+public: static int DirectUI::Schema::ScrollBarControlType
+public: static int DirectUI::Schema::ScrollItemPattern
+public: static int DirectUI::Schema::ScrollPattern
+public: static int DirectUI::Schema::Scroll_HorizontalScrollPercent_Property
+public: static int DirectUI::Schema::Scroll_HorizontalViewSize_Property
+public: static int DirectUI::Schema::Scroll_HorizontallyScrollable_Property
+public: static int DirectUI::Schema::Scroll_VerticalScrollPercent_Property
+public: static int DirectUI::Schema::Scroll_VerticalViewSize_Property
+public: static int DirectUI::Schema::Scroll_VerticallyScrollable_Property
+public: static int DirectUI::Schema::SelectionInvalidatedEvent
+public: static int DirectUI::Schema::SelectionItemElementAddedToSelectionEvent
+public: static int DirectUI::Schema::SelectionItemElementRemovedFromSelectionEvent
+public: static int DirectUI::Schema::SelectionItemElementSelectedEvent
+public: static int DirectUI::Schema::SelectionItemPattern
+public: static int DirectUI::Schema::SelectionItem_IsSelected_Property
+public: static int DirectUI::Schema::SelectionItem_SelectionContainer_Property
+public: static int DirectUI::Schema::SelectionPattern
+public: static int DirectUI::Schema::Selection_CanSelectMultiple_Property
+public: static int DirectUI::Schema::Selection_IsSelectionRequired_Property
+public: static int DirectUI::Schema::Selection_Selection_Property
+public: static int DirectUI::Schema::SeparatorControlType
+public: static int DirectUI::Schema::SliderControlType
+public: static int DirectUI::Schema::SpinnerControlType
+public: static int DirectUI::Schema::SplitButtonControlType
+public: static int DirectUI::Schema::StatusBarControlType
+public: static int DirectUI::Schema::StructureChangedEvent
+public: static int DirectUI::Schema::TabControlType
+public: static int DirectUI::Schema::TabItemControlType
+public: static int DirectUI::Schema::TableControlType
+public: static int DirectUI::Schema::TableItemPattern
+public: static int DirectUI::Schema::TableItem_ColumnHeaderItems_Property
+public: static int DirectUI::Schema::TableItem_RowHeaderItems_Property
+public: static int DirectUI::Schema::TablePattern
+public: static int DirectUI::Schema::Table_ColumnHeaders_Property
+public: static int DirectUI::Schema::Table_RowHeaders_Property
+public: static int DirectUI::Schema::Table_RowOrColumnMajor_Property
+public: static int DirectUI::Schema::TextControlType
+public: static int DirectUI::Schema::TextPattern
+public: static int DirectUI::Schema::TextTextSelectionChangedEvent
+public: static int DirectUI::Schema::ThumbControlType
+public: static int DirectUI::Schema::TitleBarControlType
+public: static int DirectUI::Schema::TogglePattern
+public: static int DirectUI::Schema::Toggle_ToggleState_Property
+public: static int DirectUI::Schema::ToolBarControlType
+public: static int DirectUI::Schema::ToolTipClosedEvent
+public: static int DirectUI::Schema::ToolTipControlType
+public: static int DirectUI::Schema::ToolTipOpenedEvent
+public: void __cdecl DirectUI::ElementProvider::TossPatternProvider(enum DirectUI::Schema::Pattern) __ptr64
+public: static int DirectUI::Schema::TransformPattern
+public: static int DirectUI::Schema::TreeControlType
+public: static int DirectUI::Schema::TreeItemControlType
+public: static long (__cdecl* __ptr64 DirectUI::Schema::UiaHostProviderFromHwnd)(struct HWND__ * __ptr64,struct IRawElementProviderSimple * __ptr64 * __ptr64)
+public: static int (__cdecl* __ptr64 DirectUI::Schema::UiaLookupId)(enum AutomationIdentifierType,struct _GUID const * __ptr64)
+public: static long (__cdecl* __ptr64 DirectUI::Schema::UiaRaiseAutomationEvent)(struct IRawElementProviderSimple * __ptr64,int)
+public: static long (__cdecl* __ptr64 DirectUI::Schema::UiaRaiseAutomationPropertyChangedEvent)(struct IRawElementProviderSimple * __ptr64,int,struct tagVARIANT,struct tagVARIANT)
+public: static long (__cdecl* __ptr64 DirectUI::Schema::UiaRaiseStructureChangedEvent)(struct IRawElementProviderSimple * __ptr64,enum StructureChangeType,int * __ptr64,int)
+public: static __int64 (__cdecl* __ptr64 DirectUI::Schema::UiaReturnRawElementProvider)(struct HWND__ * __ptr64,unsigned __int64,__int64,struct IRawElementProviderSimple * __ptr64)
+public: static int DirectUI::Schema::ValuePattern
+public: static int DirectUI::Schema::Value_IsReadOnly_Property
+public: static int DirectUI::Schema::Value_Value_Property
+public: static int DirectUI::Schema::VirtualizedItemPattern
+private: static bool __cdecl DirectUI::EventManager::WantEvent(enum DirectUI::Schema::Event,int)
+public: static bool __cdecl DirectUI::EventManager::WantEvent(enum DirectUI::Schema::Event)
+public: static int DirectUI::Schema::WindowControlType
+public: static int DirectUI::Schema::WindowPattern
+public: static int DirectUI::Schema::WindowWindowClosedEvent
+public: static int DirectUI::Schema::WindowWindowOpenedEvent
+private: static struct DirectUI::Schema::RoleMap const * const DirectUI::Schema::_roleMapping
+private: static struct DirectUI::Schema::ControlInfo const * const DirectUI::Schema::g_controlInfoTable
+private: static struct DirectUI::Schema::EventInfo const * const DirectUI::Schema::g_eventInfoTable
+private: static struct DirectUI::Schema::EventMap const * const DirectUI::Schema::g_eventMapping
+private: static bool DirectUI::Schema::g_fInited
+private: static struct DirectUI::Schema::PatternInfo const * const DirectUI::Schema::g_patternInfoTable
+private: static struct DirectUI::Schema::PatternMap const * const DirectUI::Schema::g_patternMapping
+private: static struct DirectUI::Schema::PropertyInfo const * const DirectUI::Schema::g_propertyInfoTable

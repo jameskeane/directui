@@ -1,0 +1,18 @@
+public: __thiscall DirectUI::ScrollViewer::ScrollViewer(class DirectUI::ScrollViewer const &)
+public: __thiscall DirectUI::ScrollViewer::ScrollViewer(void)
+public: virtual __thiscall DirectUI::ScrollViewer::~ScrollViewer(void)
+public: class DirectUI::ScrollViewer & __thiscall DirectUI::ScrollViewer::operator=(class DirectUI::ScrollViewer const &)
+const DirectUI::ScrollViewer::`vftable'{for `DirectUI::Element'}
+const DirectUI::ScrollViewer::`vftable'{for `DirectUI::IElementListener'}
+protected: virtual long __thiscall DirectUI::ScrollViewer::AddChildren(void)
+public: static long __stdcall DirectUI::ScrollViewer::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+protected: virtual long __thiscall DirectUI::ScrollViewer::CreateScrollBars(void)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::ScrollViewer::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::ScrollViewer::GetClassInfoW(void)
+protected: virtual class DirectUI::BaseScrollBar * __thiscall DirectUI::ScrollViewer::GetHScroll(void)
+protected: virtual class DirectUI::BaseScrollBar * __thiscall DirectUI::ScrollViewer::GetVScroll(void)
+public: virtual void __thiscall DirectUI::ScrollViewer::OnListenedPropertyChanged(class DirectUI::Element *,struct DirectUI::PropertyInfo const *,int,class DirectUI::Value *,class DirectUI::Value *)
+public: virtual void __thiscall DirectUI::ScrollViewer::OnPropertyChanged(struct DirectUI::PropertyInfo const *,int,class DirectUI::Value *,class DirectUI::Value *)
+public: static long __stdcall DirectUI::ScrollViewer::Register(void)
+public: static void __stdcall DirectUI::ScrollViewer::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::ScrollViewer::s_pClassInfo

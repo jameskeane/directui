@@ -1,0 +1,11 @@
+public: __thiscall DirectUI::HWNDHostClientAccessible::HWNDHostClientAccessible(void)
+public: virtual __thiscall DirectUI::HWNDHostClientAccessible::~HWNDHostClientAccessible(void)
+const DirectUI::HWNDHostClientAccessible::`vftable'{for `IAccIdentity'}
+const DirectUI::HWNDHostClientAccessible::`vftable'{for `IAccessible'}
+const DirectUI::HWNDHostClientAccessible::`vftable'{for `IEnumVARIANT'}
+const DirectUI::HWNDHostClientAccessible::`vftable'{for `IOleWindow'}
+const DirectUI::HWNDHostClientAccessible::`vftable'{for `IServiceProvider'}
+public: static long __stdcall DirectUI::HWNDHostClientAccessible::Create(class DirectUI::Element *,struct IAccessible *,class DirectUI::DuiAccessible * *)
+public: virtual long __stdcall DirectUI::HWNDHostClientAccessible::accNavigate(long,struct tagVARIANT,struct tagVARIANT *)
+public: virtual long __stdcall DirectUI::HWNDHostClientAccessible::get_accParent(struct IDispatch * *)
+public: virtual long __stdcall DirectUI::HWNDHostClientAccessible::get_accRole(struct tagVARIANT,struct tagVARIANT *)

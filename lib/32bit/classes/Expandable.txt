@@ -1,0 +1,14 @@
+public: __thiscall DirectUI::Expandable::Expandable(class DirectUI::Expandable const &)
+public: __thiscall DirectUI::Expandable::Expandable(void)
+public: virtual __thiscall DirectUI::Expandable::~Expandable(void)
+public: class DirectUI::Expandable & __thiscall DirectUI::Expandable::operator=(class DirectUI::Expandable const &)
+const DirectUI::Expandable::`vftable'
+public: static long __stdcall DirectUI::Expandable::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::PropertyInfo const * __stdcall DirectUI::Expandable::ExpandedProp(void)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::Expandable::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::Expandable::GetClassInfoW(void)
+public: bool __thiscall DirectUI::Expandable::GetExpanded(void)
+public: static long __stdcall DirectUI::Expandable::Register(void)
+public: static void __stdcall DirectUI::Expandable::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+public: long __thiscall DirectUI::Expandable::SetExpanded(bool)
+private: static struct DirectUI::IClassInfo * DirectUI::Expandable::s_pClassInfo

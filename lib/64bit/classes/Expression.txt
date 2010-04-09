@@ -1,0 +1,2 @@
+public: class DirectUI::Expression & __ptr64 __cdecl DirectUI::Expression::operator=(class DirectUI::Expression const & __ptr64) __ptr64
+public: void __cdecl DirectUI::Expression::Destroy(void) __ptr64

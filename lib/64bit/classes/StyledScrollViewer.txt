@@ -1,0 +1,17 @@
+public: __cdecl DirectUI::StyledScrollViewer::StyledScrollViewer(class DirectUI::StyledScrollViewer const & __ptr64) __ptr64
+public: __cdecl DirectUI::StyledScrollViewer::StyledScrollViewer(void) __ptr64
+public: virtual __cdecl DirectUI::StyledScrollViewer::~StyledScrollViewer(void) __ptr64
+public: class DirectUI::StyledScrollViewer & __ptr64 __cdecl DirectUI::StyledScrollViewer::operator=(class DirectUI::StyledScrollViewer const & __ptr64) __ptr64
+const DirectUI::StyledScrollViewer::`vftable'{for `DirectUI::Element'}
+const DirectUI::StyledScrollViewer::`vftable'{for `DirectUI::IElementListener'}
+protected: virtual long __cdecl DirectUI::StyledScrollViewer::AddChildren(void) __ptr64
+public: static long __cdecl DirectUI::StyledScrollViewer::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+protected: virtual long __cdecl DirectUI::StyledScrollViewer::CreateScrollBars(void) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::StyledScrollViewer::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::StyledScrollViewer::GetClassInfoW(void) __ptr64
+protected: virtual class DirectUI::BaseScrollBar * __ptr64 __cdecl DirectUI::StyledScrollViewer::GetHScroll(void) __ptr64
+protected: virtual class DirectUI::BaseScrollBar * __ptr64 __cdecl DirectUI::StyledScrollViewer::GetVScroll(void) __ptr64
+public: virtual void __cdecl DirectUI::StyledScrollViewer::OnListenedPropertyChanged(class DirectUI::Element * __ptr64,struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static long __cdecl DirectUI::StyledScrollViewer::Register(void)
+public: static void __cdecl DirectUI::StyledScrollViewer::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::StyledScrollViewer::s_pClassInfo

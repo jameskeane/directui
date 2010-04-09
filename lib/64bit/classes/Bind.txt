@@ -1,0 +1,18 @@
+public: __cdecl DirectUI::Bind::Bind(class DirectUI::Bind const & __ptr64) __ptr64
+public: __cdecl DirectUI::Bind::Bind(void) __ptr64
+public: virtual __cdecl DirectUI::Bind::~Bind(void) __ptr64
+public: class DirectUI::Bind & __ptr64 __cdecl DirectUI::Bind::operator=(class DirectUI::Bind const & __ptr64) __ptr64
+const DirectUI::Bind::`vftable'
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Bind::ConnectProp(void)
+public: static long __cdecl DirectUI::Bind::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Bind::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::Bind::GetClassInfoW(void) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Bind::GetConnect(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: unsigned short const * __ptr64 __cdecl DirectUI::Bind::GetProperty(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: long __cdecl DirectUI::Bind::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::Bind::PropertyProp(void)
+public: static long __cdecl DirectUI::Bind::Register(void)
+public: static void __cdecl DirectUI::Bind::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: long __cdecl DirectUI::Bind::SetConnect(unsigned short const * __ptr64) __ptr64
+public: long __cdecl DirectUI::Bind::SetProperty(unsigned short const * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::Bind::s_pClassInfo

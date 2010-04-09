@@ -1,0 +1,359 @@
+0a1,3
+> BlurBitmap
+> BrushFromEnumI
+> ColorFromEnumI
+37a41,45
+> const DirectUI::DuiAccessible::`vftable'{for `IAccessible'}
+> const DirectUI::DuiAccessible::`vftable'{for `IAccIdentity'}
+> const DirectUI::DuiAccessible::`vftable'{for `IEnumVARIANT'}
+> const DirectUI::DuiAccessible::`vftable'{for `IOleWindow'}
+> const DirectUI::DuiAccessible::`vftable'{for `IServiceProvider'}
+64a73
+> const DirectUI::GridProxy::`vftable'
+107a117,142
+> const DirectUI::PatternProvider<class DirectUI::ExpandCollapseProvider,struct IExpandCollapseProvider,1>::`vftable'{for `DirectUI::IProvider'}
+> const DirectUI::PatternProvider<class DirectUI::ExpandCollapseProvider,struct IExpandCollapseProvider,1>::`vftable'{for `DirectUI::RefcountBase'}
+> const DirectUI::PatternProvider<class DirectUI::GridItemProvider,struct IGridItemProvider,2>::`vftable'{for `DirectUI::IProvider'}
+> const DirectUI::PatternProvider<class DirectUI::GridItemProvider,struct IGridItemProvider,2>::`vftable'{for `DirectUI::RefcountBase'}
+> const DirectUI::PatternProvider<class DirectUI::GridProvider,struct IGridProvider,3>::`vftable'{for `DirectUI::IProvider'}
+> const DirectUI::PatternProvider<class DirectUI::GridProvider,struct IGridProvider,3>::`vftable'{for `DirectUI::RefcountBase'}
+> const DirectUI::PatternProvider<class DirectUI::InvokeProvider,struct IInvokeProvider,0>::`vftable'{for `DirectUI::IProvider'}
+> const DirectUI::PatternProvider<class DirectUI::InvokeProvider,struct IInvokeProvider,0>::`vftable'{for `DirectUI::RefcountBase'}
+> const DirectUI::PatternProvider<class DirectUI::RangeValueProvider,struct IRangeValueProvider,4>::`vftable'{for `DirectUI::IProvider'}
+> const DirectUI::PatternProvider<class DirectUI::RangeValueProvider,struct IRangeValueProvider,4>::`vftable'{for `DirectUI::RefcountBase'}
+> const DirectUI::PatternProvider<class DirectUI::ScrollItemProvider,struct IScrollItemProvider,6>::`vftable'{for `DirectUI::IProvider'}
+> const DirectUI::PatternProvider<class DirectUI::ScrollItemProvider,struct IScrollItemProvider,6>::`vftable'{for `DirectUI::RefcountBase'}
+> const DirectUI::PatternProvider<class DirectUI::ScrollProvider,struct IScrollProvider,5>::`vftable'{for `DirectUI::IProvider'}
+> const DirectUI::PatternProvider<class DirectUI::ScrollProvider,struct IScrollProvider,5>::`vftable'{for `DirectUI::RefcountBase'}
+> const DirectUI::PatternProvider<class DirectUI::SelectionItemProvider,struct ISelectionItemProvider,7>::`vftable'{for `DirectUI::IProvider'}
+> const DirectUI::PatternProvider<class DirectUI::SelectionItemProvider,struct ISelectionItemProvider,7>::`vftable'{for `DirectUI::RefcountBase'}
+> const DirectUI::PatternProvider<class DirectUI::SelectionProvider,struct ISelectionProvider,8>::`vftable'{for `DirectUI::IProvider'}
+> const DirectUI::PatternProvider<class DirectUI::SelectionProvider,struct ISelectionProvider,8>::`vftable'{for `DirectUI::RefcountBase'}
+> const DirectUI::PatternProvider<class DirectUI::TableItemProvider,struct ITableItemProvider,10>::`vftable'{for `DirectUI::IProvider'}
+> const DirectUI::PatternProvider<class DirectUI::TableItemProvider,struct ITableItemProvider,10>::`vftable'{for `DirectUI::RefcountBase'}
+> const DirectUI::PatternProvider<class DirectUI::TableProvider,struct ITableProvider,9>::`vftable'{for `DirectUI::IProvider'}
+> const DirectUI::PatternProvider<class DirectUI::TableProvider,struct ITableProvider,9>::`vftable'{for `DirectUI::RefcountBase'}
+> const DirectUI::PatternProvider<class DirectUI::ToggleProvider,struct IToggleProvider,11>::`vftable'{for `DirectUI::IProvider'}
+> const DirectUI::PatternProvider<class DirectUI::ToggleProvider,struct IToggleProvider,11>::`vftable'{for `DirectUI::RefcountBase'}
+> const DirectUI::PatternProvider<class DirectUI::ValueProvider,struct IValueProvider,12>::`vftable'{for `DirectUI::IProvider'}
+> const DirectUI::PatternProvider<class DirectUI::ValueProvider,struct IValueProvider,12>::`vftable'{for `DirectUI::RefcountBase'}
+183a219,244
+> CreateDUIWrapper
+> CreateDUIWrapperEx
+> CreateDUIWrapperFromResource
+> DisableAnimations
+> DrawShadowTextEx
+> DUIDrawShadowText
+> ElementFromGadget
+> EnableAnimations
+> FlushThemeHandles
+> ForceDebugBreak
+> GetElementDataEntry
+> GetElementMacro
+> GetFontCache
+> GetScreenDPI
+> GetThemeHandle
+> HrSysAllocString
+> HStrDup
+> InitPreprocessor
+> InitProcessPriv
+> InitThread
+> IsAnimationsEnabled
+> IsPalette
+> IsUIAutomationProviderEnabled
+> MultiByteToUnicode
+> NotifyAccessibilityEvent
+> PreprocessBuffer
+212a274,276
+> private: long __cdecl DirectUI::GridProxy::GetColumnCount(int * __ptr64) __ptr64
+> private: long __cdecl DirectUI::GridProxy::GetItem(unsigned int,unsigned int,struct IRawElementProviderSimple * __ptr64 * __ptr64) __ptr64
+> private: long __cdecl DirectUI::GridProxy::GetRowCount(int * __ptr64) __ptr64
+238a303
+> private: static bool __cdecl DirectUI::ElementProviderManager::FindProviderCallback(class DirectUI::ElementProvider * __ptr64,void * __ptr64)
+239a305
+> private: static bool DirectUI::EventManager::g_fWantAnyEvent
+240a307,310
+> private: static class DirectUI::InvokeHelper * __ptr64 __cdecl DirectUI::InvokeManager::FindInvokeHelper(unsigned int * __ptr64)
+> private: static class DirectUI::UiaArray<class DirectUI::ElementProvider * __ptr64> * __ptr64 __ptr64 DirectUI::ElementProviderManager::g_pArrayPprv
+> private: static class DirectUI::UiaArray<class DirectUI::InvokeHelper * __ptr64> * __ptr64 __ptr64 DirectUI::InvokeManager::g_pArrayInvokeHelper
+> private: static class DirectUI::UiaArray<int> * __ptr64 __ptr64 DirectUI::EventManager::g_pArrayPropertyEvent
+253a324
+> private: static int const DirectUI::EventManager::cChangeBulk
+254a326,347
+> private: static long __cdecl DirectUI::EventManager::AddRectangleChange(class DirectUI::Element * __ptr64,bool,bool)
+> private: static long __cdecl DirectUI::EventManager::GetBool(struct tagVARIANT * __ptr64,class DirectUI::Value * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::GetInt(struct tagVARIANT * __ptr64,class DirectUI::Value * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::GetString(struct tagVARIANT * __ptr64,class DirectUI::Value * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::HandleAccChange(class DirectUI::Element * __ptr64,struct IRawElementProviderSimple * __ptr64,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::HandleAccDesc(class DirectUI::Element * __ptr64,struct IRawElementProviderSimple * __ptr64,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::HandleAccPatternChange(class DirectUI::Element * __ptr64,struct IRawElementProviderSimple * __ptr64,unsigned int,unsigned int,int,struct tagVARIANT * __ptr64,struct tagVARIANT * __ptr64,void (__cdecl*)(struct tagVARIANT * __ptr64))
+> private: static long __cdecl DirectUI::EventManager::HandleAccRoleEvent(struct IRawElementProviderSimple * __ptr64,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::HandleAccStateChange(struct IRawElementProviderSimple * __ptr64,unsigned int,unsigned int,int,struct tagVARIANT * __ptr64,struct tagVARIANT * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::HandleBoolProp(class DirectUI::Element * __ptr64,bool (__cdecl*)(class DirectUI::Element * __ptr64),struct IRawElementProviderSimple * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::HandleChildrenEvent(class DirectUI::Element * __ptr64,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::HandleRangeValue(class DirectUI::Element * __ptr64,struct IRawElementProviderSimple * __ptr64,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::HandleScrollPos(class DirectUI::Element * __ptr64,struct IRawElementProviderSimple * __ptr64,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::HandleSelectedChange(struct IRawElementProviderSimple * __ptr64,class DirectUI::Value * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::HandleStringProp(struct IRawElementProviderSimple * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::HandleVisibilityChange(class DirectUI::Element * __ptr64,unsigned int)
+> private: static long __cdecl DirectUI::EventManager::RaiseChildRemovedEvent(struct DirectUI::ElementRuntimeId const & __ptr64,class DirectUI::Element * __ptr64)
+> private: static long __cdecl DirectUI::EventManager::RaiseGeometryEvents(void)
+> private: static long __cdecl DirectUI::EventManager::RaiseGeometryEventWorker(struct DirectUI::RectangleChange * __ptr64,bool,bool,bool,bool)
+> private: static long __cdecl DirectUI::EventManager::RaiseStructureChangedEvent(class DirectUI::Element * __ptr64,enum StructureChangeType)
+> private: static long __cdecl DirectUI::EventManager::RaiseStructureEvents(void)
+> private: static long __cdecl DirectUI::EventManager::RaiseVisibilityEvents(void)
+261a355,356
+> private: static struct _RTL_CRITICAL_SECTION DirectUI::EventManager::g_cs
+> private: static struct _RTL_CRITICAL_SECTION DirectUI::InvokeManager::g_cs
+333a429
+> private: static unsigned int * DirectUI::EventManager::g_eventRegisteredMap
+342a439,440
+> private: static void __cdecl DirectUI::EventManager::GetExpandCollapseState(struct tagVARIANT * __ptr64)
+> private: static void __cdecl DirectUI::EventManager::GetToggleState(struct tagVARIANT * __ptr64)
+382a481
+> ProcessAlphaBitmapI
+397a497,499
+> protected: long __cdecl DirectUI::DuiAccessible::GetAccName(struct tagVARIANT,int,unsigned short * __ptr64 * __ptr64) __ptr64
+> protected: long __cdecl DirectUI::DuiAccessible::GetAccNameFromContent(unsigned short * __ptr64 * __ptr64) __ptr64
+> protected: long __cdecl DirectUI::DuiAccessible::GetDispatchFromElement(class DirectUI::Element * __ptr64,struct IDispatch * __ptr64 * __ptr64) __ptr64
+479d580
+< protected: long __cdecl DirectUI::ElementProxy::IsPatternSupported(enum DirectUI::Schema::Pattern,bool * __ptr64) __ptr64
+482d582
+< protected: long __cdecl DirectUI::ElementProxy::SetString(struct tagVARIANT * __ptr64,unsigned short const * __ptr64 (__cdecl DirectUI::Element::*)(class DirectUI::Value * __ptr64 * __ptr64) __ptr64) __ptr64
+485a586,598
+> protected: long __cdecl DirectUI::PatternProvider<class DirectUI::ExpandCollapseProvider,struct IExpandCollapseProvider,1>::DoInvoke(int,...) __ptr64
+> protected: long __cdecl DirectUI::PatternProvider<class DirectUI::GridItemProvider,struct IGridItemProvider,2>::DoInvoke(int,...) __ptr64
+> protected: long __cdecl DirectUI::PatternProvider<class DirectUI::GridProvider,struct IGridProvider,3>::DoInvoke(int,...) __ptr64
+> protected: long __cdecl DirectUI::PatternProvider<class DirectUI::InvokeProvider,struct IInvokeProvider,0>::DoInvoke(int,...) __ptr64
+> protected: long __cdecl DirectUI::PatternProvider<class DirectUI::RangeValueProvider,struct IRangeValueProvider,4>::DoInvoke(int,...) __ptr64
+> protected: long __cdecl DirectUI::PatternProvider<class DirectUI::ScrollItemProvider,struct IScrollItemProvider,6>::DoInvoke(int,...) __ptr64
+> protected: long __cdecl DirectUI::PatternProvider<class DirectUI::ScrollProvider,struct IScrollProvider,5>::DoInvoke(int,...) __ptr64
+> protected: long __cdecl DirectUI::PatternProvider<class DirectUI::SelectionItemProvider,struct ISelectionItemProvider,7>::DoInvoke(int,...) __ptr64
+> protected: long __cdecl DirectUI::PatternProvider<class DirectUI::SelectionProvider,struct ISelectionProvider,8>::DoInvoke(int,...) __ptr64
+> protected: long __cdecl DirectUI::PatternProvider<class DirectUI::TableItemProvider,struct ITableItemProvider,10>::DoInvoke(int,...) __ptr64
+> protected: long __cdecl DirectUI::PatternProvider<class DirectUI::TableProvider,struct ITableProvider,9>::DoInvoke(int,...) __ptr64
+> protected: long __cdecl DirectUI::PatternProvider<class DirectUI::ToggleProvider,struct IToggleProvider,11>::DoInvoke(int,...) __ptr64
+> protected: long __cdecl DirectUI::PatternProvider<class DirectUI::ValueProvider,struct IValueProvider,12>::DoInvoke(int,...) __ptr64
+568a682
+> protected: virtual void __cdecl DirectUI::GridProxy::Init(class DirectUI::Element * __ptr64) __ptr64
+697a812
+> public: __cdecl DirectUI::DuiAccessible::DuiAccessible(void) __ptr64
+733a849,850
+> public: __cdecl DirectUI::GridProxy::GridProxy(class DirectUI::GridProxy const & __ptr64) __ptr64
+> public: __cdecl DirectUI::GridProxy::GridProxy(void) __ptr64
+779a897,909
+> public: __cdecl DirectUI::PatternProvider<class DirectUI::ExpandCollapseProvider,struct IExpandCollapseProvider,1>::PatternProvider<class DirectUI::ExpandCollapseProvider,struct IExpandCollapseProvider,1>(void) __ptr64
+> public: __cdecl DirectUI::PatternProvider<class DirectUI::GridItemProvider,struct IGridItemProvider,2>::PatternProvider<class DirectUI::GridItemProvider,struct IGridItemProvider,2>(void) __ptr64
+> public: __cdecl DirectUI::PatternProvider<class DirectUI::GridProvider,struct IGridProvider,3>::PatternProvider<class DirectUI::GridProvider,struct IGridProvider,3>(void) __ptr64
+> public: __cdecl DirectUI::PatternProvider<class DirectUI::InvokeProvider,struct IInvokeProvider,0>::PatternProvider<class DirectUI::InvokeProvider,struct IInvokeProvider,0>(void) __ptr64
+> public: __cdecl DirectUI::PatternProvider<class DirectUI::RangeValueProvider,struct IRangeValueProvider,4>::PatternProvider<class DirectUI::RangeValueProvider,struct IRangeValueProvider,4>(void) __ptr64
+> public: __cdecl DirectUI::PatternProvider<class DirectUI::ScrollItemProvider,struct IScrollItemProvider,6>::PatternProvider<class DirectUI::ScrollItemProvider,struct IScrollItemProvider,6>(void) __ptr64
+> public: __cdecl DirectUI::PatternProvider<class DirectUI::ScrollProvider,struct IScrollProvider,5>::PatternProvider<class DirectUI::ScrollProvider,struct IScrollProvider,5>(void) __ptr64
+> public: __cdecl DirectUI::PatternProvider<class DirectUI::SelectionItemProvider,struct ISelectionItemProvider,7>::PatternProvider<class DirectUI::SelectionItemProvider,struct ISelectionItemProvider,7>(void) __ptr64
+> public: __cdecl DirectUI::PatternProvider<class DirectUI::SelectionProvider,struct ISelectionProvider,8>::PatternProvider<class DirectUI::SelectionProvider,struct ISelectionProvider,8>(void) __ptr64
+> public: __cdecl DirectUI::PatternProvider<class DirectUI::TableItemProvider,struct ITableItemProvider,10>::PatternProvider<class DirectUI::TableItemProvider,struct ITableItemProvider,10>(void) __ptr64
+> public: __cdecl DirectUI::PatternProvider<class DirectUI::TableProvider,struct ITableProvider,9>::PatternProvider<class DirectUI::TableProvider,struct ITableProvider,9>(void) __ptr64
+> public: __cdecl DirectUI::PatternProvider<class DirectUI::ToggleProvider,struct IToggleProvider,11>::PatternProvider<class DirectUI::ToggleProvider,struct IToggleProvider,11>(void) __ptr64
+> public: __cdecl DirectUI::PatternProvider<class DirectUI::ValueProvider,struct IValueProvider,12>::PatternProvider<class DirectUI::ValueProvider,struct IValueProvider,12>(void) __ptr64
+805a936,938
+> public: __cdecl DirectUI::SafeArrayAccessor<int>::~SafeArrayAccessor<int>(void) __ptr64
+> public: __cdecl DirectUI::SafeArrayAccessor<int>::operator int * __ptr64(void) __ptr64
+> public: __cdecl DirectUI::SafeArrayAccessor<int>::SafeArrayAccessor<int>(void) __ptr64
+989a1123
+> public: class DirectUI::DuiNavigate & __ptr64 __cdecl DirectUI::DuiNavigate::operator=(class DirectUI::DuiNavigate const & __ptr64) __ptr64
+1014a1149
+> public: class DirectUI::ElementProviderManager & __ptr64 __cdecl DirectUI::ElementProviderManager::operator=(class DirectUI::ElementProviderManager const & __ptr64) __ptr64
+1016a1152
+> public: class DirectUI::EventManager & __ptr64 __cdecl DirectUI::EventManager::operator=(class DirectUI::EventManager const & __ptr64) __ptr64
+1028a1165
+> public: class DirectUI::GridProxy & __ptr64 __cdecl DirectUI::GridProxy::operator=(class DirectUI::GridProxy const & __ptr64) __ptr64
+1031a1169
+> public: class DirectUI::InvokeManager & __ptr64 __cdecl DirectUI::InvokeManager::operator=(class DirectUI::InvokeManager const & __ptr64) __ptr64
+1039a1178
+> public: class DirectUI::LinkedListNode & __ptr64 __cdecl DirectUI::LinkedListNode::operator=(class DirectUI::LinkedListNode const & __ptr64) __ptr64
+1161a1301,1302
+> public: int __cdecl DirectUI::NavScoring::TrackScore(class DirectUI::Element * __ptr64,class DirectUI::Element * __ptr64) __ptr64
+> public: int __cdecl DirectUI::NavScoring::Try(class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64,unsigned long) __ptr64
+1164a1306
+> public: int __cdecl DirectUI::SafeArrayAccessor<int>::Count(void) __ptr64
+1371a1514
+> public: long __cdecl DirectUI::SafeArrayAccessor<int>::Access(struct tagSAFEARRAY * __ptr64,unsigned short) __ptr64
+1402a1546
+> public: static bool __cdecl DirectUI::EventManager::FWantAnyEvent(class DirectUI::Element * __ptr64)
+1403a1548
+> public: static bool __cdecl DirectUI::EventManager::WantPropertyEvent(int)
+1405a1551
+> public: static bool __cdecl DirectUI::GridProxy::IsPatternSupported(class DirectUI::Element * __ptr64)
+1416a1563,1564
+> public: static class DirectUI::Element * __ptr64 __cdecl DirectUI::DuiAccessible::GetAccessibleParent(class DirectUI::Element * __ptr64)
+> public: static class DirectUI::Element * __ptr64 __cdecl DirectUI::DuiNavigate::Navigate(class DirectUI::Element * __ptr64,class DirectUI::DynamicArray<class DirectUI::Element * __ptr64,0> * __ptr64,int)
+1418a1567
+> public: static class DirectUI::ElementProvider * __ptr64 __cdecl DirectUI::ElementProviderManager::Find(class DirectUI::Element * __ptr64)
+1421a1571
+> public: static class DirectUI::GridProxy * __ptr64 __cdecl DirectUI::GridProxy::Create(class DirectUI::Element * __ptr64)
+1716a1867,1868
+> public: static long __cdecl DirectUI::DuiAccessible::AccNavigate(class DirectUI::Element * __ptr64,long,class DirectUI::Element * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::DuiAccessible::Create(class DirectUI::Element * __ptr64,class DirectUI::DuiAccessible * __ptr64 * __ptr64)
+1725a1878,1879
+> public: static long __cdecl DirectUI::ElementProviderManager::Add(class DirectUI::ElementProvider * __ptr64)
+> public: static long __cdecl DirectUI::ElementProviderManager::Init(void)
+1727a1882,1890
+> public: static long __cdecl DirectUI::EventManager::AdviseEventAdded(int,struct tagSAFEARRAY * __ptr64)
+> public: static long __cdecl DirectUI::EventManager::AdviseEventRemoved(int,struct tagSAFEARRAY * __ptr64)
+> public: static long __cdecl DirectUI::EventManager::EndDefer(class DirectUI::Element * __ptr64)
+> public: static long __cdecl DirectUI::EventManager::EventListener(class DirectUI::Element * __ptr64,struct DirectUI::Event * __ptr64)
+> public: static long __cdecl DirectUI::EventManager::FireStructureChangedEvent(class DirectUI::Element * __ptr64,enum StructureChangeType)
+> public: static long __cdecl DirectUI::EventManager::Init(void)
+> public: static long __cdecl DirectUI::EventManager::OnToolTip(class DirectUI::Element * __ptr64,unsigned long)
+> public: static long __cdecl DirectUI::EventManager::PropertyChangingListener(class DirectUI::Element * __ptr64,struct DirectUI::PropertyInfo const * __ptr64,bool * __ptr64)
+> public: static long __cdecl DirectUI::EventManager::PropertyListener(class DirectUI::Element * __ptr64,struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64)
+1751a1915,1916
+> public: static long __cdecl DirectUI::InvokeManager::GetInvokeHelper(class DirectUI::InvokeHelper * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::InvokeManager::Init(void)
+1767a1933,1945
+> public: static long __cdecl DirectUI::PatternProvider<class DirectUI::ExpandCollapseProvider,struct IExpandCollapseProvider,1>::Create(class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::PatternProvider<class DirectUI::GridItemProvider,struct IGridItemProvider,2>::Create(class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::PatternProvider<class DirectUI::GridProvider,struct IGridProvider,3>::Create(class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::PatternProvider<class DirectUI::InvokeProvider,struct IInvokeProvider,0>::Create(class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::PatternProvider<class DirectUI::RangeValueProvider,struct IRangeValueProvider,4>::Create(class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::PatternProvider<class DirectUI::ScrollItemProvider,struct IScrollItemProvider,6>::Create(class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::PatternProvider<class DirectUI::ScrollProvider,struct IScrollProvider,5>::Create(class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::PatternProvider<class DirectUI::SelectionItemProvider,struct ISelectionItemProvider,7>::Create(class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::PatternProvider<class DirectUI::SelectionProvider,struct ISelectionProvider,8>::Create(class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::PatternProvider<class DirectUI::TableItemProvider,struct ITableItemProvider,10>::Create(class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::PatternProvider<class DirectUI::TableProvider,struct ITableProvider,9>::Create(class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::PatternProvider<class DirectUI::ToggleProvider,struct IToggleProvider,11>::Create(class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+> public: static long __cdecl DirectUI::PatternProvider<class DirectUI::ValueProvider,struct IValueProvider,12>::Create(class DirectUI::ElementProvider * __ptr64,struct IUnknown * __ptr64 * __ptr64)
+1829a2008
+> public: static struct _RTL_CRITICAL_SECTION DirectUI::ElementProviderManager::g_cs
+2071a2251,2252
+> public: static void __cdecl DirectUI::ElementProviderManager::Close(void)
+> public: static void __cdecl DirectUI::ElementProviderManager::Remove(class DirectUI::ElementProvider * __ptr64)
+2072a2254,2255
+> public: static void __cdecl DirectUI::EventManager::Close(void)
+> public: static void __cdecl DirectUI::EventManager::DestroyListener(class DirectUI::Element * __ptr64)
+2079a2263,2264
+> public: static void __cdecl DirectUI::InvokeManager::Close(void)
+> public: static void __cdecl DirectUI::InvokeManager::CloseThread(void)
+2123a2309,2310
+> public: struct DirectUI::NavReference & __ptr64 __cdecl DirectUI::NavReference::operator=(struct DirectUI::NavReference const & __ptr64) __ptr64
+> public: struct DirectUI::NavScoring & __ptr64 __cdecl DirectUI::NavScoring::operator=(struct DirectUI::NavScoring const & __ptr64) __ptr64
+2210a2398
+> public: virtual __cdecl DirectUI::DuiAccessible::~DuiAccessible(void) __ptr64
+2242a2431,2443
+> public: virtual __cdecl DirectUI::PatternProvider<class DirectUI::ExpandCollapseProvider,struct IExpandCollapseProvider,1>::~PatternProvider<class DirectUI::ExpandCollapseProvider,struct IExpandCollapseProvider,1>(void) __ptr64
+> public: virtual __cdecl DirectUI::PatternProvider<class DirectUI::GridItemProvider,struct IGridItemProvider,2>::~PatternProvider<class DirectUI::GridItemProvider,struct IGridItemProvider,2>(void) __ptr64
+> public: virtual __cdecl DirectUI::PatternProvider<class DirectUI::GridProvider,struct IGridProvider,3>::~PatternProvider<class DirectUI::GridProvider,struct IGridProvider,3>(void) __ptr64
+> public: virtual __cdecl DirectUI::PatternProvider<class DirectUI::InvokeProvider,struct IInvokeProvider,0>::~PatternProvider<class DirectUI::InvokeProvider,struct IInvokeProvider,0>(void) __ptr64
+> public: virtual __cdecl DirectUI::PatternProvider<class DirectUI::RangeValueProvider,struct IRangeValueProvider,4>::~PatternProvider<class DirectUI::RangeValueProvider,struct IRangeValueProvider,4>(void) __ptr64
+> public: virtual __cdecl DirectUI::PatternProvider<class DirectUI::ScrollItemProvider,struct IScrollItemProvider,6>::~PatternProvider<class DirectUI::ScrollItemProvider,struct IScrollItemProvider,6>(void) __ptr64
+> public: virtual __cdecl DirectUI::PatternProvider<class DirectUI::ScrollProvider,struct IScrollProvider,5>::~PatternProvider<class DirectUI::ScrollProvider,struct IScrollProvider,5>(void) __ptr64
+> public: virtual __cdecl DirectUI::PatternProvider<class DirectUI::SelectionItemProvider,struct ISelectionItemProvider,7>::~PatternProvider<class DirectUI::SelectionItemProvider,struct ISelectionItemProvider,7>(void) __ptr64
+> public: virtual __cdecl DirectUI::PatternProvider<class DirectUI::SelectionProvider,struct ISelectionProvider,8>::~PatternProvider<class DirectUI::SelectionProvider,struct ISelectionProvider,8>(void) __ptr64
+> public: virtual __cdecl DirectUI::PatternProvider<class DirectUI::TableItemProvider,struct ITableItemProvider,10>::~PatternProvider<class DirectUI::TableItemProvider,struct ITableItemProvider,10>(void) __ptr64
+> public: virtual __cdecl DirectUI::PatternProvider<class DirectUI::TableProvider,struct ITableProvider,9>::~PatternProvider<class DirectUI::TableProvider,struct ITableProvider,9>(void) __ptr64
+> public: virtual __cdecl DirectUI::PatternProvider<class DirectUI::ToggleProvider,struct IToggleProvider,11>::~PatternProvider<class DirectUI::ToggleProvider,struct IToggleProvider,11>(void) __ptr64
+> public: virtual __cdecl DirectUI::PatternProvider<class DirectUI::ValueProvider,struct IValueProvider,12>::~PatternProvider<class DirectUI::ValueProvider,struct IValueProvider,12>(void) __ptr64
+2369a2571,2583
+> public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::PatternProvider<class DirectUI::ExpandCollapseProvider,struct IExpandCollapseProvider,1>::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+> public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::PatternProvider<class DirectUI::GridItemProvider,struct IGridItemProvider,2>::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+> public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::PatternProvider<class DirectUI::GridProvider,struct IGridProvider,3>::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+> public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::PatternProvider<class DirectUI::InvokeProvider,struct IInvokeProvider,0>::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+> public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::PatternProvider<class DirectUI::RangeValueProvider,struct IRangeValueProvider,4>::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+> public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::PatternProvider<class DirectUI::ScrollItemProvider,struct IScrollItemProvider,6>::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+> public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::PatternProvider<class DirectUI::ScrollProvider,struct IScrollProvider,5>::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+> public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::PatternProvider<class DirectUI::SelectionItemProvider,struct ISelectionItemProvider,7>::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+> public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::PatternProvider<class DirectUI::SelectionProvider,struct ISelectionProvider,8>::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+> public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::PatternProvider<class DirectUI::TableItemProvider,struct ITableItemProvider,10>::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+> public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::PatternProvider<class DirectUI::TableProvider,struct ITableProvider,9>::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+> public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::PatternProvider<class DirectUI::ToggleProvider,struct IToggleProvider,11>::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+> public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::PatternProvider<class DirectUI::ValueProvider,struct IValueProvider,12>::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+2380d2593
+< public: virtual enum DirectUI::Surface::EType __cdecl DirectUI::DCSurface::GetType(void)const __ptr64
+2406a2620,2654
+> public: virtual long __cdecl DirectUI::DuiAccessible::accDoDefaultAction(struct tagVARIANT) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::accHitTest(long,long,struct tagVARIANT * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::accLocation(long * __ptr64,long * __ptr64,long * __ptr64,long * __ptr64,struct tagVARIANT) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::accNavigate(long,struct tagVARIANT,struct tagVARIANT * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::accSelect(long,struct tagVARIANT) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::Clone(struct IEnumVARIANT * __ptr64 * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::ContextSensitiveHelp(int) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::Disconnect(void) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accChild(struct tagVARIANT,struct IDispatch * __ptr64 * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accChildCount(long * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accDefaultAction(struct tagVARIANT,unsigned short * __ptr64 * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accDescription(struct tagVARIANT,unsigned short * __ptr64 * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accFocus(struct tagVARIANT * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accHelp(struct tagVARIANT,unsigned short * __ptr64 * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accHelpTopic(unsigned short * __ptr64 * __ptr64,struct tagVARIANT,long * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accKeyboardShortcut(struct tagVARIANT,unsigned short * __ptr64 * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accName(struct tagVARIANT,unsigned short * __ptr64 * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accParent(struct IDispatch * __ptr64 * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accRole(struct tagVARIANT,struct tagVARIANT * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accSelection(struct tagVARIANT * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accState(struct tagVARIANT,struct tagVARIANT * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::get_accValue(struct tagVARIANT,unsigned short * __ptr64 * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::GetIdentityString(unsigned long,unsigned char * __ptr64 * __ptr64,unsigned long * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::GetIDsOfNames(struct _GUID const & __ptr64,unsigned short * __ptr64 * __ptr64,unsigned int,unsigned long,long * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::GetTypeInfo(unsigned int,unsigned long,struct ITypeInfo * __ptr64 * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::GetTypeInfoCount(unsigned int * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::GetWindow(struct HWND__ * __ptr64 * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::Invoke(long,struct _GUID const & __ptr64,unsigned long,unsigned short,struct tagDISPPARAMS * __ptr64,struct tagVARIANT * __ptr64,struct tagEXCEPINFO * __ptr64,unsigned int * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::Next(unsigned long,struct tagVARIANT * __ptr64,unsigned long * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::put_accName(struct tagVARIANT,unsigned short * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::put_accValue(struct tagVARIANT,unsigned short * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::QueryService(struct _GUID const & __ptr64,struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::Reset(void) __ptr64
+> public: virtual long __cdecl DirectUI::DuiAccessible::Skip(unsigned long) __ptr64
+2444a2693
+> public: virtual long __cdecl DirectUI::GridProxy::DoMethod(int,char * __ptr64) __ptr64
+2674a2924,2925
+> public: virtual unsigned long __cdecl DirectUI::DuiAccessible::AddRef(void) __ptr64
+> public: virtual unsigned long __cdecl DirectUI::DuiAccessible::Release(void) __ptr64
+2827a3079,3091
+> public: virtual void __cdecl DirectUI::PatternProvider<class DirectUI::ExpandCollapseProvider,struct IExpandCollapseProvider,1>::Init(class DirectUI::ElementProvider * __ptr64) __ptr64
+> public: virtual void __cdecl DirectUI::PatternProvider<class DirectUI::GridItemProvider,struct IGridItemProvider,2>::Init(class DirectUI::ElementProvider * __ptr64) __ptr64
+> public: virtual void __cdecl DirectUI::PatternProvider<class DirectUI::GridProvider,struct IGridProvider,3>::Init(class DirectUI::ElementProvider * __ptr64) __ptr64
+> public: virtual void __cdecl DirectUI::PatternProvider<class DirectUI::InvokeProvider,struct IInvokeProvider,0>::Init(class DirectUI::ElementProvider * __ptr64) __ptr64
+> public: virtual void __cdecl DirectUI::PatternProvider<class DirectUI::RangeValueProvider,struct IRangeValueProvider,4>::Init(class DirectUI::ElementProvider * __ptr64) __ptr64
+> public: virtual void __cdecl DirectUI::PatternProvider<class DirectUI::ScrollItemProvider,struct IScrollItemProvider,6>::Init(class DirectUI::ElementProvider * __ptr64) __ptr64
+> public: virtual void __cdecl DirectUI::PatternProvider<class DirectUI::ScrollProvider,struct IScrollProvider,5>::Init(class DirectUI::ElementProvider * __ptr64) __ptr64
+> public: virtual void __cdecl DirectUI::PatternProvider<class DirectUI::SelectionItemProvider,struct ISelectionItemProvider,7>::Init(class DirectUI::ElementProvider * __ptr64) __ptr64
+> public: virtual void __cdecl DirectUI::PatternProvider<class DirectUI::SelectionProvider,struct ISelectionProvider,8>::Init(class DirectUI::ElementProvider * __ptr64) __ptr64
+> public: virtual void __cdecl DirectUI::PatternProvider<class DirectUI::TableItemProvider,struct ITableItemProvider,10>::Init(class DirectUI::ElementProvider * __ptr64) __ptr64
+> public: virtual void __cdecl DirectUI::PatternProvider<class DirectUI::TableProvider,struct ITableProvider,9>::Init(class DirectUI::ElementProvider * __ptr64) __ptr64
+> public: virtual void __cdecl DirectUI::PatternProvider<class DirectUI::ToggleProvider,struct IToggleProvider,11>::Init(class DirectUI::ElementProvider * __ptr64) __ptr64
+> public: virtual void __cdecl DirectUI::PatternProvider<class DirectUI::ValueProvider,struct IValueProvider,12>::Init(class DirectUI::ElementProvider * __ptr64) __ptr64
+2886a3151
+> public: void __cdecl DirectUI::DuiAccessible::Initialize(class DirectUI::Element * __ptr64) __ptr64
+2923d3187
+< public: void __cdecl DirectUI::ElementProvider::TossPatternProvider(enum DirectUI::Schema::Pattern) __ptr64
+2955a3220,3221
+> public: void __cdecl DirectUI::NavReference::Init(class DirectUI::Element * __ptr64,struct tagRECT * __ptr64) __ptr64
+> public: void __cdecl DirectUI::NavScoring::Init(class DirectUI::Element * __ptr64,int,struct DirectUI::NavReference const * __ptr64) __ptr64
+2971a3238,3261
+> PurgeThemeHandles
+> RegisterAllControls
+> RegisterBaseControls
+> RegisterBrowserControls
+> RegisterCommonControls
+> RegisterExtendedControls
+> RegisterMacroControls
+> RegisterMiscControls
+> RegisterStandardControls
+> RegisterXControls
+> SetDefAction
+> StartMessagePump
+> StopMessagePump
+> StrToID
+> UiaHideOnGetObject
+> UiaOnDestroySink
+> UiaOnGetObject
+> UiaOnToolTip
+> UnicodeToMultiByt
+> UnInitProcessPriv
+> UnInitThread
+> unsigned long DirectUI::g_dwElSlot
+> void __cdecl DumpDuiProperties(class DirectUI::Element * __ptr64)
+> void __cdecl DumpDuiTree(class DirectUI::Element * __ptr64,int)

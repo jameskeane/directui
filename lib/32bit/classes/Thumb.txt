@@ -1,0 +1,15 @@
+public: __thiscall DirectUI::Thumb::Thumb(class DirectUI::Thumb const &)
+public: __thiscall DirectUI::Thumb::Thumb(void)
+public: virtual __thiscall DirectUI::Thumb::~Thumb(void)
+public: class DirectUI::Thumb & __thiscall DirectUI::Thumb::operator=(class DirectUI::Thumb const &)
+const DirectUI::Thumb::`vftable'
+public: static long __stdcall DirectUI::Thumb::Create(unsigned int,class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static long __stdcall DirectUI::Thumb::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static class UID __stdcall DirectUI::Thumb::Drag(void)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::Thumb::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::Thumb::GetClassInfoW(void)
+public: long __thiscall DirectUI::Thumb::Initialize(unsigned int,class DirectUI::Element *,unsigned long *)
+public: virtual void __thiscall DirectUI::Thumb::OnInput(struct DirectUI::InputEvent *)
+public: static long __stdcall DirectUI::Thumb::Register(void)
+public: static void __stdcall DirectUI::Thumb::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::Thumb::s_pClassInfo

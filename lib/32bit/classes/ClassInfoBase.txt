@@ -1,0 +1,24 @@
+public: __thiscall DirectUI::ClassInfoBase::ClassInfoBase(class DirectUI::ClassInfoBase const &)
+public: __thiscall DirectUI::ClassInfoBase::ClassInfoBase(void)
+public: virtual __thiscall DirectUI::ClassInfoBase::~ClassInfoBase(void)
+public: class DirectUI::ClassInfoBase & __thiscall DirectUI::ClassInfoBase::operator=(class DirectUI::ClassInfoBase const &)
+const DirectUI::ClassInfoBase::`vftable'
+public: virtual void __thiscall DirectUI::ClassInfoBase::AddChild(void)
+public: virtual void __thiscall DirectUI::ClassInfoBase::AddRef(void)
+public: virtual void __thiscall DirectUI::ClassInfoBase::AssertPIZeroRef(void)const 
+public: static bool __stdcall DirectUI::ClassInfoBase::ClassExist(struct DirectUI::IClassInfo * *,struct DirectUI::PropertyInfo const * const *,unsigned int,struct DirectUI::IClassInfo *,struct HINSTANCE__ *,unsigned short const *,bool)
+public: virtual void __thiscall DirectUI::ClassInfoBase::Destroy(void)
+public: virtual struct DirectUI::PropertyInfo const * __thiscall DirectUI::ClassInfoBase::EnumPropertyInfo(unsigned int)
+public: virtual struct DirectUI::PropertyInfo const * __thiscall DirectUI::ClassInfoBase::GetByClassIndex(unsigned int)
+public: virtual int __thiscall DirectUI::ClassInfoBase::GetChildren(void)const 
+public: virtual unsigned int __thiscall DirectUI::ClassInfoBase::GetGlobalIndex(void)const 
+public: virtual struct HINSTANCE__ * __thiscall DirectUI::ClassInfoBase::GetModule(void)const 
+public: virtual unsigned short const * __thiscall DirectUI::ClassInfoBase::GetName(void)const 
+public: virtual unsigned int __thiscall DirectUI::ClassInfoBase::GetPICount(void)const 
+public: long __thiscall DirectUI::ClassInfoBase::Initialize(struct HINSTANCE__ *,unsigned short const *,bool,struct DirectUI::PropertyInfo const * const *,unsigned int)
+public: virtual bool __thiscall DirectUI::ClassInfoBase::IsGlobal(void)const 
+public: virtual bool __thiscall DirectUI::ClassInfoBase::IsSubclassOf(struct DirectUI::IClassInfo *)const 
+public: virtual bool __thiscall DirectUI::ClassInfoBase::IsValidProperty(struct DirectUI::PropertyInfo const *)const 
+public: long __thiscall DirectUI::ClassInfoBase::Register(void)
+public: virtual int __thiscall DirectUI::ClassInfoBase::Release(void)
+public: virtual void __thiscall DirectUI::ClassInfoBase::RemoveChild(void)

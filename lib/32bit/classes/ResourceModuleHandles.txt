@@ -1,0 +1,5 @@
+public: __thiscall DirectUI::ResourceModuleHandles::ResourceModuleHandles(void)
+public: __thiscall DirectUI::ResourceModuleHandles::~ResourceModuleHandles(void)
+public: class DirectUI::ResourceModuleHandles & __thiscall DirectUI::ResourceModuleHandles::operator=(class DirectUI::ResourceModuleHandles const &)
+public: long __thiscall DirectUI::ResourceModuleHandles::GetHandle(unsigned short const *,struct HINSTANCE__ * *)
+private: static long volatile DirectUI::ResourceModuleHandles::g_cRefCount

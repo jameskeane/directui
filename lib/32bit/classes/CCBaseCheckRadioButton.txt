@@ -1,0 +1,15 @@
+public: __thiscall DirectUI::CCBaseCheckRadioButton::CCBaseCheckRadioButton(class DirectUI::CCBaseCheckRadioButton const &)
+public: __thiscall DirectUI::CCBaseCheckRadioButton::CCBaseCheckRadioButton(unsigned long)
+public: virtual __thiscall DirectUI::CCBaseCheckRadioButton::~CCBaseCheckRadioButton(void)
+public: class DirectUI::CCBaseCheckRadioButton & __thiscall DirectUI::CCBaseCheckRadioButton::operator=(class DirectUI::CCBaseCheckRadioButton const &)
+const DirectUI::CCBaseCheckRadioButton::`vftable'
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::CCBaseCheckRadioButton::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::CCBaseCheckRadioButton::GetClassInfoW(void)
+public: virtual struct tagSIZE __thiscall DirectUI::CCBaseCheckRadioButton::GetContentSize(int,int,class DirectUI::Surface *)
+public: virtual bool __thiscall DirectUI::CCBaseCheckRadioButton::OnLostDialogFocus(class DirectUI::DialogElement *)
+public: virtual void __thiscall DirectUI::CCBaseCheckRadioButton::OnPropertyChanged(struct DirectUI::PropertyInfo const *,int,class DirectUI::Value *,class DirectUI::Value *)
+public: virtual bool __thiscall DirectUI::CCBaseCheckRadioButton::OnReceivedDialogFocus(class DirectUI::DialogElement *)
+protected: virtual void __thiscall DirectUI::CCBaseCheckRadioButton::PostCreate(struct HWND__ *)
+public: static long __stdcall DirectUI::CCBaseCheckRadioButton::Register(void)
+public: static void __stdcall DirectUI::CCBaseCheckRadioButton::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::CCBaseCheckRadioButton::s_pClassInfo

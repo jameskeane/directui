@@ -1,0 +1,17 @@
+public: __cdecl DirectUI::CCRadioButton::CCRadioButton(class DirectUI::CCRadioButton const & __ptr64) __ptr64
+public: __cdecl DirectUI::CCRadioButton::CCRadioButton(void) __ptr64
+public: virtual __cdecl DirectUI::CCRadioButton::~CCRadioButton(void) __ptr64
+public: class DirectUI::CCRadioButton & __ptr64 __cdecl DirectUI::CCRadioButton::operator=(class DirectUI::CCRadioButton const & __ptr64) __ptr64
+const DirectUI::CCRadioButton::`vftable'
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::CCRadioButton::AutoGroupingProp(void)
+public: static long __cdecl DirectUI::CCRadioButton::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::CCRadioButton::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: bool __cdecl DirectUI::CCRadioButton::GetAutoGrouping(void) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCRadioButton::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCRadioButton::GetClassInfoW(void) __ptr64
+public: virtual void __cdecl DirectUI::CCRadioButton::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::CCRadioButton::OnNotify(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: static long __cdecl DirectUI::CCRadioButton::Register(void)
+public: long __cdecl DirectUI::CCRadioButton::SetAutoGrouping(bool) __ptr64
+public: static void __cdecl DirectUI::CCRadioButton::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::CCRadioButton::s_pClassInfo

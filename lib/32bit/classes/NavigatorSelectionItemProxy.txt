@@ -1,0 +1,8 @@
+public: __thiscall DirectUI::NavigatorSelectionItemProxy::NavigatorSelectionItemProxy(class DirectUI::NavigatorSelectionItemProxy const &)
+public: __thiscall DirectUI::NavigatorSelectionItemProxy::NavigatorSelectionItemProxy(void)
+public: class DirectUI::NavigatorSelectionItemProxy & __thiscall DirectUI::NavigatorSelectionItemProxy::operator=(class DirectUI::NavigatorSelectionItemProxy const &)
+const DirectUI::NavigatorSelectionItemProxy::`vftable'
+private: long __thiscall DirectUI::NavigatorSelectionItemProxy::AddToSelection(class DirectUI::Browser *)
+public: virtual long __thiscall DirectUI::NavigatorSelectionItemProxy::DoMethod(int,char *)
+private: long __thiscall DirectUI::NavigatorSelectionItemProxy::GetIsSelected(class DirectUI::Browser *,int *)
+protected: virtual void __thiscall DirectUI::NavigatorSelectionItemProxy::Init(class DirectUI::Element *)

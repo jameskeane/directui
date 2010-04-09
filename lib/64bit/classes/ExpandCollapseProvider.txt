@@ -1,0 +1,12 @@
+public: __cdecl DirectUI::ExpandCollapseProvider::ExpandCollapseProvider(void) __ptr64
+public: virtual __cdecl DirectUI::ExpandCollapseProvider::~ExpandCollapseProvider(void) __ptr64
+const DirectUI::ExpandCollapseProvider::`vftable'
+const DirectUI::ExpandCollapseProvider::`vftable'{for `DirectUI::IProvider'}
+const DirectUI::ExpandCollapseProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __cdecl DirectUI::ExpandCollapseProvider::AddRef(void) __ptr64
+public: virtual long __cdecl DirectUI::ExpandCollapseProvider::Collapse(void) __ptr64
+public: virtual long __cdecl DirectUI::ExpandCollapseProvider::Expand(void) __ptr64
+public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::ExpandCollapseProvider::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::ExpandCollapseProvider::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+public: virtual unsigned long __cdecl DirectUI::ExpandCollapseProvider::Release(void) __ptr64
+public: virtual long __cdecl DirectUI::ExpandCollapseProvider::get_ExpandCollapseState(enum ExpandCollapseState * __ptr64) __ptr64

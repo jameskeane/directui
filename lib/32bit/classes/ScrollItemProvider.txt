@@ -1,0 +1,10 @@
+public: __thiscall DirectUI::ScrollItemProvider::ScrollItemProvider(void)
+public: virtual __thiscall DirectUI::ScrollItemProvider::~ScrollItemProvider(void)
+const DirectUI::ScrollItemProvider::`vftable'
+const DirectUI::ScrollItemProvider::`vftable'{for `DirectUI::IProvider'}
+const DirectUI::ScrollItemProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __stdcall DirectUI::ScrollItemProvider::AddRef(void)
+public: virtual class DirectUI::ProviderProxy * (__stdcall*__thiscall DirectUI::ScrollItemProvider::GetProxyCreator(void))(class DirectUI::Element *)
+public: virtual long __stdcall DirectUI::ScrollItemProvider::QueryInterface(struct _GUID const &,void * *)
+public: virtual unsigned long __stdcall DirectUI::ScrollItemProvider::Release(void)
+public: virtual long __stdcall DirectUI::ScrollItemProvider::ScrollIntoView(void)

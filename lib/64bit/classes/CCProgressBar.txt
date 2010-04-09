@@ -1,0 +1,14 @@
+public: __cdecl DirectUI::CCProgressBar::CCProgressBar(class DirectUI::CCProgressBar const & __ptr64) __ptr64
+public: __cdecl DirectUI::CCProgressBar::CCProgressBar(void) __ptr64
+public: virtual __cdecl DirectUI::CCProgressBar::~CCProgressBar(void) __ptr64
+public: class DirectUI::CCProgressBar & __ptr64 __cdecl DirectUI::CCProgressBar::operator=(class DirectUI::CCProgressBar const & __ptr64) __ptr64
+const DirectUI::CCProgressBar::`vftable'
+public: static long __cdecl DirectUI::CCProgressBar::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::CCProgressBar::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCProgressBar::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCProgressBar::GetClassInfoW(void) __ptr64
+public: long __cdecl DirectUI::CCProgressBar::Initialize(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::CCProgressBar::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: static long __cdecl DirectUI::CCProgressBar::Register(void)
+public: static void __cdecl DirectUI::CCProgressBar::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::CCProgressBar::s_pClassInfo

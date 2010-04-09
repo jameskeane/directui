@@ -1,0 +1,16 @@
+public: __thiscall DirectUI::RangeValueProvider::RangeValueProvider(void)
+public: virtual __thiscall DirectUI::RangeValueProvider::~RangeValueProvider(void)
+const DirectUI::RangeValueProvider::`vftable'
+const DirectUI::RangeValueProvider::`vftable'{for `DirectUI::IProvider'}
+const DirectUI::RangeValueProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __stdcall DirectUI::RangeValueProvider::AddRef(void)
+public: virtual class DirectUI::ProviderProxy * (__stdcall*__thiscall DirectUI::RangeValueProvider::GetProxyCreator(void))(class DirectUI::Element *)
+public: virtual long __stdcall DirectUI::RangeValueProvider::QueryInterface(struct _GUID const &,void * *)
+public: virtual unsigned long __stdcall DirectUI::RangeValueProvider::Release(void)
+public: virtual long __stdcall DirectUI::RangeValueProvider::SetValue(double)
+public: virtual long __stdcall DirectUI::RangeValueProvider::get_IsReadOnly(int *)
+public: virtual long __stdcall DirectUI::RangeValueProvider::get_LargeChange(double *)
+public: virtual long __stdcall DirectUI::RangeValueProvider::get_Maximum(double *)
+public: virtual long __stdcall DirectUI::RangeValueProvider::get_Minimum(double *)
+public: virtual long __stdcall DirectUI::RangeValueProvider::get_SmallChange(double *)
+public: virtual long __stdcall DirectUI::RangeValueProvider::get_Value(double *)

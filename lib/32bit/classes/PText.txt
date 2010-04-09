@@ -1,0 +1,14 @@
+public: __thiscall DirectUI::PText::PText(class DirectUI::PText const &)
+public: __thiscall DirectUI::PText::PText(void)
+public: virtual __thiscall DirectUI::PText::~PText(void)
+public: class DirectUI::PText & __thiscall DirectUI::PText::operator=(class DirectUI::PText const &)
+const DirectUI::PText::`vftable'
+public: static long __stdcall DirectUI::PText::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::PText::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::PText::GetClassInfoW(void)
+public: long __thiscall DirectUI::PText::Initialize(class DirectUI::Element *,unsigned long *)
+public: virtual bool __thiscall DirectUI::PText::OnPropertyChanging(struct DirectUI::PropertyInfo const *,int,class DirectUI::Value *,class DirectUI::Value *)
+public: static long __stdcall DirectUI::PText::Register(void)
+public: static void __stdcall DirectUI::PText::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+public: void __thiscall DirectUI::PText::SetDataEntry(struct DirectUI::IDataEntry *)
+private: static struct DirectUI::IClassInfo * DirectUI::PText::s_pClassInfo

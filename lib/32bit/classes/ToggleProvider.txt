@@ -1,0 +1,11 @@
+public: __thiscall DirectUI::ToggleProvider::ToggleProvider(void)
+public: virtual __thiscall DirectUI::ToggleProvider::~ToggleProvider(void)
+const DirectUI::ToggleProvider::`vftable'
+const DirectUI::ToggleProvider::`vftable'{for `DirectUI::IProvider'}
+const DirectUI::ToggleProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __stdcall DirectUI::ToggleProvider::AddRef(void)
+public: virtual class DirectUI::ProviderProxy * (__stdcall*__thiscall DirectUI::ToggleProvider::GetProxyCreator(void))(class DirectUI::Element *)
+public: virtual long __stdcall DirectUI::ToggleProvider::QueryInterface(struct _GUID const &,void * *)
+public: virtual unsigned long __stdcall DirectUI::ToggleProvider::Release(void)
+public: virtual long __stdcall DirectUI::ToggleProvider::Toggle(void)
+public: virtual long __stdcall DirectUI::ToggleProvider::get_ToggleState(enum ToggleState *)

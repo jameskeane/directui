@@ -1,0 +1,12 @@
+public: __thiscall DirectUI::TableProvider::TableProvider(void)
+public: virtual __thiscall DirectUI::TableProvider::~TableProvider(void)
+const DirectUI::TableProvider::`vftable'
+const DirectUI::TableProvider::`vftable'{for `DirectUI::IProvider'}
+const DirectUI::TableProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __stdcall DirectUI::TableProvider::AddRef(void)
+public: virtual long __stdcall DirectUI::TableProvider::GetColumnHeaders(struct tagSAFEARRAY * *)
+public: virtual class DirectUI::ProviderProxy * (__stdcall*__thiscall DirectUI::TableProvider::GetProxyCreator(void))(class DirectUI::Element *)
+public: virtual long __stdcall DirectUI::TableProvider::GetRowHeaders(struct tagSAFEARRAY * *)
+public: virtual long __stdcall DirectUI::TableProvider::QueryInterface(struct _GUID const &,void * *)
+public: virtual unsigned long __stdcall DirectUI::TableProvider::Release(void)
+public: virtual long __stdcall DirectUI::TableProvider::get_RowOrColumnMajor(enum RowOrColumnMajor *)

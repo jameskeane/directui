@@ -1,0 +1,8 @@
+public: __cdecl DirectUI::BrowserSelectionProxy::BrowserSelectionProxy(class DirectUI::BrowserSelectionProxy const & __ptr64) __ptr64
+public: __cdecl DirectUI::BrowserSelectionProxy::BrowserSelectionProxy(void) __ptr64
+public: class DirectUI::BrowserSelectionProxy & __ptr64 __cdecl DirectUI::BrowserSelectionProxy::operator=(class DirectUI::BrowserSelectionProxy const & __ptr64) __ptr64
+const DirectUI::BrowserSelectionProxy::`vftable'
+public: virtual long __cdecl DirectUI::BrowserSelectionProxy::DoMethod(int,char * __ptr64) __ptr64
+private: long __cdecl DirectUI::BrowserSelectionProxy::GetIsSelectionRequired(int * __ptr64) __ptr64
+private: long __cdecl DirectUI::BrowserSelectionProxy::GetSelection(struct tagSAFEARRAY * __ptr64 * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::BrowserSelectionProxy::Init(class DirectUI::Element * __ptr64) __ptr64

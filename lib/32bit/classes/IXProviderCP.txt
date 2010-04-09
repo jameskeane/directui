@@ -1,0 +1,4 @@
+public: __thiscall DirectUI::IXProviderCP::IXProviderCP(class DirectUI::IXProviderCP const &)
+public: __thiscall DirectUI::IXProviderCP::IXProviderCP(void)
+public: class DirectUI::IXProviderCP & __thiscall DirectUI::IXProviderCP::operator=(class DirectUI::IXProviderCP const &)
+const DirectUI::IXProviderCP::`vftable'

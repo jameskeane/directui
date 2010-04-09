@@ -1,0 +1,12 @@
+public: __cdecl DirectUI::GridProvider::GridProvider(void) __ptr64
+public: virtual __cdecl DirectUI::GridProvider::~GridProvider(void) __ptr64
+const DirectUI::GridProvider::`vftable'
+const DirectUI::GridProvider::`vftable'{for `DirectUI::IProvider'}
+const DirectUI::GridProvider::`vftable'{for `DirectUI::RefcountBase'}
+public: virtual unsigned long __cdecl DirectUI::GridProvider::AddRef(void) __ptr64
+public: virtual long __cdecl DirectUI::GridProvider::GetItem(int,int,struct IRawElementProviderSimple * __ptr64 * __ptr64) __ptr64
+public: virtual class DirectUI::ProviderProxy * __ptr64 (__cdecl*__cdecl DirectUI::GridProvider::GetProxyCreator(void) __ptr64)(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::GridProvider::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+public: virtual unsigned long __cdecl DirectUI::GridProvider::Release(void) __ptr64
+public: virtual long __cdecl DirectUI::GridProvider::get_ColumnCount(int * __ptr64) __ptr64
+public: virtual long __cdecl DirectUI::GridProvider::get_RowCount(int * __ptr64) __ptr64

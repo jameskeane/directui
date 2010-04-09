@@ -1,0 +1,7 @@
+public: __cdecl DirectUI::DCSurface::DCSurface(class DirectUI::DCSurface const & __ptr64) __ptr64
+public: __cdecl DirectUI::DCSurface::DCSurface(struct HDC__ * __ptr64) __ptr64
+public: virtual __cdecl DirectUI::DCSurface::~DCSurface(void) __ptr64
+public: class DirectUI::DCSurface & __ptr64 __cdecl DirectUI::DCSurface::operator=(class DirectUI::DCSurface const & __ptr64) __ptr64
+const DirectUI::DCSurface::`vftable'
+public: struct HDC__ * __ptr64 __cdecl DirectUI::DCSurface::GetHDC(void) __ptr64
+public: virtual enum DirectUI::Surface::EType __cdecl DirectUI::DCSurface::GetType(void)const __ptr64

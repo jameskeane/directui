@@ -1,0 +1,78 @@
+public: __cdecl DirectUI::HWNDHost::HWNDHost(class DirectUI::HWNDHost const & __ptr64) __ptr64
+public: __cdecl DirectUI::HWNDHost::HWNDHost(void) __ptr64
+public: virtual __cdecl DirectUI::HWNDHost::~HWNDHost(void) __ptr64
+public: class DirectUI::HWNDHost & __ptr64 __cdecl DirectUI::HWNDHost::operator=(class DirectUI::HWNDHost const & __ptr64) __ptr64
+const DirectUI::HWNDHost::`vftable'
+private: void __cdecl DirectUI::HWNDHost::ApplySinkRegion(struct tagRECT const * __ptr64,bool) __ptr64
+protected: static void __cdecl DirectUI::HWNDHost::AttachCtrlSubclassProc(struct HWND__ * __ptr64)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::HWNDHost::BackgroundOwnerIDProp(void)
+public: static long __cdecl DirectUI::HWNDHost::Create(unsigned int,unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::HWNDHost::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+protected: struct HWND__ * __ptr64 __cdecl DirectUI::HWNDHost::CreateAccNameLabel(struct HWND__ * __ptr64) __ptr64
+protected: virtual struct HWND__ * __ptr64 __cdecl DirectUI::HWNDHost::CreateHWND(struct HWND__ * __ptr64) __ptr64
+protected: static __int64 __cdecl DirectUI::HWNDHost::CtrlSubclassProc(struct HWND__ * __ptr64,unsigned int,unsigned __int64,__int64)
+public: void __cdecl DirectUI::HWNDHost::Detach(void) __ptr64
+protected: virtual bool __cdecl DirectUI::HWNDHost::EraseBkgnd(struct HDC__ * __ptr64,__int64 * __ptr64) __ptr64
+private: long __cdecl DirectUI::HWNDHost::GetAccessibleImpl(struct IAccessible * __ptr64 * __ptr64,bool) __ptr64
+public: virtual long __cdecl DirectUI::HWNDHost::GetAccessibleImpl(struct IAccessible * __ptr64 * __ptr64) __ptr64
+protected: class DirectUI::Element * __ptr64 __cdecl DirectUI::HWNDHost::GetBackgroundOwner(void) __ptr64
+public: unsigned short __cdecl DirectUI::HWNDHost::GetBackgroundOwnerID(void) __ptr64
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::HWNDHost::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::HWNDHost::GetClassInfoW(void) __ptr64
+public: long __cdecl DirectUI::HWNDHost::GetClientAccessibleImpl(struct IAccessible * __ptr64 * __ptr64) __ptr64
+protected: struct HFONT__ * __ptr64 __cdecl DirectUI::HWNDHost::GetFont(void) __ptr64
+public: virtual struct HWND__ * __ptr64 __cdecl DirectUI::HWNDHost::GetHWND(void) __ptr64
+public: struct HWND__ * __ptr64 __cdecl DirectUI::HWNDHost::GetHWNDParent(void) __ptr64
+public: virtual bool __cdecl DirectUI::HWNDHost::GetKeyFocused(void) __ptr64
+public: bool __cdecl DirectUI::HWNDHost::GetOptimizeMove(void) __ptr64
+private: void __cdecl DirectUI::HWNDHost::GetSinkRect(struct tagRECT const * __ptr64,struct tagRECT * __ptr64) __ptr64
+protected: bool __cdecl DirectUI::HWNDHost::GetStaticColor(struct HDC__ * __ptr64,struct HBRUSH__ * __ptr64 * __ptr64) __ptr64
+protected: int __cdecl DirectUI::HWNDHost::GetThemeChanged(void) __ptr64
+public: bool __cdecl DirectUI::HWNDHost::GetTransparent(void) __ptr64
+private: bool __cdecl DirectUI::HWNDHost::HaveWin32Focus(void) __ptr64
+public: long __cdecl DirectUI::HWNDHost::Initialize(unsigned int,unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+protected: bool __cdecl DirectUI::HWNDHost::IsMoveDeferred(void) __ptr64
+public: virtual unsigned int __cdecl DirectUI::HWNDHost::MessageCallback(struct tagGMSG * __ptr64) __ptr64
+public: virtual int __cdecl DirectUI::HWNDHost::OnAdjustWindowSize(int,int,unsigned int) __ptr64
+public: virtual bool __cdecl DirectUI::HWNDHost::OnCtrlThemeChanged(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::HWNDHost::OnDestroy(void) __ptr64
+public: virtual void __cdecl DirectUI::HWNDHost::OnEvent(struct DirectUI::Event * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::HWNDHost::OnHosted(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::HWNDHost::OnInput(struct DirectUI::InputEvent * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::HWNDHost::OnMessage(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::HWNDHost::OnNotify(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::HWNDHost::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::HWNDHost::OnSinkThemeChanged(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::HWNDHost::OnSysChar(unsigned short) __ptr64
+protected: virtual void __cdecl DirectUI::HWNDHost::OnUnHosted(class DirectUI::Element * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::HWNDHost::OnWindowStyleChanged(unsigned __int64,struct tagSTYLESTRUCT const * __ptr64) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::HWNDHost::OptimizeMoveProp(void)
+public: virtual void __cdecl DirectUI::HWNDHost::Paint(struct HDC__ * __ptr64,struct tagRECT const * __ptr64,struct tagRECT const * __ptr64,struct tagRECT * __ptr64,struct tagRECT * __ptr64) __ptr64
+protected: void __cdecl DirectUI::HWNDHost::PrintRTLControl(struct HDC__ * __ptr64,struct HDC__ * __ptr64,struct tagRECT const & __ptr64) __ptr64
+public: static long __cdecl DirectUI::HWNDHost::Register(void)
+public: long __cdecl DirectUI::HWNDHost::SetBackgroundOwnerID(unsigned short const * __ptr64) __ptr64
+public: static void __cdecl DirectUI::HWNDHost::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: virtual void __cdecl DirectUI::HWNDHost::SetKeyFocus(void) __ptr64
+public: long __cdecl DirectUI::HWNDHost::SetOptimizeMove(bool) __ptr64
+protected: long __cdecl DirectUI::HWNDHost::SetThemeChanged(int) __ptr64
+public: long __cdecl DirectUI::HWNDHost::SetTransparent(bool) __ptr64
+public: virtual void __cdecl DirectUI::HWNDHost::SetWindowDirection(struct HWND__ * __ptr64) __ptr64
+protected: void __cdecl DirectUI::HWNDHost::SyncBackground(void) __ptr64
+private: void __cdecl DirectUI::HWNDHost::SyncColorsAndFonts(void) __ptr64
+protected: void __cdecl DirectUI::HWNDHost::SyncDirection(void) __ptr64
+protected: void __cdecl DirectUI::HWNDHost::SyncFont(void) __ptr64
+protected: void __cdecl DirectUI::HWNDHost::SyncForeground(void) __ptr64
+protected: void __cdecl DirectUI::HWNDHost::SyncParent(void) __ptr64
+protected: void __cdecl DirectUI::HWNDHost::SyncRect(unsigned int,bool) __ptr64
+protected: void __cdecl DirectUI::HWNDHost::SyncStyle(void) __ptr64
+protected: void __cdecl DirectUI::HWNDHost::SyncText(void) __ptr64
+protected: void __cdecl DirectUI::HWNDHost::SyncVisible(void) __ptr64
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::HWNDHost::ThemeChangedProp(void)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::HWNDHost::TransparentProp(void)
+private: void __cdecl DirectUI::HWNDHost::UnvirtualizePosition(void) __ptr64
+protected: int __cdecl DirectUI::HWNDHost::VerifyParentage(void) __ptr64
+private: static int __cdecl DirectUI::HWNDHost::_CtrlWndProc(void * __ptr64,struct HWND__ * __ptr64,unsigned int,unsigned __int64,__int64,__int64 * __ptr64)
+private: void __cdecl DirectUI::HWNDHost::_DeleteCtrlWnd(void) __ptr64
+private: static int __cdecl DirectUI::HWNDHost::_SinkWndProc(void * __ptr64,struct HWND__ * __ptr64,unsigned int,unsigned __int64,__int64,__int64 * __ptr64)
+private: static unsigned int const (* DirectUI::HWNDHost::g_rgMouseMap)[3]
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::HWNDHost::s_pClassInfo

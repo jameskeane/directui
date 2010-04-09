@@ -1,0 +1,15 @@
+public: __thiscall DirectUI::CCCheckBox::CCCheckBox(class DirectUI::CCCheckBox const &)
+public: __thiscall DirectUI::CCCheckBox::CCCheckBox(unsigned long)
+public: virtual __thiscall DirectUI::CCCheckBox::~CCCheckBox(void)
+public: class DirectUI::CCCheckBox & __thiscall DirectUI::CCCheckBox::operator=(class DirectUI::CCCheckBox const &)
+const DirectUI::CCCheckBox::`vftable'
+public: void __thiscall DirectUI::CCCheckBox::`default constructor closure'(void)
+public: static long __stdcall DirectUI::CCCheckBox::Create(unsigned int,class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static long __stdcall DirectUI::CCCheckBox::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::CCCheckBox::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::CCCheckBox::GetClassInfoW(void)
+public: virtual void __thiscall DirectUI::CCCheckBox::OnInput(struct DirectUI::InputEvent *)
+public: virtual bool __thiscall DirectUI::CCCheckBox::OnNotify(unsigned int,unsigned int,long,long *)
+public: static long __stdcall DirectUI::CCCheckBox::Register(void)
+public: static void __stdcall DirectUI::CCCheckBox::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+private: static struct DirectUI::IClassInfo * DirectUI::CCCheckBox::s_pClassInfo

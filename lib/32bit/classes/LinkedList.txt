@@ -1,0 +1,6 @@
+public: __thiscall DirectUI::LinkedList::LinkedList(void)
+public: __thiscall DirectUI::LinkedList::~LinkedList(void)
+public: class DirectUI::LinkedList & __thiscall DirectUI::LinkedList::operator=(class DirectUI::LinkedList const &)
+public: void __thiscall DirectUI::LinkedList::Add(class DirectUI::LinkedListNode *)
+public: void __thiscall DirectUI::LinkedList::Remove(class DirectUI::LinkedListNode *)
+public: class DirectUI::LinkedListNode * __thiscall DirectUI::LinkedList::RemoveTail(void)

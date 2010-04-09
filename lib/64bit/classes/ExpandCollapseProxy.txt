@@ -1,0 +1,8 @@
+public: __cdecl DirectUI::ExpandCollapseProxy::ExpandCollapseProxy(class DirectUI::ExpandCollapseProxy const & __ptr64) __ptr64
+public: __cdecl DirectUI::ExpandCollapseProxy::ExpandCollapseProxy(void) __ptr64
+public: class DirectUI::ExpandCollapseProxy & __ptr64 __cdecl DirectUI::ExpandCollapseProxy::operator=(class DirectUI::ExpandCollapseProxy const & __ptr64) __ptr64
+const DirectUI::ExpandCollapseProxy::`vftable'
+public: static class DirectUI::ExpandCollapseProxy * __ptr64 __cdecl DirectUI::ExpandCollapseProxy::Create(class DirectUI::Element * __ptr64)
+public: virtual long __cdecl DirectUI::ExpandCollapseProxy::DoMethod(int,char * __ptr64) __ptr64
+protected: virtual void __cdecl DirectUI::ExpandCollapseProxy::Init(class DirectUI::Element * __ptr64) __ptr64
+public: static bool __cdecl DirectUI::ExpandCollapseProxy::IsPatternSupported(class DirectUI::Element * __ptr64)

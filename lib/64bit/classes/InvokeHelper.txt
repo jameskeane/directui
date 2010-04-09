@@ -1,0 +1,9 @@
+public: __cdecl DirectUI::InvokeHelper::InvokeHelper(void) __ptr64
+public: virtual __cdecl DirectUI::InvokeHelper::~InvokeHelper(void) __ptr64
+const DirectUI::InvokeHelper::`vftable'
+public: long __cdecl DirectUI::InvokeHelper::DoInvoke(int,class DirectUI::ElementProvider * __ptr64,class DirectUI::ProviderProxy * __ptr64 (__cdecl*)(class DirectUI::Element * __ptr64),char * __ptr64) __ptr64
+public: int __cdecl DirectUI::InvokeHelper::Init(unsigned long) __ptr64
+private: void __cdecl DirectUI::InvokeHelper::OnInvoke(struct DirectUI::InvokeHelper::InvokeArgs * __ptr64) __ptr64
+public: void __cdecl DirectUI::InvokeHelper::Uninit(void) __ptr64
+private: static int __cdecl DirectUI::InvokeHelper::_WndProc(void * __ptr64,struct HWND__ * __ptr64,unsigned int,unsigned __int64,__int64,__int64 * __ptr64)
+private: static unsigned int const DirectUI::InvokeHelper::s_uInvokeHelperMsg

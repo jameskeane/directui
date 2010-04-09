@@ -1,0 +1,16 @@
+public: __thiscall DirectUI::TextGraphic::TextGraphic(class DirectUI::TextGraphic const &)
+public: __thiscall DirectUI::TextGraphic::TextGraphic(void)
+public: virtual __thiscall DirectUI::TextGraphic::~TextGraphic(void)
+public: class DirectUI::TextGraphic & __thiscall DirectUI::TextGraphic::operator=(class DirectUI::TextGraphic const &)
+const DirectUI::TextGraphic::`vftable'
+public: static long __stdcall DirectUI::TextGraphic::Create(class DirectUI::Element *,unsigned long *,class DirectUI::Element * *)
+public: static struct DirectUI::IClassInfo * __stdcall DirectUI::TextGraphic::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __thiscall DirectUI::TextGraphic::GetClassInfoW(void)
+public: virtual unsigned short const * __thiscall DirectUI::TextGraphic::GetContentStringAsDisplayed(class DirectUI::Value * *)
+public: long __thiscall DirectUI::TextGraphic::Initialize(class DirectUI::Element *,unsigned long *)
+public: virtual void __thiscall DirectUI::TextGraphic::OnPropertyChanged(struct DirectUI::PropertyInfo const *,int,class DirectUI::Value *,class DirectUI::Value *)
+public: virtual bool __thiscall DirectUI::TextGraphic::OnPropertyChanging(struct DirectUI::PropertyInfo const *,int,class DirectUI::Value *,class DirectUI::Value *)
+public: static long __stdcall DirectUI::TextGraphic::Register(void)
+public: static void __stdcall DirectUI::TextGraphic::SetClassInfoPtr(struct DirectUI::IClassInfo *)
+public: static struct DirectUI::PropertyInfo const * __stdcall DirectUI::TextGraphic::SideGraphicProp(void)
+private: static struct DirectUI::IClassInfo * DirectUI::TextGraphic::s_pClassInfo

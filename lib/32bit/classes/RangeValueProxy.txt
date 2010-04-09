@@ -1,0 +1,8 @@
+protected: __thiscall DirectUI::RangeValueProxy::RangeValueProxy(void)
+public: __thiscall DirectUI::RangeValueProxy::RangeValueProxy(class DirectUI::RangeValueProxy const &)
+public: class DirectUI::RangeValueProxy & __thiscall DirectUI::RangeValueProxy::operator=(class DirectUI::RangeValueProxy const &)
+const DirectUI::RangeValueProxy::`vftable'
+public: static class DirectUI::RangeValueProxy * __stdcall DirectUI::RangeValueProxy::Create(class DirectUI::Element *)
+public: virtual long __thiscall DirectUI::RangeValueProxy::DoMethod(int,char *)
+protected: virtual void __thiscall DirectUI::RangeValueProxy::Init(class DirectUI::Element *)
+public: static bool __stdcall DirectUI::RangeValueProxy::IsPatternSupported(class DirectUI::Element *)

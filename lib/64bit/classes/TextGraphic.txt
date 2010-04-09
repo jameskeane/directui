@@ -1,0 +1,16 @@
+public: __cdecl DirectUI::TextGraphic::TextGraphic(class DirectUI::TextGraphic const & __ptr64) __ptr64
+public: __cdecl DirectUI::TextGraphic::TextGraphic(void) __ptr64
+public: virtual __cdecl DirectUI::TextGraphic::~TextGraphic(void) __ptr64
+public: class DirectUI::TextGraphic & __ptr64 __cdecl DirectUI::TextGraphic::operator=(class DirectUI::TextGraphic const & __ptr64) __ptr64
+const DirectUI::TextGraphic::`vftable'
+public: static long __cdecl DirectUI::TextGraphic::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::TextGraphic::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::TextGraphic::GetClassInfoW(void) __ptr64
+public: virtual unsigned short const * __ptr64 __cdecl DirectUI::TextGraphic::GetContentStringAsDisplayed(class DirectUI::Value * __ptr64 * __ptr64) __ptr64
+public: long __cdecl DirectUI::TextGraphic::Initialize(class DirectUI::Element * __ptr64,unsigned long * __ptr64) __ptr64
+public: virtual void __cdecl DirectUI::TextGraphic::OnPropertyChanged(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::TextGraphic::OnPropertyChanging(struct DirectUI::PropertyInfo const * __ptr64,int,class DirectUI::Value * __ptr64,class DirectUI::Value * __ptr64) __ptr64
+public: static long __cdecl DirectUI::TextGraphic::Register(void)
+public: static void __cdecl DirectUI::TextGraphic::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: static struct DirectUI::PropertyInfo const * __ptr64 __cdecl DirectUI::TextGraphic::SideGraphicProp(void)
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::TextGraphic::s_pClassInfo

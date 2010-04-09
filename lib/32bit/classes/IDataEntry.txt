@@ -1,0 +1,5 @@
+public: __thiscall DirectUI::IDataEntry::IDataEntry(struct DirectUI::IDataEntry const &)
+public: __thiscall DirectUI::IDataEntry::IDataEntry(void)
+public: virtual __thiscall DirectUI::IDataEntry::~IDataEntry(void)
+public: struct DirectUI::IDataEntry & __thiscall DirectUI::IDataEntry::operator=(struct DirectUI::IDataEntry const &)
+const DirectUI::IDataEntry::`vftable'

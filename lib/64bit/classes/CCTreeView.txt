@@ -1,0 +1,23 @@
+public: __cdecl DirectUI::CCTreeView::CCTreeView(class DirectUI::CCTreeView const & __ptr64) __ptr64
+public: __cdecl DirectUI::CCTreeView::CCTreeView(unsigned long) __ptr64
+public: virtual __cdecl DirectUI::CCTreeView::~CCTreeView(void) __ptr64
+public: class DirectUI::CCTreeView & __ptr64 __cdecl DirectUI::CCTreeView::operator=(class DirectUI::CCTreeView const & __ptr64) __ptr64
+const DirectUI::CCTreeView::`vftable'
+public: void __cdecl DirectUI::CCTreeView::`default constructor closure'(void) __ptr64
+public: static long __cdecl DirectUI::CCTreeView::Create(unsigned int,class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static long __cdecl DirectUI::CCTreeView::Create(class DirectUI::Element * __ptr64,unsigned long * __ptr64,class DirectUI::Element * __ptr64 * __ptr64)
+public: static struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCTreeView::GetClassInfoPtr(void)
+public: virtual struct DirectUI::IClassInfo * __ptr64 __cdecl DirectUI::CCTreeView::GetClassInfoW(void) __ptr64
+public: virtual struct tagSIZE __cdecl DirectUI::CCTreeView::GetContentSize(int,int,class DirectUI::Surface * __ptr64) __ptr64
+public: unsigned int __cdecl DirectUI::CCTreeView::GetItemState(struct _TREEITEM * __ptr64 const) __ptr64
+public: unsigned long __cdecl DirectUI::CCTreeView::GetStyle(void) __ptr64
+public: struct _TREEITEM * __ptr64 __cdecl DirectUI::CCTreeView::InsertItem(unsigned short * __ptr64,unsigned int,struct _TREEITEM * __ptr64 const,struct _TREEITEM * __ptr64 const) __ptr64
+public: struct _TREEITEM * __ptr64 __cdecl DirectUI::CCTreeView::InsertItem(struct tagTVINSERTSTRUCTW const * __ptr64) __ptr64
+public: virtual bool __cdecl DirectUI::CCTreeView::OnNotify(unsigned int,unsigned __int64,__int64,__int64 * __ptr64) __ptr64
+public: static long __cdecl DirectUI::CCTreeView::Register(void)
+public: static void __cdecl DirectUI::CCTreeView::SetClassInfoPtr(struct DirectUI::IClassInfo * __ptr64)
+public: void __cdecl DirectUI::CCTreeView::SetItemState(struct _TREEITEM * __ptr64,unsigned int) __ptr64
+public: unsigned long __cdecl DirectUI::CCTreeView::SetStyle(unsigned long) __ptr64
+protected: virtual long __cdecl DirectUI::CCTreeView::_OnGetInfoTip(struct tagNMTVGETINFOTIPW const * __ptr64) __ptr64
+protected: virtual long __cdecl DirectUI::CCTreeView::_OnItemChanged(struct tagTVITEMCHANGE const * __ptr64) __ptr64
+private: static struct DirectUI::IClassInfo * __ptr64 __ptr64 DirectUI::CCTreeView::s_pClassInfo
