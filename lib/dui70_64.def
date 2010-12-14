@@ -3263,11 +3263,30 @@ EXPORTS
 	UnicodeToMultiByte
     
     ; stdcall alias, with DirectUI namespace
-    ?InitProcessPriv@DirectUI@@YAJHPEA_WD_N@Z           @3232
+	
+    ?InitProcessPriv@DirectUI@@YAJHPEAGD_N@Z           @3232
+    ?UnInitProcessPriv@DirectUI@@YAJPEAG@Z				   @3259
     ?InitThread@DirectUI@@YAJH@Z                                     @3233
     
     ?RegisterAllControls@DirectUI@@YAHXZ             @3242  
     ?UnInitThread@DirectUI@@YAXXZ                       @3260  
     ?StartMessagePump@DirectUI@@YAHXZ            @3252 
     ?StrToID@DirectUI@@YAGPEBG@Z            @3254
-    ?UnInitProcessPriv@DirectUI@@YAJPEA_W@Z    @3259
+	?StopMessagePump@DirectUI@@YAHXZ				@3253
+	?RegisterXControls@DirectUI@@YAHXZ					@3250
+	?RegisterStandardControls@DirectUI@@YAHXZ		@3249
+	?RegisterMiscControls@DirectUI@@YAHXZ			@3248
+	?RegisterMacroControls@DirectUI@@YAHXZ			@3247
+	?RegisterExtendedControls@DirectUI@@YAHXZ		@3246
+	?RegisterCommonControls@DirectUI@@YAHXZ		@3245
+	?RegisterBrowserControls@DirectUI@@YAHXZ		@3244
+	?RegisterBaseControls@DirectUI@@YAHXZ			@3243
+	?GetScreenDPI@DirectUI@@YAHXZ						@3227
+	?CreateDUIWrapperFromResource@DirectUI@@YAHPEAUHINSTANCE__@@PEAG11PEAVXResourceProvider@1@@Z			@3216
+	?CreateDUIWrapperEx@DirectUI@@YAHPEAVElement@1@PEAVIXProviderCP@1@PEAVXProvider@1@@Z							@3215
+	?CreateDUIWrapper@DirectUI@@YAHPEAVElement@1@PEAVXProvider@1@@Z																	@3214
+	?UnicodeToMultiByte@DirectUI@@YAHPEBGHH@Z	@3261
+	?MultiByteToUnicode@DirectUI@@YAHPEBDHH@Z	@3237
+	?IsUIAutomationProviderEnabled@DirectUI@@YAHXZ	@3236
+	?IsPalette@DirectUI@@YAHPEAUHWND__@@@Z		@3235
+	?IsAnimationsEnabled@DirectUI@@YAHXZ				@3234

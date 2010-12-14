@@ -98,16 +98,16 @@ namespace DirectUI {
 
 
 
-
-
 	HRESULT WINAPI InitProcessPriv(int duiVersion, wchar_t *Str1, char, bool);
 	HRESULT WINAPI UnInitProcessPriv(wchar_t *Str1);
 	HRESULT WINAPI InitThread(int iDontKnow);
 	void WINAPI UnInitThread();
 
-	int WINAPI CreateDUIWrapper(DirectUI::Element *, DirectUI::XProvider **);
-	int WINAPI CreateDUIWrapperEx(DirectUI::Element *, DirectUI::IXProviderCP *,DirectUI::XProvider **);
-	int WINAPI CreateDUIWrapperFromResource(HINSTANCE, unsigned short*, unsigned short*, unsigned short*, DirectUI::XResourceProvider **);
+	// These might be wrong, disassemble and check if it is DirectUI::XProvider * or DirectUI::XProvider **
+	int WINAPI CreateDUIWrapper(DirectUI::Element *, DirectUI::XProvider *);
+	int WINAPI CreateDUIWrapperEx(DirectUI::Element *, DirectUI::IXProviderCP *, DirectUI::XProvider *);
+	int WINAPI CreateDUIWrapperFromResource(HINSTANCE, unsigned short*, unsigned short*, unsigned short*, DirectUI::XResourceProvider *);
+	
 	int WINAPI GetScreenDPI();
 
 	int WINAPI RegisterAllControls();
@@ -124,7 +124,16 @@ namespace DirectUI {
 	int WINAPI StopMessagePump();
 
 
-	ATOM WINAPI StrToID(unsigned short const *resId);
+	ATOM WINAPI StrToID(LPCWSTR resId);
+	
+	
+	int WINAPI UnicodeToMultiByte(LPCWSTR lpWideCharStr, int cchWideChar, int unk);
+	int WINAPI MultiByteToUnicode(LPCSTR lpMultiByteStr, int cbMultiByte, int unk);
+	
+	BOOL WINAPI IsAnimationsEnabled();
+	int WINAPI IsPalette(HWND hWnd);
+	BOOL WINAPI IsUIAutomationProviderEnabled();
+	
 
 	/*
 	int WINAPI DUI_CreateParserWithCallbackFromResource(HLOCAL hMem, LPCSTR pszSrc, HMODULE hLibModule, GetSheetCallback cb, void *cbParam)
@@ -190,24 +199,14 @@ namespace DirectUI {
 	HStrDup
 	HrSysAllocString
 	InitPreprocessor
-	InitProcessPriv
-	InitThread
-	IsAnimationsEnabled
-	IsPalette
-	IsUIAutomationProviderEnabled
-	MultiByteToUnicode
 	NotifyAccessibilityEvent
 	PreprocessBuffer
 	ProcessAlphaBitmapI
 	PurgeThemeHandles
 	SetDefAction
-	StrToID
 	UiaHideOnGetObject
 	UiaOnDestroySink
 	UiaOnGetObject
 	UiaOnToolTip
-	UnInitProcessPriv
-	UnInitThread
-	UnicodeToMultiByte
 	*/
 }

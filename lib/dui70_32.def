@@ -3267,23 +3267,28 @@ EXPORTS
 	UnicodeToMultiByte
     
     ; stdcalls aliases
-    CreateDUIWrapper@8                                  @3214
-    CreateDUIWrapperEx@12                            @3215
-    CreateDUIWrapperFromResource@20           @3216
-	GetScreenDPI@0                                        @3227
-    ?InitProcessPriv@DirectUI@@YGJHPA_WD_N@Z        @3232
+    ?CreateDUIWrapper@DirectUI@@YGHPAVElement@1@PAVXProvider@1@@Z                                  @3214
+    ?CreateDUIWrapperEx@DirectUI@@YGHPAVElement@1@PAVIXProviderCP@1@PAVXProvider@1@@Z                            @3215
+    ?CreateDUIWrapperFromResource@DirectUI@@YGHPAUHINSTANCE__@@PAG11PAVXResourceProvider@1@@Z           @3216
+	?GetScreenDPI@DirectUI@@YGHXZ                                        @3227
+    ?InitProcessPriv@DirectUI@@YGJHPAGD_N@Z        @3232
     ?InitThread@DirectUI@@YGJH@Z                               @3233
     ?RegisterAllControls@DirectUI@@YGHXZ     @3242
-    RegisterBaseControls@0                             @3243
-    RegisterBrowserControls@0                         @3244
-    RegisterCommonControls@0                        @3245
-    RegisterExtendedControls@0                       @3246
-    RegisterMacroControls@0                            @3247
-    RegisterMiscControls@0                              @3248
-    RegisterStandardControls@0                        @3249
-    RegisterXControls@0                                   @3250
+    ?RegisterBaseControls@DirectUI@@YGHXZ                             @3243
+    ?RegisterBrowserControls@DirectUI@@YGHXZ                         @3244
+    ?RegisterCommonControls@DirectUI@@YGHXZ                        @3245
+    ?RegisterExtendedControls@DirectUI@@YGHXZ                       @3246
+    ?RegisterMacroControls@DirectUI@@YGHXZ                            @3247
+    ?RegisterMiscControls@DirectUI@@YGHXZ                              @3248
+    ?RegisterStandardControls@DirectUI@@YGHXZ                        @3249
+    ?RegisterXControls@DirectUI@@YGHXZ                                   @3250
     ?StartMessagePump@DirectUI@@YGHXZ   @3252
-	StopMessagePump@0                                @3253
+	?StopMessagePump@DirectUI@@YGHXZ   @3253
     ?StrToID@DirectUI@@YGGPBG@Z            @3254
-    ?UnInitProcessPriv@DirectUI@@YGJPA_W@Z              @3259
+    ?UnInitProcessPriv@DirectUI@@YGJPAG@Z              @3259
 	?UnInitThread@DirectUI@@YGXXZ               @3260
+	?UnicodeToMultiByte@DirectUI@@YGHPBGHH@Z	@3261
+	?MultiByteToUnicode@DirectUI@@YGHPBDHH@Z		@3237
+	?IsUIAutomationProviderEnabled@DirectUI@@YGHXZ	@3236
+	?IsPalette@DirectUI@@YGHPAUHWND__@@@Z		@3235
+	?IsAnimationsEnabled@DirectUI@@YGHXZ				@3234
