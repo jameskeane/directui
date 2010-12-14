@@ -17,10 +17,10 @@ namespace DirectUI
 		virtual unsigned long WINAPI AddRef();
 		virtual HRESULT WINAPI Clone(IEnumVARIANT **);
 		virtual HRESULT WINAPI ContextSensitiveHelp(int);
-		virtual HRESULT WINAPI Disconnect();
+		virtual HRESULT Disconnect(void);
 
 		static Element * WINAPI GetAccessibleParent(Element *);
-		virtual HRESULT WINAPI GetIDsOfNames(const GUID&, unsigned short **, unsigned int, unsigned long, long *);
+		virtual HRESULT WINAPI GetIDsOfNames(const IID &, LPOLESTR *,  UINT, LCID, DISPID *);
 		virtual HRESULT WINAPI GetIdentityString(unsigned long, unsigned char **, unsigned long *);
 		virtual HRESULT WINAPI GetTypeInfo(unsigned int, unsigned long, ITypeInfo **);
 		virtual HRESULT WINAPI GetTypeInfoCount(unsigned int *);
@@ -39,22 +39,29 @@ namespace DirectUI
 		virtual HRESULT WINAPI accNavigate(long, VARIANT, VARIANT *);
 		virtual HRESULT WINAPI accSelect(long, VARIANT);
 
+		// IAccessible
 		virtual HRESULT WINAPI get_accChild(VARIANT, IDispatch **);
 		virtual HRESULT WINAPI get_accChildCount(long *);
-		virtual HRESULT WINAPI get_accDefaultAction(VARIANT, unsigned short **);
-		virtual HRESULT WINAPI get_accDescription(VARIANT, unsigned short **);
+		virtual HRESULT WINAPI get_accDefaultAction(VARIANT, BSTR *);
+		virtual HRESULT WINAPI get_accDescription(VARIANT, BSTR *);
 		virtual HRESULT WINAPI get_accFocus(VARIANT *);
-		virtual HRESULT WINAPI get_accHelp(VARIANT, unsigned short **);
-		virtual HRESULT WINAPI get_accHelpTopic(unsigned short **, VARIANT, long *);
-		virtual HRESULT WINAPI get_accKeyboardShortcut(VARIANT, unsigned short **);
-		virtual HRESULT WINAPI get_accName(VARIANT, unsigned short **);
+		virtual HRESULT WINAPI get_accHelp(VARIANT, BSTR *);
+		virtual HRESULT WINAPI get_accHelpTopic(BSTR *, VARIANT, long *);
+		virtual HRESULT WINAPI get_accKeyboardShortcut(VARIANT, BSTR *);
+		virtual HRESULT WINAPI get_accName(VARIANT,  BSTR *);
 		virtual HRESULT WINAPI get_accParent(IDispatch **);
 		virtual HRESULT WINAPI get_accRole(VARIANT, VARIANT *);
 		virtual HRESULT WINAPI get_accSelection(VARIANT *);
 		virtual HRESULT WINAPI get_accState(VARIANT, VARIANT *);
-		virtual HRESULT WINAPI get_accValue(VARIANT, unsigned short **);
-		virtual HRESULT WINAPI put_accName(VARIANT, unsigned short *);
-		virtual HRESULT WINAPI put_accValue(VARIANT, unsigned short *);
+		virtual HRESULT WINAPI get_accValue(VARIANT, BSTR *);
+		virtual HRESULT WINAPI put_accName(VARIANT, BSTR);
+		virtual HRESULT WINAPI put_accValue(VARIANT, BSTR);
+	
+	
+	
+	
+	
+	
 	
 	protected: 
 		long GetAccName(VARIANT, int, unsigned short **);
@@ -74,7 +81,7 @@ namespace DirectUI
 	
 		virtual HRESULT WINAPI Clone(IEnumVARIANT **);
 		virtual HRESULT WINAPI ContextSensitiveHelp(int);
-		virtual HRESULT WINAPI Disconnect();
+		virtual HRESULT Disconnect();
 		virtual HRESULT WINAPI GetIdentityString(unsigned long, unsigned char **, unsigned long *);
 		virtual HRESULT WINAPI GetWindow(HWND *);
 		virtual HRESULT WINAPI Next(unsigned long, VARIANT *, unsigned long *);
@@ -127,7 +134,7 @@ namespace DirectUI
 		long Initialize(HWNDElement *);
 		static HRESULT WINAPI Create(HWNDElement *, DuiAccessible **);
 
-		virtual HRESULT WINAPI Disconnect();
+		virtual HRESULT Disconnect();
 		virtual HRESULT WINAPI get_accParent(IDispatch **);
 	};
 
