@@ -69,7 +69,6 @@ namespace DirectUI
 		// IServiceProvider
 		virtual HRESULT WINAPI QueryService(REFGUID guidService, REFIID riid, void **ppv);
 		
-
 	protected: 
 		long GetAccName(VARIANT, int, unsigned short **);
 		long GetAccNameFromContent(unsigned short **);
