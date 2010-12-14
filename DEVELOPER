@@ -1,0 +1,20 @@
+DirectUI Notes for Developers
+========================================
+
+Where do you get the lib files?
+---------------
+We use the MS provided utility called DUMPBIN as follows:
+	DUMPBIN /EXPORTS C:\Windows\System32\dui70.dll > dui70_32.txt
+to extract the 32 bit exports, and similarily
+	DUMPBIN /EXPORTS c:\Windows\SysWOW64\dui70.dll > dui70_64.txt
+	
+Then we clean up each file, so that it matches the format of a .def file.
+
+But, stdcall functions are not mangled in the exports file, so we must add some
+aliases using ordinals from the original DUMPBIN file.
+
+Then once we have dui70.def we create the lib and exp file as follows:
+	LIB /DEF:dui70_32.def
+and similarily for 64 bit,
+	LIB /DEF:dui70_64.def
+
