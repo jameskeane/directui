@@ -5,18 +5,29 @@
 using namespace DirectUI;
 
 
-int APIENTRY WinMain(HINSTANCE hInstance,
-                     HINSTANCE /*hPrevInstance*/,
-                     LPSTR    /*lpCmdLine*/,
-                     int       /*nCmdShow*/)
-{    
-	//OleInitialize(NULL);
+class HelloWorldWindow : public NativeHWNDHost
+{
+public:
+	HelloWorldWindow() {	
+		Initialize(L"Hello from DiirectUI !!", NULL, NULL, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, WS_EX_TOOLWINDOW, WS_OVERLAPPEDWINDOW, 0);
+	}
+};
+
+
+
+
+const int g_DUIVersion = 8;
+int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
+{ 
+	InitProcess(g_DUIVersion, true);
+	RegisterAllControls();
 	
-	NativeHWNDHost host;
-	host.Initialize(L"Hello from DiirectUI !!", NULL, NULL, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, WS_EX_TOOLWINDOW, WS_OVERLAPPEDWINDOW, 0);
 	
-	host.ShowWindow(SW_SHOW);
+	HelloWorldWindow wnd;
+
+	wnd.ShowWindow(SW_SHOW);
 	StartMessagePump();
 	
+	UnInitProcess();
 	return 0;
 }
