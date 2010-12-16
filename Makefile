@@ -9,11 +9,11 @@ all: x86 x64 samples test
 
 # How to build the libraries
 #=======================================
-x86: lib/dui70_32.def util
-	LIB /DEF:lib/dui70_32.def /OUT:lib/dui70_32.lib /MACHINE:x86 /NOLOGO
+x86: src/dui70_32.def util
+	LIB /DEF:src/dui70_32.def /OUT:lib/dui70_32.lib /MACHINE:x86 /NOLOGO
 
-x64: lib/dui70_64.def util
-	LIB /DEF:lib/dui70_64.def /OUT:lib/dui70_64.lib /MACHINE:x64 /NOLOGO
+x64: src/dui70_64.def util
+	LIB /DEF:src/dui70_64.def /OUT:lib/dui70_64.lib /MACHINE:x64 /NOLOGO
 	
 	
 # How to build the utilities
