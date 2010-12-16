@@ -10,3 +10,7 @@ x86: main.cpp accessibility.cpp
 
 x64: main.cpp accessibility.cpp
 	cl main.cpp accessibility.cpp /I../../include /Zc:wchar_t- /link "..\..\lib\dui70_64.lib" /machine:x64
+
+clean:
+	rm -f *.obj
+	rm -f main.exe

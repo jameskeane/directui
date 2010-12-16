@@ -4,7 +4,16 @@
 #include <directui.h>
 using namespace DirectUI;
 
+HRESULT WINAPI InitProcess(int duiVersion, bool bEnableUIAutomationProvider)
+{
+	return InitProcessPriv(duiVersion, NULL, 1, bEnableUIAutomationProvider);
+}
 
+HRESULT WINAPI UnInitProcess()
+{
+	return UnInitProcessPriv(NULL);
+}
+	
 class HelloWorldWindow : public NativeHWNDHost
 {
 public:

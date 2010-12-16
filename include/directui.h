@@ -64,15 +64,7 @@ namespace DirectUI {
 	BOOL WINAPI IsUIAutomationProviderEnabled();
 	
 
-	HRESULT WINAPI InitProcess(int duiVersion, bool bEnableUIAutomationProvider)
-	{
-		return InitProcessPriv(duiVersion, NULL, 1, bEnableUIAutomationProvider);
-	}
 
-	HRESULT WINAPI UnInitProcess()
-	{
-		return UnInitProcessPriv(NULL);
-	}
 
 	/*
 	int WINAPI DUI_CreateParserWithCallbackFromResource(HLOCAL hMem, LPCSTR pszSrc, HMODULE hLibModule, GetSheetCallback cb, void *cbParam)
